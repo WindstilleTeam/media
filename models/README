@@ -1,0 +1,20 @@
+Windstille SVN Directory Structure Overview
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+characters/
+ - characters 
+
+objects/
+ - environment objects
+
+vehicles/
+ - vehicle models
+
+weapons/
+ - weapon models
+
+misc/
+ - stuff that doesn't fit anywhere else
+ 
+________________________________________________________________________
+$Id: README 1296 2007-01-02 19:42:58Z grumbel $

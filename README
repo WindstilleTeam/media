@@ -1,0 +1,11 @@
+Windstille SVN Directory Structure Overview
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+artwork/
+ - misc artworks of the world of Windstille 
+
+models/
+ - Blender 3d models and their textures
+ 
+________________________________________________________________________
+$Id: README 1296 2007-01-02 19:42:58Z grumbel $
