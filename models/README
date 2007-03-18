@@ -4,8 +4,11 @@ Windstille SVN Directory Structure Overview
 characters/
  - characters 
 
+creatures/
+ - animals, plants and stuff in the environment
+
 objects/
- - environment objects
+ - environment objects, inventory items, etc.
 
 vehicles/
  - vehicle models
@@ -15,6 +18,15 @@ weapons/
 
 misc/
  - stuff that doesn't fit anywhere else
- 
+
+
+Each model directory follows the following structure:
+
+*/old/
+ - obsolete files that aern't tracked by SVN
+
+*/render/
+ - temporary renders and stuff that doesn't need to be tracked by SVN
+
 ________________________________________________________________________
 $Id: README 1296 2007-01-02 19:42:58Z grumbel $
