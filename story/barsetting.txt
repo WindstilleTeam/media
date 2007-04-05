@@ -1,0 +1,113 @@
+Bob: Welcome. 
+
+Jane: One beer for me and a milk for the boy.
+
+Jeff: Hey...
+
+Jane: You still have to drive home.
+
+Jeff: Hrmpf.
+
+---
+
+Drunken Guy: 'nother drink for me...
+
+Bob: Don't you think you had enough.
+
+Drunken Guy: Who are you to judge, just give me the fucking drink.
+
+Bob: As long as you pay and don't care, but if you couse trouble you are out of here.
+
+---
+
+Jane: What else have you to offer?
+
+Bob: Wiskey, Beer, Milk, Snapush, Orange juice, Ventanol, the full programm.
+
+Jane: Give me a <insert joice>
+
+---
+
+Jeff: How about some music.
+
+Bob: Time to quick the jukebox.
+
+Jane: Why the hell are you using such an antique thing?
+
+Bob: Heirloom from my grandfather, beside, y' can't kick a solid state player.
+
+---
+
+Drunken Guy: Hey, Lady, wanna dance.
+
+Jane: No, thank you.
+
+Drunken Guy: Come on just one dance...
+
+Jane: Keep your fingers away.
+
+(touch, punch, K.O.)
+
+Jane: I warned you.
+
+Bob: One for the history books. I guess he had enough for today.
+
+Jeff: Quite a punch you have there.
+
+Jane: Tipping a drunk guy over ain't exactly a hard thing to
+do. Beside, 'ouch, miss my suit.
+
+--- 
+
+RNPC: Anything available to eat?
+
+Bob: How about some good old syntho beef?
+
+RNPC: Sounds fine.
+
+Bob: Ok, takes a minute.
+
+---
+
+Jeff: So, did everything went fine down there.
+
+Jane: Mostly, the generators gave me trouble, but I managed that.
+
+Jeff: Suit reaction was fine.
+
+Jane: Yes, wouldn't have expected anything else after all that data I
+collected in training.
+
+You know anything about the organisation of NourthernStar?
+
+Jeff: Not a thing, but rumors are running pretty wild.
+
+Bob, you heard anything about the events on Hotti?
+
+Bob: Lots of freighter captains have been very worried, looks like
+Central is trying to gain influence.
+
+Jane: But they won't stand a chance there, would they?
+
+Bob: Not by legal means.
+
+Jeff: You think they'd start to use force?
+
+Bob: I don't think so, but what can I say, 100 million kilometer is a
+long distance and its hard to judge the situation down there.
+
+---
+
+Robot: Meep meep. Your drink.
+
+Jane: Whats that?
+
+Bob: My new little helper. Like it?
+
+Jane: Sure... where did you get that.
+
+Bob: I better not answer that one.
+
+---
+
+# EOF #
