@@ -1,11 +1,14 @@
 Windstille SVN Directory Structure Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-artwork/
- - misc artworks of the world of Windstille 
+images/
+ - misc images for use in Windstille 
 
 models/
  - Blender 3d models and their textures
  
+music/
+ - music for use in Windstille, source files when available (FLAC, .rg, etc)
+
 ________________________________________________________________________
 $Id: README 1296 2007-01-02 19:42:58Z grumbel $
