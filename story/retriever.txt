@@ -98,7 +98,7 @@ strength he didn't mind that much. To his supprise the rain seemed to
 have its good side, back at the gate he could see that the rain has
 washed away some dirt that had collected on the walls. He could see a
 plate. His memory was still faint, close to non-existant, but he
-seamed to remember that this was an overright for the opening
+seemed to remember that this was an override for the opening
 mechanism, used for maintenance. That should help him to get out of
 here. But what would have been a easy task back in civilisation,
 turned out to be a problematic one back here. The panel was secured by
@@ -116,7 +116,7 @@ gave him an opening into which he could insert his lever. Now all he
 needed was to use all his strength to break the lock. Rust again did
 help him plenty and the cabinet spreng open. 
 
-He screwdriver wasn't anywhere to find, but in all the junk he found
+A screwdriver wasn't anywhere to find, but in all the junk he found
 what looked like a coin, an old an rusty coin, just like everything
 else, but with a little lack it would help him at the gate.
 
@@ -219,25 +219,26 @@ around, but none of them had any power left nor was there a way to
 recharge them. That is where his newly optained solar panel would come
 into place. Would one of the tablets still work? He couldn't tell, but
 he knew that they were rather robust, all the fragile hardware sealed
-in a robust plastic, watertight and prooven against dropping. That
-might have been enough to make it survive all those years. Only a try
-would give a final answer.
+in a robust green plastic body, watertight and prooven against
+dropping. That might have been enough to make it survive all those
+years. Only a try would give a final answer.
 
 His keramik knife did a good job at cutting a few wires that he then
 could use to plug into the tablets. It wasn't the most durable hack,
 but it might be a working one. Now all he needed was light, plenty of
 it. So he walked into the middle of the village. The power indicator
 LED on the tablet sprang on, it gave a faint light. The power was
-there, but not yet enough to boot the panel. He needed more light. But
-where to take that from when the only source he had was natural? It
-took him a minute, but he already walked by the answer a while before.
+there, but not yet enough to boot the small device. He needed more
+light. But where to take that from when the only source he had was
+natural? It took him a minute, but he already walked by the answer a
+while before.
 
 One of the builings must have been a bathroom or something along the
 lines. It had big mirrors on the wall. He took one of them down. It
 was, like all the other onces, cracked, but he wasn't interested in a
 perfect reflection, just enough light to make his panel work. So he
-fixated the mirror in the ground to reflect some more light onto the
-panel. It worked the power LED lit fully green and the tablet booted
+justified the mirror in a way that it reflected more light onto the
+panel. It worked, the power LED lit fully green and the tablet booted
 up. A few seconds later he could see the things happening on the
 screen. All those years had its price. Lines where missing and errors
 where all over the screen, but it still was readable, at least in
@@ -268,11 +269,11 @@ He continued to browse around on the tablet. The building in which he
 had waken up was indeed the place where the time machine had been
 placed, but it obviously was no longer there, even the marks it made
 onto the ground had been washed away over the years. That kind of
-diminished his chances to get back a lot. He was lost and knew it.
+diminished his chances to get back a lot. He was lost and he knew it.
 
 Belvedere didn't gave up, the situation was bad, but surviable, at
 least for a while. The maps of the outpost proved useful, with his
-memory still having more holes then swish cheese he could need all the
+memory still having more holes then swiss cheese he could need all the
 help he could get and the maps pointed to a few cellar entrances that
 had been cover up by dirt. So deep in fact that it would have been
 pretty much impossible to find them without it.
