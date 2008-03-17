@@ -1,4 +1,4 @@
-! The Garden Of Time
+! Retriever
 !! by Ingo Ruhnke <grumbel@gmx.de>
 
 A little noice, some sparks, then suddenly a flash of light. Belvedere
@@ -389,7 +389,49 @@ was what he could hear and that confused him, either the scanner was
 broken or people stopped using radio waves, even out here he should
 have been able to catch something. 
 
+After playing around with all his new toys he remembered standard
+military practice, he still hasn't read the letter with the new
+orders. But he could blame him, he stranded in nomansland and got a
+box with tinker toys. So play came befor work.
 
+The letter with the order was short, to short for Belvedere's taste,
+somebody in the past obviously hasn't figured out yet that his memory
+still hasn't fully returned yet. It read:
 
+{{{
+After we located you in 2331-02-07 and send you this package, it should
+contain everything you need for a few month of survival.
+
+Time travel had some unexpected consequences here on earth. Need you
+to setup a beam spot to track you and return you and the reverse
+effect.
+
+Count down 20 days till retriever program gets
+initialized. Counting on you.
+}}}
+
+That was all. 'Beam spot'? He couldn't remember what that was, but the
+stuff came with a manual on how to set it up, so he didn't care. 
+
+Sticking the pieces was easy, that just took him a day, but
+calibrating it took him quite a few days and charging up the
+capacitors also took its time. So the 20 day countdown was a needed
+one.
+
+On the 20's day he had the machine setup and fully calibrated back in
+the same spot as he first appeared, he was ready to go. With a push of
+a button he activated the machine and waited for it to come into
+effect. The buzzing sound of the machine told him that it was working
+and the lights where on green. The countdown was down to 00:05:00,
+five minutes to go. He sad down in the middle of it. The buzzing got
+stronger. The machine started to do its job. Flashes of lightning
+started to appear around him. 00:00:30 to go, he could barely read the
+timer, the lightnings got stronger and stronger. 00:00:10 to go. The
+lightnings now started to form a wall around time, the wall turned
+into shape, now was a sphere around him, 00:00:03 to go. He closed his
+eyes, the lightning now was a solid bright white sphere. 00:00:01, he
+couldn't read it, but that is what the clock must have read. Zomg and
+he was gone. A few second later a Mark V Plasma Bomb appeared and
+evaporated the outpost and everything a mile away. 
 
 ! EOF
