@@ -1,4 +1,4 @@
-! Retriever
+! Retriever - Working Draft
 !! by Ingo Ruhnke <grumbel@gmx.de>
 
 A little noice, some sparks, then suddenly a flash of light. Belvedere
@@ -368,26 +368,25 @@ place. And that his assumption was correct was confirmed on the next
 day, right in the middle of the outpost a box appeared. Was it his
 ticket on the train back to the past?
 
-Opening it up dampened his hopes, it wouldn't be a quick way back. But
-the package contained plenty of things that should make his survival a
-little easier. For one thing a pair of fresh clothes. He hadn't seen
-something like that for months. Clothes asside the package also
-contained plenty of food, energy bars to be precise. Not very tasty,
-but they contained enough nutrition to keep you alive for a good while
-and he had a whole container full of them. The standard military tend
-would keep him farm and dry on the rainy days. And the tools would
-help him get around. A satelite phone was however missing, it would
-have allowed an easy rescue, not back to the past, but back into
-civilisation. They didn't seem to want that, likely military secrecy,
-when you have a time machine you don't want your enemy to know it. It
-is too valueable, even if you are stuck 200 years into the future.
-200 years, that he could tell from the stars, the box contained a good
-amount of astronomical equiment. Along the tools was also a radio
-scanner, allowing him to listen to radio waves, but not broadcasting
-them. However that scanner didn't turn up to be useful, only static
-was what he could hear and that confused him, either the scanner was
-broken or people stopped using radio waves, even out here he should
-have been able to catch something. 
+Opening it up he could see that the package contained plenty of things
+that should make his survival a little easier. For one thing a pair of
+fresh clothes. He hadn't seen something like that for months. Clothes
+asside the package also contained plenty of food, energy bars to be
+precise. Not very tasty, but they contained enough nutrition to keep
+you alive for a good while and he had a whole box full of them. The
+standard military tent would keep him warm and dry on the rainy
+days. And the tools would help him get around. A satelite phone was
+however missing, it would have allowed an easy rescue, not back to the
+past, but back into civilisation. They didn't seem to want that,
+likely military secrecy, when you have a time machine you don't want
+your enemy to know it. It is too valueable, even if you are stuck 200
+years into the future. 200 years, that he could tell from the stars,
+the box contained a good amount of astronomical equiment. Along the
+tools was also a radio scanner, allowing him to listen to radio waves,
+but not broadcasting them. However that scanner didn't turn up to be
+useful, only static was what he could hear and that confused him,
+either the scanner was broken or people stopped using radio waves,
+even out here he should have been able to catch something.
 
 After playing around with all his new toys he remembered standard
 military practice, he still hasn't read the letter with the new
@@ -399,21 +398,20 @@ somebody in the past obviously hasn't figured out yet that his memory
 still hasn't fully returned yet. It read:
 
 {{{
-After we located you in 2331-02-07 and send you this package, it should
-contain everything you need for a few month of survival.
+We located you in 2331-02-07 and send you this package, it should
+contain everything you need for a month of survival.
 
-Time travel had some unexpected consequences here on earth. Need you
-to setup a beam spot to track you and return you and the reverse
-effect.
+Time travel had some unexpected consequences here. Need you to setup a
+beam spot to track you and return you.
 
-Count down 20 days till retriever program gets
-initialized. Counting on you.
+Count down 20 days till retriever program gets initialized. Counting
+on you.
 }}}
 
 That was all. 'Beam spot'? He couldn't remember what that was, but the
 stuff came with a manual on how to set it up, so he didn't care. 
 
-Sticking the pieces was easy, that just took him a day, but
+Sticking the pieces together was easy, that just took him a day, but
 calibrating it took him quite a few days and charging up the
 capacitors also took its time. So the 20 day countdown was a needed
 one.
@@ -430,8 +428,10 @@ timer, the lightnings got stronger and stronger. 00:00:10 to go. The
 lightnings now started to form a wall around time, the wall turned
 into shape, now was a sphere around him, 00:00:03 to go. He closed his
 eyes, the lightning now was a solid bright white sphere. 00:00:01, he
-couldn't read it, but that is what the clock must have read. Zomg and
-he was gone. A few second later a Mark V Plasma Bomb appeared and
-evaporated the outpost and everything a mile away. 
+couldn't read it, but that is what the clock must have read. The
+sphere collabsed in a blindling flash and he was gone.
+
+A few second later a Mark V Plasma Bomb appeared and evaporated the
+outpost and everything a mile away.
 
 ! EOF
