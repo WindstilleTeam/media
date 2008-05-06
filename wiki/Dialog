@@ -1,0 +1,86 @@
+It is logical if each character you speak to has their own, singular script file to represent converations with that character. When you start a conversation with that character in game, their corresponding dialog script file will be loaded and run. When the conversation ends, the script will be pushed off the stack (or whatever the correct terminology is). If dialogs become non blocking, then dialog manager will have to pause running of the dialog script until you make a choice whilst the rest of the game keeps running, but they can be left blocking for now, probably forever.
+
+Each dialog function below should be thought of like a page in a "Choose your own story" book, or like a foward-linked list - it has no state with regards to a stack, but is instead a self contained unit, which includes forward links to other dialogs depending what option you choose. This means that dialog can jump across to a shared branch, which would not be possible if you just used a lot of nested switch statements (if you look at the dialog in a point and click adventure or an RPG, you will see there is a lot of branch-hopping).
+
+Example pseudo code:
+
+<pre>
+<nowiki>
+//first we need to decide where in out story-book/linked-list like structure to start
+if (t_spiderquest.famous_for_killing_big_spider)
+	//haven't actually written this function, this just demonstrates namespacing
+	congratulations();
+else if (knows_you_mercenary)
+	offer_job();
+else if (seen_before)
+	hello_again();
+else
+	intro();
+
+function intro()
+{
+	seen_before = true;
+	add_question("Hey, my name's Bob, you new around here?");
+	add_answers("Yes, I am.", "Go away.");
+	switch(get_answer()) {
+	case 0:
+        ask_questions();
+	  break;
+	case 1:
+	  bye();
+	}
+}
+
+function hello_again()
+{
+	add_question("Hello again.");
+	add_answers("Hey.", "Bye.");
+	switch(get_answer()) {
+	case 0:
+	  ask_questions();
+	  break;
+	case 1:
+	  bye();
+	}
+}
+
+function ask_questions()
+{
+	add_question("So what you doing here?");
+	add_answers("I work as a mercenary.", "Not much.");
+	switch(get_answer()) {
+	case 0:
+	  knows_you_mercenary = true;
+	  offer_job();
+	  break;
+	case 1:
+	  bye();
+	}
+}
+
+function offer_job()
+{
+	add_question("Looking for work?");
+	add_answers("I might be, if the offer is good enough.", "No thanks.");
+	switch(get_answer()) {
+	case 0:
+	  knows_your_job = true;
+	  //I haven't actually written this function in this pseudo-code
+	  details_of_job();
+	  break;
+	case 1:
+	  bye();
+	}
+}
+
+function bye()
+{
+	if (knows_your_job)
+		add_question("Feel free to come back if you need a job");
+	else
+		add_question("See you again some time, maybe");
+      get_answer();
+	return;
+}
+</nowiki>
+</pre>

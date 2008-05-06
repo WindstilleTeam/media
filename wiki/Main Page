@@ -1,0 +1,67 @@
+__NOTOC__
+
+Windstille is a 2D action adventure game released under the [http://www.gnu.org/licenses/licenses.html#GPL GPL] and [http://creativecommons.org/licenses/by-sa/2.5/ Creative Commmons] license, which basically means you can modify and redistribute it as you like, as long as you allow others to do the same with your released modifications.
+
+We are still looking for new developers to join this project, have a look at the [[Jobs]] section to see if you might be able to help.
+
+* [[News]]
+* [[Overview]]
+* [[Getting Started]]
+* [[People|People involved with this project]]
+* [[Roadmap]]
+* [[IRC Meetings]]
+* [[Design Discussion CheckList]]
+* [[Jobs|Jobs/Tasks]]
+* [http://en.wikipedia.org/wiki/Wikipedia:How_to_edit_a_page How to edit a page]
+
+== Engine Parts ==
+
+* [[Basic Features]]
+* [[Collision Detection]]
+* [[Scripting]]
+* [[Graphics]]
+* [[Tilemap]]
+* [[Dialog]]
+* [[Prefab]]
+* [[Coding style]]
+
+== Game design: gameplay, plot, etc ==
+
+* [[Plot]]
+* [[Plot Events]]
+* [[Characters]]
+* [[Locations]]
+* [[Controls]]
+* [[Actions]]
+* [[Fighting]]
+* [[GUI]]
+* [[PDA]]
+* [[Menu screens, save games, etc]]
+* [[Ideas]] - please add your own new ideas here!
+* [[Similar Games]]
+
+== File Formats ==
+* [[Level Format]]
+* [[Tile Specification Format]]
+* [[Sprite Format]]
+* [[Sprite3D Format]]
+* [[GUI Scripts]]
+
+== Links ==
+
+* [http://windstille.berlios.de Official Windstille Webpage]
+* [http://pingus.seul.org/~grumbel/tmp/windstille-files/ Windstille Sketches] - directory full of tons of unsorted sketches and ideas
+
+== Contact ==
+
+* [https://lists.berlios.de/mailman/listinfo/windstille-devel Windstille-Devel mailinglist] - discussion about the game development
+* [https://lists.berlios.de/mailman/listinfo/windstille-commit Windstille-Commit mailinglist] - automatic mail from the Subversion repository
+* EMail: [mailto:grumbel@gmx.de grumbel@gmx.de]
+* IRC: [irc://freenode.net/#windstille]
+* ICQ: 59461927
+* Jabber: grumbel@jabber.org (this is *NOT* an email, its a jabber-id)
+
+----
+
+Please see [http://meta.wikipedia.org/wiki/MediaWiki_i18n documentation on customizing the interface]
+and the [http://meta.wikipedia.org/wiki/MediaWiki_User%27s_Guide User's Guide] for usage and configuration help.

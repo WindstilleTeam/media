@@ -1,0 +1,54 @@
+Controls in Windtille will be configurable, this works by mapping keyboard keys, joystick buttons or whatever input device you have available to a virtual controller. This virtual controller will be more or less SNES like, meaning you have:
+
+http://pingus.seul.org/~grumbel/tmp/windstille-vcontroller-2005-08-08.png
+
+* a primary button, used for jumping or reloading
+* a secondary button, used for running or shooting
+* a tertiary button, used for using items
+* a 'select' button, used to open the PDA/Inventory
+* a aim button, used to switch between normal mode and shooting
+* a pause button
+
+When using the a keyboard this can be mapped as:
+
+* 'wasd' for primary, secondary, tertiary and 'select'
+* 'shift' for aim
+* 'p' for pause
+* 'cursorkeys' for steering
+* 'enter' + 'escape' for confirm/cancel
+
+Controls in general should be context sensitive meaning there don't necessarily is a hard mapping between a button and what you do, this could for example mean that the jump executed when you are standing infront of a ledge is a different one than when standing on normal ground or on the edge of a cliff or that when you walk against a wall you halt or when walking against a box you automatically start to push the box.
+
+[http://pingus.seul.org/~grumbel/tmp/windstille-control-scheme.jpg Picture of some Control Modes]
+
+Controlls for powersuit and non-powersuit mode will be rather similar, except some details.
+
+== Human without gun ==
+
+* left/right: walk to the left or right
+* down: duck
+* down, left/right: sneak/crawl
+* primary + up: jump up
+* primary: jump forward
+* secondary + left/right: run to the left or right
+* tertiary: use nearest object
+* aim: draw gun
+* pda: show PDA
+
+== Human with gun and aiming ==
+
+* left/right: retreat or walk forward without turning around
+* up/down: aim up or down
+* secondary: shoot
+* primary: reload
+* tertiary: throw granate
+
+== Additional 'modeless' Controls ==
+
+* start/pause: pauses the game and shows the options menu (fullscreen/window mode, etc.)
+
+== Open Questions ==
+
+* Should drawing the weapon be a push&hold or a toggle? => should be configurable
+* What about Turrican-style surround shooting? => can be done via aiming
+* Is the three-mode style gun usage to complicated (pull, aim, shoot)? => yes, aiming should automatically draw the gun as well

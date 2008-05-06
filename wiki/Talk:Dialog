@@ -1,0 +1,80 @@
+
+<pre>
+<nowiki>
+//first we need to decide where in out story-book/linked-list like structure to start
+if (famous_for_killing_big_spider)
+	//haven't actually written this function, this just demonstrates global/local distinction
+	congratulations();
+else if (knows_you_mercenary)
+	offer_job();
+else if (seen_before)
+	hello_again();
+else
+	intro();
+
+function intro()
+{
+	seen_before = true;
+	dialog_show("Hey, my name's Bob, you new around here?");
+	add_answer("Yes, I am.", "Go away.");
+	switch(get_answer()) {
+	case 0:
+        ask_questions();
+	  break;
+	case 1:
+	  bye();
+	}
+}
+
+function hello_again()
+{
+	dialog_show("Hello again.");
+	add_answer("Hey.", "Bye.");
+	switch(get_answer()) {
+	case 0:
+	  ask_questions();
+	  break;
+	case 1:
+	  bye();
+	}
+}
+
+function ask_questions()
+{
+	dialog_node("So what you doing here?");
+	add_answer("I work as a mercenary.", "Not much.");
+	switch(get_answer()) {
+	case 0:
+	  knows_you_mercenary = true;
+	  offer_job();
+	  break;
+	case 1:
+	  bye();
+	}
+}
+
+function offer_job()
+{
+	dialog_show("Looking for work?");
+	add_answers("I might be, if the offer is good enough.", "No thanks.");
+	switch(get_answer()) {
+	case 0:
+	  knows_your_job = true;
+	  //I haven't actually written this function in this pseudo-code
+	  details_of_job();
+	  break;
+	case 1:
+	  bye();
+	}
+}
+
+function bye()
+{
+	if (knows_your_job)
+		dialog_show("Feel free to come back if you need a job");
+	else
+		dialog_show("See you again some time, maybe");
+	return;
+}
+</nowiki>
+</pre>

@@ -1,0 +1,3 @@
+Normally multiple tiles come per image, see [[Tile Specification Format]], the Tile handling code should be able to load the images, cut the tiles out and seperate them to textures. The Tile handling code should make sure that the tiles get properly packaged to a power-of-two texture even when the original image might not have that format.
+
+The Tile drawing code basically draw a array of vertexes with the UV coorditaes assigned to the right tile position, the vertex array or grid should be deformable for 'wobble' effects across the map.

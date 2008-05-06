@@ -1,0 +1,162 @@
+==Plot==
+
+This page is meant to show what has been decided so far. Please add dialog/script for new plot to the [[Ideas]] page rather than editing this page directly. This page already goes into the actual dialog, if you want a broader overview, go to the [[Plot Events]] page.
+
+When you are writing your new plot on the [[Ideas]] page, take account of the following:
+
+* Take account of the characters available at the [[Characters]] page, possibly we could create more but try to use existing characters where possible
+
+* Take account of the locations at the [[Locations]] page, as with characters we could create more but try to use existing locations where possible
+
+* Take account of the various debates about the background context of the story at the [[Ideas]] page and from the [[IRC Meeting 2 Brainstorming Summary]]
+
+We need plot to explain why the character is going from location A to location B, why they are talking to character D before shooting some stuff in location F, etc. You can add epic background stories of love and betrayal to the [[Ideas]] page if you want but what we really need is some down-to-earth gameplay plot.
+
+Some sort of process will take place whereby we agree on which ideas to use and which not to use, which ideas require new engine functionality and which must be discarded because they are too ambitious, etc. Here is what has been tentatively decided so far, though any and all of this is still up for debate.
+
+== Overview ==
+
+In general windstille should have episodic character. That is each release will feature a new small episode of the heros live, similar to weekly TV soaps :) This should match the open source development style better than having a huge epic story in 1 big release.
+
+== Background ==
+
+The game takes place in the distant future when mankind has developed faster than light travel and began colonizing the galaxy, building up industries and city on other planets. While some of those colonize live in wealth others have quickly run out of resources and are now struggling for survival. The game starts of in the later kind. Where the player takes the role of a yet nameless mercenary which is trying to make a living on one of those planets.
+
+The intro will go something like:
+
+Jane: "Its the year 2248[1], after mankind has developed faster-then-light travel they have begun colonizing other planets and building up industries on other planets in the search for usefull good, one could call it a second gold rush. Some say mankind has spread faster then good for them, others hail the technological progress. Some colonies have become quickly abandoned after no worthy goods have shown up on a planet, other flourish at the same time and some struggle for their survival. This story takes place on one of the struggeling colonies, resources are rare and goods are seldom, the people struggle for their survival, but most of them like it that way."
+
+- View on the Planet -
+
+Jane: "This is Planet SYS339-3, my planet, moved here after I got sick of the mining business. Always moving from planet to planet just turned out to be less fun then expected, so I tried to settle here, build up a new live. Had a hard time in the beginning, but once I meet Yagor. Have worked for him now for like 6 month and things started to get better had a bunch of fun in the job till that one day..."
+
+- Cutscene of Jane getting hit/bitten whatever and getting wounding and then dragging herself to the next opening in the forest to be found by the shuttle. Tilemap for this should be all black, so that only Jane is visible.
+
+- Fadeout
+
+Jane: "Have been out of work since that day, can't really remember what happened. All I know that I broke my leg and lost a lot of blood, wasn't that much fun and pure luck that 'Pilot' found me in time. Recovery took a while, but tomorrow is now my first day back in the job. Yagor wants me todo VR training first, he doesn't seem to trust my abilites anymore, well, guess a little bit VR training can't after beeing out of order for a while."
+
+- Cutscene of Jane entering the VR-chamber
+
+- VR gets activated
+
+AI: "Welcome Jane, long time no see. Good to have you back."
+
+Jane: "How about we stop talking and start training, show me what you got."
+
+AI: "Ok, I have prepared a few programms for you, Yagor wants you to start with the first one, so lets go"
+
+ControllDialog: "Press left/right to walk, press up to enter a door"
+
+Player enters with Jane programm 1 door
+
+AI: "First programm is just a little bit jumping and running, have prepared a little course for, see those gems (camera scrolls around and shows the scenario), try to collect them all."
+
+Player can now move around in the level to collect gems, ControllerDialog shows the keypressed that are required to complete a specific obstacle.
+
+(text runs out and the game fades over to the apartment of Jane, where Jane is just doing a VR training in her new powersuit)
+
+== Virtual Reality Training ==
+
+VR Training shows the player what actions are available and how to use
+them. It does this by guiding the player through a little course where
+he needs all the available actions to make it to the end, an AI-voice
+will explain the player what to do. A little meta-game control help window will tell the player which exact buttons he has to press to perform an action.
+
+# Walking: the player is commanded to walk from his current position to a marked new position
+# Running: the player is commanded to walk from his current position to a new one, the way is however bloked by a conveyour belt which he can pass without changing to running mode
+# Jumping: the player has to jump over a small abyss, if he doesn't make the jump he will get reset to a position infront of the abyss
+# Climbing: the player has to make a 'hang-jump' (Up+Jump) to climb onto a little mountain
+# Duck: the player has to make its way under a block, under the block is a conveyour belt, so ducking will let him glide under it
+# Rolling: same as above but this time the player has to run and then make a roll under the block, optionally this might also be done with sneaking
+
+After movement training is over, the VR Training will switch over to weapon training, where the player has to grab a gun and use it to shoot a bunch of dummy targets (double-pyramids or something like that). Also available should be grenades, satchel charges and shield.
+
+== Back in Real World ==
+
+(onces done with the training Jane takes a shower)
+
+(seconds later her communicator starts to ring)
+
+(Jane dresses up and leaves the shower to take the call)
+
+Boss[4]: "Hi Jane, looks like there is some throuble up in the bar."
+
+Jane: "What's it about?"
+
+Boss: "Not sure exactly, but might be a job for you."
+
+Jane: "Ok, on my way."
+
+(Jane grabs her jaked and leaves her apartment and goes to Jimbos bar,
+just a few screens away)
+
+Jane: "Hi, Bob. Whats up?"
+
+Bob: "Jane! Long time no see. Looks like one of our mineral-hunters got into
+trouble. He moved deep into the nothern forest and got trapped, we
+got the emergency call half an hour ago."
+
+Jane: "Doesn't Northern Star take care of this?"
+
+Bob: "Don't ask me, ask them..."
+
+Miner: "Hey, what did you expect from us? We already underpaid, don't wanna risk my neck for that poor bastard. He should have known better to stay away from that forest."
+
+Jane: "Don't you have the slightest idea of comradeship?"
+
+Miner: "What'd you know lady?"
+
+Jane: "Hrmpf, guess I can't expect much of those drunken guys. Anyway, I am in, let me know his last position."
+
+Bob: "Ok, here you go."
+
+(Communicator call from Boss)
+
+Boss: "Got something?"
+
+Jane: "Yep, everything is set, looks like we have a job.  Come and get me."
+
+Boss: "Okay, lets meet on the roof, will be there in a minute."
+
+Jane: "Yep"
+
+(Jane goes to the roof and enters the spaceship, piloted by Boss)
+
+(little cutscene that shows spaceship flying over to the northern
+forest)
+
+(Jane gets dropped at the forest)
+
+Boss: "Ok Jane, this is as far as I can bring you, you have to make
+the rest on your own. I'll stay in contact."
+
+== Forest Action Sequence ==
+
+The forest is full of creatures, some/most hostile and agressive,
+nobody really knows where they did come from, but rumor is that they
+are caused by some genetic material which was spread over the forest
+as a cargo ship of the Bio-Corp[7] crashed into the forest, however
+that incident has never been confirmed officially and since it
+happened in the early days of colonization no proper record of the
+happenings is available and truth to be told, nobody really cares
+anymore, people have other problems these days.
+
+(Jane now goes hunting down the forest, shooting spiders and other
+animals that cross the way)
+
+Automapping and regular radio messages guide the way through the
+forest.
+
+The level will play both above and below the ground, the below-ground
+sections will allow to greate labyrinth like structures, which the
+above ground only allow in a rather limited fasion.
+
+
+
+(Final boss is a large spider into which net the mineral-hunter has
+fallen)
+
+(to be continued)
+
+[1],[2],[3],[4],[5],[6],[7] just random names/dates/stuff for filling

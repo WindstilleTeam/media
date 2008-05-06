@@ -1,0 +1,63 @@
+Basic features that need to be handled by the physic/collision engine: 
+
+* properly detection of the side at which two boxes collide so that the game can react as expected (player pushes a box, player jumps on a moving platform from below, player jumps on an enemy vs gets hit by an enemy, etc.)
+* allow to stack crates, boxes and stuff
+* allow to shoot in a stack of boxes and let the stack collapse
+* conveyor belts
+* slopes in the tilemap (not that important)
+
+Stuff that is not needed:
+
+* rotating boxes, while probally pretty, they cause more trouble then good, both on the programming side as well as on the gameplay side (what happens when you jump on a box which has a 45 degree angel?)
+
+== Collision Domains ==
+
+The collision detection should seperate different kind of objects into different collision domains, so that objects that are not in the same domain aren't checked at all against each other. Domains could be:
+
+* CollidesWithPlayer
+* CollidesWithEnemy
+* CollidesWithProjectile
+* ...
+
+Domains could be implemented as a simple 'unsigned int' for the CollisionObject
+
+== Collision Callback ==
+
+Once a collision occured the engine should give the object usefull feedback for resolving the collision, the engine should *not* resolve collisions on its own. The engine should instead move the object as close to the other object as possible and then call the callback:
+
+ CollisionObject::collision(CollisionEvent& collision);
+
+ struct CollisionEvent
+ {
+  // is NONE actually needed?
+  enum State { NONE, STUCK, COLLISION, CONTACTBREAK } state;
+ 
+  // should be enough no need for a vector IMHO
+  enum Side  { TOP, BOTTOM, LEFT, RIGHT };
+ 
+  // the object which with 'this' collided
+  CollisionObject* object;
+ 
+  // the amount of time that has not yet been used up
+  float rest_delta;
+ };
+
+Collision resolution could then either mean to change the direction, to simply halt or to attach oneself to the other object (ie. that is how moving platforms should find the player).
+
+== Movement ==
+
+All movement from objects that collide *must* happen via the collision engine, this should happen via a simple CollisionObject::set_velocity(x, y) or CollisionObject::set_positio(x, y) call, no actually forces or other physics should come into play, since most objects simply won't react physical correct.
+
+== Implementation ==
+
+To detect the time and point of collision the standard sweepcheck should be used, this check needs to be performed for all possible object combination, after that the detected collisions should be sorted after the their time and then resolved one after another. Since the collision response might actually lead to new collisions, the check needs to be redone again for the involved objects (maybe for all objects?!). This is done up to the point where all time for all objects is used up.
+
+CollisionObject should *not* be a parent of entity. This has the simple reason that a entity might need multiple CollisionObject. Imagine a large robot with multiple legs, each of the feet is represented by a CollisionObject, the whole robot however should be handled as a single entity, which would be impossible if Entity derives from CollisionObject (unless of course you add a heapload of useless grouping features to the collision engine).
+
+== Attachments/Contacts ==
+
+There should be a way to link objects together, this linking might either be primitive, ie. simple parenting without taking care if objects connect at all, or more complex, ie. a box that is standing ontop of another box. The collision engine should check when such a contact is no longer in place and give an appropriate event. There should also be a way to detect the angle of the contact point so that you can move objects at other speed when they walk up/down a slope.
+
+== Links ==
+
+[http://www.harveycartel.org/metanet/tutorials.html] has plenty of very good docu about collision detection between different object types.

@@ -1,0 +1,1663 @@
+<grumbel> time for meeting start I guess
+
+<pifactorial> yup
+
+<grumbel> added this page to the wiki: http://windstille.berlios.de/wiki/index.php/People
+
+<grumbel> anybody interested should add himself there
+
+--> paxed (~paxed@paxed.active.supporter.pdpc) has joined #windstille
+
+<grumbel> so who is new and wasn't there at the last meeting?
+
+<dolphin> I'm new, but looks like I've to go also :(
+
+<grumbel> and especially who is seriously interested in helping of the newcommers?
+
+<wonko> i'm new... just listening atm :)
+
+<MatzeB> I could introduce people who'd like to start with programming...
+
+<pifactorial> I wasn't here at the first meeting
+
+<dolphin> bye->
+
+<grumbel> pifactorial: you want help with story, right?
+
+<quickflash> 89x128 
+
+<paxed> i'm just eyeballing, i probably won't have time to contribute much.
+
+<pifactorial> yeah
+
+<SpoonMeiser> I'm interested in helping
+
+<grumbel> Godrin: gave you svn access 
+
+<grumbel> all those suggested helping with story I suggest to do a: wget -np -m http://pingus.seul.org/~grumbel/tmp/windstille-files/
+
+<grumbel> and browse through the content a bit
+
+<MatzeB> SpoonMeiser: so what do you want to do?
+
+<grumbel> it contains plenty of ideas, sketches and stuff
+
+<grumbel> those people with random ideas should use this page http://windstille.berlios.de/wiki/index.php/Ideas in the wiki to add their stuff
+
+<SpoonMeiser> I'd like to help code, but I find picking up an existing code base to work on fairly intimidating, perhaps sticking to helping out with story
+
+<pifactorial> as far as the story is concerned, who's the minister of information?
+
+<MatzeB> well you can always ask question and such to get into the code...
+
+<MatzeB> you could also do simpler coding stuff like writing scripts or extending/maintaining the flexlay editor
+
+<MatzeB> (script are written in squirrel, editor mostly in ruby)
+
+<grumbel> pifactorial: the current story and sketches is done by me
+
+<quickflash> grumbel is the main approver, since he does the artwork
+
+<pifactorial> are you also the creative mastermind?
+
+<pifactorial> so all seminal ideas flow from you?
+
+<SpoonMeiser> I'm capable of most things code wise, but I don't want to commit to anything big, since I probably won't find the time to do anything too big
+
+<SpoonMeiser> if there are small, well defined tasks, I'll take a look at those
+
+<grumbel> pifactorial: currently I am a bit out of ideas, but since I started windstille and was up until two weeks ago the only one working on it for the last few years, basically all stuff so far came from me
+
+<pifactorial> ok
+
+<grumbel> half of it shamelessly stolen or at least heavily inspired by other games I might add...
+
+<pifactorial> all I meant is, do we come to you and ask about the backstory
+
+<pifactorial> or do we write backstory and give it to you?
+
+<grumbel> there really is not much back story at this point in time
+
+<grumbel> so you could play a part in writing it
+
+<pifactorial> got ya
+
+<MatzeB> SpoonMeiser: well getting the editor running again would be a well defined task...
+
+<grumbel> quickflash: have you written anything down of your story ideas?
+
+<MatzeB> SpoonMeiser: depending on your ruby knowledge this might be a small or big job...
+
+<quickflash> grumbel: have some stuff at work I was playing with
+
+<SpoonMeiser> MatzeB: I've never used ruby, but I hear it's based on Java?
+
+<MatzeB> SpoonMeiser: no
+
+<grumbel> SpoonMeiser: no, its more like python meets perl
+
+<MatzeB> SpoonMeiser: it's more like python with different syntax
+
+<SpoonMeiser> hmmm
+
+<grumbel> SpoonMeiser: with a lot of smalltalk in it
+
+<quickflash> I changed the boss to a large black guy who is similar to that alien obi-wan kenobi goes and talks to in the restraunt in Attack of the Clones (for personality)
+
+<grumbel> for simple cases its really exactly like python, just with begin/end instead of indention
+
+<MatzeB> SpoonMeiser: the editor currently is a base of c++ classes that can draw tiles and stuff
+
+<MatzeB> SpoonMeiser: these can be used from ruby
+
+<MatzeB> SpoonMeiser: so you would have to write ruby code to load levels and then some logic code to handle the gameobjects available
+
+<MatzeB> SpoonMeiser: flexlay already has a well running supertux code which woudl be a good reference on how to do things
+
+<quickflash> to me father-daughter dynamic is more interesting than girl-girl or mother-daughter dynamic
+
+<quickflash> plus it's easier to get guys to do voices than girls :)
+
+<quickflash> also, the boss you have is a young girl, and if you have ever worked with women you will know that women of the same age do not work well together :)
+
+<SpoonMeiser> I couldn't get flexlay to compile last time I checked it out of svn, I'll give it another go though
+
+<grumbel> http://windstille.berlios.de/wiki/index.php/Characters
+
+<grumbel> add least in the 3d models the boss-women looks quite a bit older then the other one
+
+<grumbel> SpoonMeiser: needs latest svn clanlib
+
+<SpoonMeiser> grumbel: I did, finally, get that working
+
+<grumbel> quickflash: anyway, I don't mind changing the relationships a bit
+
+<MatzeB> SpoonMeiser: just ask if you have problems getting stuff compiling
+
+<MatzeB> things might be broken in the svn versions
+
+<pifactorial> quickflash:  give me a quick flash of the story
+
+<pifactorial> or at least the characters
+
+<quickflash> well, really there is only the 3 currently
+
+<SpoonMeiser> MatzeB: I'll take a look and see what I can do, I wasn't checking it out with regards to windstille last time I looked, so I didn't spend too long trying to get it to work
+
+<quickflash> hero is kinda non-descript.  Tough girl persona, she doesn't talk much unless it calls for it.  She never uses her sex to her advantage...
+
+<pifactorial> ok
+
+<MatzeB> SpoonMeiser: I can give you a short intro to the map format later if you're going to work on this
+
+<quickflash> boss is a big friendly black guy who is suprisingly agile, and somewhat cunning, but loyal to the people who work for him, even protective.
+
+<pifactorial> is he an office-type
+
+<pifactorial> or does he do field work?
+
+<quickflash> his cunning is well hidden below his extremely friendly demeanor, so the only ones who get a glimpse of it are his workers (the hero)
+
+<SpoonMeiser> MatzeB: sure
+
+<pifactorial> if his cunning is hidden, he comes across as shallow?
+
+<quickflash> no, not shallow
+
+<pifactorial> just average
+
+<quickflash> just willing to take advantage of a situation so long as no one he cares about gets hurt
+
+<pifactorial> a businessman
+
+<quickflash> yes, but he's in charge of something mundane, like a junk yard, for cover
+
+<pifactorial> ok
+
+<quickflash> and he actually goes out and get's dirty working in the junkyard, because he's not afraid of work
+
+<pifactorial> I think we were using different definitions of cunning
+
+<quickflash> perhaps
+
+<quickflash> intelligently taking advantage of a situation is what I would call it
+
+<pifactorial> I was thinking " Executed with or exhibiting ingenuity." as opposed to "Marked by or given to artful subtlety and deceptiveness."
+
+<pifactorial> ok
+
+<quickflash> yes
+
+<pifactorial> and character #3
+
+--> AAAle (~AAAle@host115-188.pool8250.interbusiness.it) has joined #windstille
+
+<pifactorial> AAAle: little late?
+
+--> Judas- (~mbn@port423.ds1-fm.adsl.cybercity.dk) has joined #windstille
+
+<quickflash> #3 is the old boss
+
+<quickflash> she is now a competitor that used to work for the boss but now went solo
+
+<pifactorial> retired?
+
+<quickflash> no, she's the same age
+
+<pifactorial> ok
+
+<quickflash> you drop that 3d models head a bit and she will look a lot younger :)
+
+<pifactorial> competitor = evil, or just annoying?
+
+<quickflash> more annoying
+
+<quickflash> she's rather good, and the hero and her go for the same jobs
+
+<pifactorial> where did everyone else go?
+
+<MatzeB> I'd say just normal hard business competition
+
+<grumbel> me too
+
+<quickflash> she's more willing to manipulate people though since she is on her own
+
+<MatzeB> evil for the sake of being evil is strange
+
+<MatzeB> but evil to make money makes sense :)
+
+<pifactorial> hey!  It's everyone else!
+
+<pifactorial> economy-driven universe makes sense
+
+<SpoonMeiser> everyone else is still here, just listening with interest
+
+<pifactorial> but there has to be _something_ darker
+
+<quickflash> not from those 3
+
+<pifactorial> but we have 3 characters, and 0 story, so we can get to that later
+
+<SpoonMeiser> is the structure for the RPG type stuff in windstille yet?
+
+<MatzeB> maybe some jobs come from this "darker" side
+
+<MatzeB> but the 3 shouldn't be directly involved in that
+
+<pifactorial> like an organization?
+
+<quickflash> well the one girl can be, the competitor MatzeB 
+
+<SpoonMeiser> isn't the story just that you're trying to make enough money to get out of there?
+
+<pifactorial> Team Rocket
+
+<pifactorial> I can't believe I just said that\
+
+<grumbel> pifactorial: I would like the basic setting basically completly harmless and non-evil
+
+<MatzeB> quickflash: well I typically find stories more interesting where the "evil"/"Black" side his hidden
+
+* SpoonMeiser slaps pifactorial 
+
+<grumbel> pifactorial: the evil stuff is what those guys might run into later on
+
+<pifactorial> I've gathered that
+
+<MatzeB> quickflash: just actting very indirectly through people like the competitor boss
+
+<pifactorial> yeah, I gathered that grumbel
+
+<MatzeB> who just execute jobs but don't actually know for what or whom
+
+<quickflash> yes, but thinking of the competitor maybe unknowingly getting caught up with the evil stuff, but the boss keeps the hero out of it in the beginning
+
+<pifactorial> but we have to know how the story ends before we start writing it
+
+<PauloMorfeo> Could the storyline be dependant on the jobs the player takes? So if he took ÃÂ«badÃÂ» jobs, he would eventually become a bad guy and fight the good guys?
+
+<quickflash> than maybe go to the point where the hero is saving the competitor
+
+<MatzeB> quickflash: the more unknown the evil is the more scary and interesting it is
+
+<jamesg382> mazteb, if I run configure with --enable-debug, will it disable optimization?
+
+<grumbel> pifactorial: only when you want it to be big epic stuff
+
+<quickflash> MatzeB: yes I agree
+
+<MatzeB> quickflash: if you show the bad aliens or whatever right from the start that's plain boring
+
+<MatzeB> jamesg382: yes
+
+<jamesg382> ok, good
+
+<quickflash> but only the boss really knows, he doesn't explain it
+
+<grumbel> pifactorial: my plan goes more to tv-show like, so that you can add episodes wheneever you like
+
+<-- AAAle has quit ("Leaving")
+
+<pifactorial> ok, I think I follow
+
+<quickflash> if it's TV like than it will be truelly character based
+
+<pifactorial> dramatic, not epic
+
+<quickflash> so we need more characters
+
+<grumbel> quickflash: let the competitor save the hero, more interesting
+
+<quickflash> grumbel: yes, like that :)
+
+<pifactorial> heh
+
+<pifactorial> right on
+
+--> freed (~freed@d213-103-217-253.cust.tele2.fr) has joined #windstille
+
+<quickflash> anyways, if it's eposodic, need to come up with more characters
+
+<quickflash> there's the bartender already
+
+<quickflash> how should he be like
+
+<pifactorial> if it's episode based, we're going to have to come up with unique, loosely-linked plotlines for each level
+
+<pifactorial> instead of one plot, split up into chapters
+
+<grumbel> pifactorial: not for each level, but for each release
+
+<SpoonMeiser> I fixed flexlay to work on amd64 :)
+
+<pifactorial> ahhhhhhhhhh
+
+<SpoonMeiser> well... compile at least
+
+<MatzeB> SpoonMeiser: svn diff 
+
+<MatzeB> SpoonMeiser: and send it to us
+
+<grumbel> I mean I don't want to solve big fat mytsery at the end of milestone1(2) and/or blow the universe apart
+
+<grumbel> want something I could build on later on
+
+<pifactorial> it's tough - do we want the bartender to be friendly
+
+<quickflash> bartender is an information source, what would make him interesting?
+
+<pifactorial> like the first star wars movie
+
+<pifactorial> it had closure, but not much
+
+<pifactorial> we don't need to know the bartender's background
+
+<SpoonMeiser> Isn't the most important thing at the moment, to get the structure in place that will allow us to have story elements?
+
+<quickflash> no, but need a personality
+
+<pifactorial> but his personality could add atmosphere
+
+<grumbel> bartender should for most part somebody just doing its job, not necesarry friendly all the time, but not evil in any way either
+
+<MatzeB> SpoonMeiser: from what I see it'll mainly be dialogs and scripting cutscenes inside the engine
+
+<grumbel> kind of like most bartenders are in movies
+
+<SpoonMeiser> MatzeB: but aren't there supposed to be 'adventure' areas, where you can choose who to talk to, which jobs to take etc?
+
+<pifactorial> I think the bartender has to be friends with hero though
+
+<jamesg382> mazteB, the game crashes for me when optimized but not when debug is enabled, did you say it was the same for you, too?
+
+<PauloMorfeo> What's the setting of the story? Is that futuristic civilization fighting some other civilization? If so, that planet could be a frontier planet ocupied by both sides. The story of milestone 1 could end up with the hero freeing the planet from the ocupation of the enemy and it would still leave space for future stories.
+
+<pifactorial> friendly enough to give up information
+
+<MatzeB> jamesg382: quickflash had the same problem...
+
+<pifactorial> whoa, coming in the middle
+
+<SpoonMeiser> MatzeB: oh, and the fix to flexlay is just to add -fPIC to the compiler options
+
+<pifactorial> PauloMorfeo: no other civilization, no occupation
+
+<pifactorial> just economy
+
+<grumbel> pifactorial: give him money, he will give you information
+
+<pifactorial> makes sense
+
+<quickflash> so bartender is kinda cold guy who does a lot of listening?
+
+<pifactorial> we can't have _too_ many friendly characters
+
+<pifactorial> I'd prefer warm, but cold might be more interesting
+
+<pifactorial> you know, with an eyepatcjh
+
+<pifactorial> lol, nice sketch, grumbel
+
+<quickflash> like the bartender in Monkey Island 2 :)
+
+<grumbel> the characters should be 'warm', but not so warm that everybody is necesarrily best friend of each other
+
+<pifactorial> I was originally thinking like the Prancing Pony bartender from LOTR, but as I said, cold would probably work better
+
+<grumbel> just bunch of people stuck on some dirty pile of colonie where they have to live with each other
+
+<jamesg382> Mazte, actually, worse than that: it crashes unless I am running it unoptimized, via gdb. So I guess something isn't initialized properly somewhere/
+
+<MatzeB> jamesg382: you know where it crashs?
+
+<SpoonMeiser> everyone is trying to get enough money to get off the dirty colonie?
+
+<quickflash> what's your bt jamesg382 ?
+
+<quickflash> yes, money in itself can make for a boring motivation after a while
+
+<jamesg382> the backtrace when optimized is in the inline player get_state. there is no bt when not optimized because it doesn't crash.
+
+<grumbel> SpoonMeiser: some of them might be happy where they are
+
+<quickflash> my error was with fonts jamesg382 
+
+<grumbel> SpoonMeiser: not everybody wants to live in all-happy StarTrek universe
+
+<jamesg382> I meant, get_movement_state
+
+<SpoonMeiser> quickflash: but since these people aren't going to look back once they've gone, they don't really care about anyone else there?
+
+<grumbel> some like toget their hands dirty every once in a while
+
+<quickflash> they have to care about each other, otherwise it just get's too "mean"
+
+<MatzeB> maybe the planet is in quarantaine or something, basically noone is allowed to leave it
+
+<pifactorial> hmm, the concept of a failing colony would be interesting though
+
+<quickflash> I don't think it should be dispirited
+
+<MatzeB> so that we have a "fixed" universe for the story
+
+<quickflash> MatzeB: that could be an idea
+
+<PauloMorfeo> Me away... Going to do something for my mother!
+
+<MatzeB> or getting tickets to somewhere else is simply really expensive
+
+<grumbel> don't think we need quarantaine
+
+<grumbel> my idea was more that mankind moved out into space and colonized a bunch of planets
+
+<MatzeB> or traveling needs 10years because you don't have faster than light travel :)
+
+<pifactorial> are we looking for an excuse to keep people on the planet?
+
+<grumbel> some of which turned up providing more resources than others
+
+<quickflash> there needs to be some overall conflict that makes it interesting though
+
+<grumbel> and this one is one with less resources
+
+<pifactorial> of course
+
+<quickflash> even tv shows slowly reveal information to make it fun
+
+<pifactorial> why can't people just come and go from the planets?
+
+<MatzeB> I'd like to have an excuse to keep people on the planet...
+
+<MatzeB> we need some kind of motivation why Jane stays on this not so nice place
+
+<grumbel> MatzeB: hunt for gold?
+
+<quickflash> needs something else besides resource gathering, because the people need to be conflicted between that and whatever else we think up
+
+<pifactorial> just like people move around here on earth
+
+<pifactorial> well, she doesn't stay there all the time
+
+<MatzeB> hmm gold hunt would be an interesting thematic too
+
+<quickflash> she stays there because the boss is there
+
+<quickflash> and she likes the boss
+
+<MatzeB> so the people on this planet are people hunting for gold and the bit of economy around that
+
+<MatzeB> (like the bars, shops)
+
+<quickflash> they all stay there for that reason
+
+<pifactorial> Jane stays on the planet because that's where the company office is
+
+<pifactorial> but she gets off the planet as often as possible to do missions
+
+<MatzeB> and the bosses actually "own" a bit of land that they can explore for gold?
+
+<MatzeB> (maybe we should introduce a different material than gold...)
+
+<quickflash> have you guys ever seen a bar where the same guys come everyday
+
+<pifactorial> ahh, social structure
+
+<pifactorial> "bosses"
+
+<grumbel> well, I don't have sunshine all the day where I live, doesn't mean that I suddenly move to the caribbean
+
+<pifactorial> maybe even feudal ;)
+
+<grumbel> so I don't think we need much to keep them there
+
+<quickflash> that's the same reason they stay on the planet, it's there "bar"
+
+<MatzeB> grumbel: well gold hunt would be an interesting motivation
+
+<pifactorial> I don't get it - obviously some people will stay on any planet, but why can't lots of people come and go
+
+<MatzeB> gold hunt is also good for introducing conflicts and twists into the story later
+
+<MatzeB> pifactorial: of course they can come and go
+
+<MatzeB> pifactorial: just we've been thinking in terms of a not so nice palce
+
+<MatzeB> pifactorial: so there has to be some motivation why people move there at all
+
+<pifactorial> ok
+
+<pifactorial> and how hostile is "not so nice"?
+
+<pifactorial> most planets would be very hostile, come to think of it
+
+<pifactorial> compared to any place on earth
+
+<grumbel> half of them could simply be employes of "big-evil company" which were moved there to hunt resources
+
+<MatzeB> well staying with that gold hunt theme people wouldn't be hostile when they sit in the bar or so
+
+<MatzeB> but when someone actually finds a bit of gold they'll start to be hostile
+
+<pifactorial> relocated against their will?
+
+<MatzeB> or the usual fights about who owns which territories
+
+<MatzeB> pifactorial: well the typical gold hunter is a poor person
+
+<MatzeB> pifactorial: that has it's hope to become rich by finding gold
+
+<grumbel> pifactorial: not against their will, its simply their job
+
+<pifactorial> I think entire societies would form around the "mines"
+
+<pifactorial> like I hinted at earlier
+
+<pifactorial> maybe each mine is owned by a different "boss"
+
+<MatzeB> yes that would be a good idea
+
+<pifactorial> but Jane's boss also does bounty stuff on the side
+
+--> wapee (~nobody@p54876984.dip.t-dialin.net) has joined #windstille
+
+<pifactorial> and the gold mining is his cover
+
+<MatzeB> maybe the bosses provide material and machines for mining
+
+<MatzeB> and own the land
+
+<MatzeB> but they allow the miners to work there
+
+<pifactorial> and get a cut
+
+<MatzeB> as long as they get 50% of the profits they make or so
+
+<quickflash> bosses each run their company their own way
+
+<MatzeB> there are some stories floating around about people that have become really rich by finding alot of gold
+
+<MatzeB> while in reality the only ones getting rich there would be the bosses
+
+<pifactorial> ahh
+
+<pifactorial> people come to the planet and get trapped
+
+<MatzeB> I'm not sure if we should do this as "companies" or more boss + 5 miners style...
+
+<MatzeB> if we talk about companies I'm thinking about hundrets of workers...
+
+<MatzeB> pifactorial: it's not really trapped
+
+<pifactorial> that's a tough one
+
+<pifactorial> depends on the sizes of the mines
+
+<MatzeB> pifactorial: it's just playing the illusion to them that they could get rich by finding lots of gold
+
+<MatzeB> pifactorial: there probably is a really small chance that this happens
+
+<MatzeB> maybe there are also some people who live there for a longer time
+
+<pifactorial> MatzeB: well, you know the scenario where they come to get rich, and then they are stuck there getting other people rich (but staying poor)
+
+<MatzeB> who have understood that you can't get rich by doing this
+
+<MatzeB> but they just live along with the small profits they make
+
+<MatzeB> pifactorial: yes that's what I mean with gold hunting
+
+<MatzeB> pifactorial: I just wouldn't talk of a "trap"...
+
+<quickflash> well, being that it's the future you don't need as many "human" workers
+
+<pifactorial> but I mean, most people can't even afford to leave
+
+<SpoonMeiser> perhaps Jane isn't top of her game, and this is the only place she can currently find work? maybe she's new to this?
+
+<grumbel> pifactorial: they don't want to leave
+
+<quickflash> might be a lot of robots per company, but like MatzeB's suggestion of maybe like 1 boss + 5 guys
+
+<grumbel> pifactorial: has little todo with money
+
+<pifactorial> what's the story behind Jane's powersuit?
+
+<grumbel> pifactorial: if you have stayed there for years hunting for 'gold' you might actually start to like that place
+
+<MatzeB> robots or just futuristic mining equipment...
+
+<SpoonMeiser> perhaps most places in the universe are the same, the living costs in the nicer places far too high
+
+<MatzeB> that "powersuit" could be the normal mining equipment
+
+<grumbel> pifactorial: after all those workers there have build the colonie or a part of it
+
+<MatzeB> maybe Jane has done some personal modifications to it...
+
+<grumbel> pifactorial: its @home
+
+<pifactorial> about the hostility of the planet - is it hostile because of people, or because of environment?
+
+<quickflash> make the powersuit something usually used for mining, but janes is modified for bounty hunting
+
+<SpoonMeiser> MatzeB: like the A Team :P
+
+<MatzeB> to make it more usable for fighting
+
+<grumbel> pifactorial: environment
+
+<MatzeB> SpoonMeiser: not like making an A-Bomb from a trashcan in 5 minutes...
+
+<MatzeB> SpoonMeiser: more like fiddeling on it for years
+
+<MatzeB> SpoonMeiser: every now and then a few hours after work
+
+<pifactorial> ok so no need of evil bosses/companies that rule the planet with an iron fist
+
+<pifactorial> I had the wrong idea
+
+<grumbel> you can still have a evil company or many of them
+
+<MatzeB> yes
+
+<grumbel> its after all a new born collonie so many parties will try their luck
+
+<MatzeB> what would make such a company evil?
+
+<pifactorial> I thought maybe the powersuit was a gift from Boss
+
+<pifactorial> but the general feel of the planet isn't dystopian
+
+<MatzeB> using slaves to do their work?
+
+<pifactorial> not caring about its workers
+
+<pifactorial> yeah
+
+<pifactorial> they can make more money that way
+
+<SpoonMeiser> I would imagine that law enforcement would be weak in a new colonie, allowing the 'evil' people more opportunities in these places
+
+<pifactorial> but is it dystopian or not?
+
+<PauloMorfeo> Back!
+
+<pifactorial> is it a happy place, or a hellish place?
+
+<MatzeB> pifactorial: something in between I'd say...
+
+<pifactorial> because "somewhere in between"
+
+<pifactorial> is kind of vague
+
+<MatzeB> pifactorial: you can live okay inside the colonie
+
+<MatzeB> but it's not nice if you walk around outside the colonie
+
+<pifactorial> is the colony one of many on the planet, or does everyone live in the same place?
+
+<MatzeB> in that you can't live long without such a miner suit
+
+<pifactorial> dome?
+
+<MatzeB> there surely are some others I'd assume
+
+<MatzeB> always a good possibility to introduce new places/characters later
+
+<MatzeB> some dome type thingy might be there for air and protection against environment...
+
+<pifactorial> are the settlements in domes or something like that?
+
+<PauloMorfeo> About keeping people in the planet, it could be a directive of the empire. The Empire could determine that no one could change from the panet they lived in without permission, in order to control the population on the planets. So, we would have the workers coming to work on the planet and leaving when the comission was over, leaving the locals angry for wanting to leave also. We could have ilegal attempts to emigrate. We could have su
+
+<SpoonMeiser> I hate to sound negative, but surely at the moment we just want to put in place the elements that will allow us to tell the story... have at least one 'walk around and talk' area, and linked with at least one 'powersuit' area?
+
+<pifactorial> is there an "Empire"?  What's with inter-stellar government?
+
+<MatzeB> SpoonMeiser: current plan is VR training program for powersuit
+
+<MatzeB> SpoonMeiser: the bar and janes apartment to walk around and get a first job
+
+<grumbel> wouldn't make the planet that badly suited for humans
+
+<MatzeB> and a first job in a wood type environemnt with spiders...
+
+<PauloMorfeo> pifactorial: is there an "Empire"? I don't know! Is there?
+
+<grumbel> just maybe hostile enemies out there or so
+
+<pifactorial> I think they talked more about the engine last meeting
+
+<MatzeB> hmm yes
+
+<SpoonMeiser> MatzeB: my point is, shouldn't we be discussing getting that section done then? we could talk about story, literally forever
+
+<MatzeB> that way we could do without expensive domes
+
+<grumbel> you don't walk barefoot through the desert either, but it doesn't instantly kill you either
+
+<MatzeB> but just with electro walls around the colony or so...
+
+<-- koorek has quit ("Lost terminal")
+
+<grumbel> SpoonMeiser: this game should be for a lot of part based around the story, so its quite important
+
+<pifactorial> you need more safety equipment underground anyway
+
+<PauloMorfeo> I prefer to see the cities as somewhat fortified places to keep nasty creatures from getting in!
+
+<MatzeB> SpoonMeiser: currently we have good brainstorming, I'd hate to interrupt that now...
+
+<SpoonMeiser> MatzeB: true
+
+<-- Godrin has quit (Remote closed the connection)
+
+<grumbel> SpoonMeiser: ie. more like, now we have a conflict between these and that party, how could they resolve it? and not, we have a gun implemented, who do we shoot?
+
+<pifactorial> grumbel: so what about it?  Is there an Empire?
+
+<MatzeB> it's also a good base to write interesting dialogs
+
+<grumbel> pifactorial: there might be one, but its not really evil or anything
+
+<MatzeB> the empire might just not have much might inside the colonie
+
+<pifactorial> yeah, I would think lassez-faire
+
+<MatzeB> ie. it's there but they have nearly no milita/police there
+
+<pifactorial> a "rim world"
+
+<SpoonMeiser> grumbel: is it going to be easy to implement the different game 'modes' wuth the current code though? seems that this might be a big job
+
+<MatzeB> letting the people settle their disagreements themselfes
+
+<MatzeB> that's why nearly everyone has a gun...
+
+<jamesg382> ok, via the tedius method of absolutely zillions of debug cout statements, I am now quite sure that is crashes at if (player->get_movement_state() == Player::DEAD), line 140 of game_session.cpp
+
+<grumbel> SpoonMeiser: it requires a bit of work, but its not rocketscience
+
+<MatzeB> jamesg382: I can take a look
+
+<MatzeB> SpoonMeiser: I'd like to drive development by a story
+
+<PauloMorfeo> Will there be ÃÂ«cut-scenesÃÂ» (or whatever you want to call them) or ÃÂ«moviesÃÂ» or something to present us with story elements?
+
+<MatzeB> SpoonMeiser: not drive the story by what the engine currently can do
+
+<MatzeB> PauloMorfeo: scripted cutscenes
+
+<quickflash> ok, let's say this for the basic premis:  Space travel is expensive.  The current windstille planet is a mining planet.  There are many companies on the planet, and they mine for things in different ways
+
+<grumbel> PauloMorfeo: most stuff should happen ingame
+
+<pifactorial> yeah
+
+<pifactorial> we already have the groundwork for I couple
+
+<quickflash> some ways are high tech, some are not
+
+<ruskie> btw is there some basics or is it mostly non-linear(well semi linear) type of game????
+
+<ruskie> s/is/are/
+
+<grumbel> PauloMorfeo: in-game as in in-game cutscene, not like now we switch to random render movie
+
+<PauloMorfeo> I played "Pachi el Marciano" yesterday, it has some cartoon like screenshot instead of movies. It doesn't work bad!
+
+<pifactorial> @quickflash: Boss owns one of these companies
+
+<quickflash> our hero works as a bounty hunter for someone who owns a say junking company.  
+
+<grumbel> ruskie: its not linear, but not really non-linear either
+
+<jamesg382> I like the idea of driving development by a story, too, as long as everyone who is developing the story realises that due to technical constraints quite a lot of it won't make it into Milestone 1, if it makes it in ever. I.e., story si good for background and inspriration, even if much of it doesn't get used
+
+<ruskie> as said semi-lineat
+
+<ruskie> -t+r
+
+<grumbel> ruskie: ie. you might change missions, talk with different people, but you want have simcity-like do whatever you want
+
+<pifactorial> it's a linear storyline with non-linear gameplay
+
+<pifactorial> or maybe it isn't ;)
+
+<SpoonMeiser> MatzeB: if I'm being counter productive, just tell me to shut up :) but, we know that the story will call for walking around and talking to people, and moving between different game modes, my opinion is that we should work on getting that working
+
+--> AAAle (~AAAle@host115-188.pool8250.interbusiness.it) has joined #windstille
+
+<MatzeB> SpoonMeiser: we sure will
+
+<MatzeB> SpoonMeiser: just most projects I did before had this story driven by the engine
+
+<quickflash> most jobs involve in some way these other companies, either they need someone to help them get back to work, or in general they just need something cleared out
+
+<MatzeB> SpoonMeiser: which is not good...
+
+<ruskie> so how futuristic is this?
+
+<MatzeB> SpoonMeiser: I'd like to think of it as a movie
+
+<MatzeB> SpoonMeiser: we wanna tell a story
+
+<MatzeB> SpoonMeiser: not just show our special effects...
+
+<quickflash> let's say there aren't too many bounty hunters on the planet, so jane always has a job
+
+<pifactorial> ruskie: quite, rather
+
+<PauloMorfeo> If it is going to be movie like, it must have a very non-linear story, me thinks.
+
+<MatzeB> PauloMorfeo: currently we're mostly talking about background setting...
+
+<grumbel> quickflash: yep, sometimes the companies might need capable motivated local people instead of their underpayed not always motivated workers
+
+<ruskie> PauloMorfeo, semi-linear... yo uget to do linear missions I assume but pick them at random and so on
+
+<pifactorial> ruskie: Alien-ish tech level I think
+
+<SpoonMeiser> MatzeB: I agree, but we have a general idea, enough to get working on the engine with - changing scripted elements is likely to be easier to do later
+
+<quickflash> grumbel: well workers just can't do it, they are workers, not warriors
+
+<MatzeB> will there be a concept of people "owning" land?
+
+<MatzeB> will the bosses own the mines?
+
+<grumbel> quickflash: that too
+
+<MatzeB> will bosses just get out and start mining at some place noone else mined yet?
+
+<ruskie> hmmm I wouldn't go with bosses except where necesary...
+
+<pifactorial> that
+
+<ruskie> there should be mission objectives and such
+
+<MatzeB> that would allow some "evil" companies trying to take over mines that found gold...
+
+<PauloMorfeo> Does the planet have nasty creatures? If so, many of the jobs could revolve about rescuing some valuable equipment or person out of a mine that has been overrun by those creatures. Or maybe even overrun by pirates and bandits.
+
+<grumbel> quickflash: but sometime they simply might not want to do it, "Hey, my contract didn't list that, no way..."
+
+<SpoonMeiser> how are we planning to introduce the VR tutorial? force players to do it, or have it as an optional 'quest', perhaps a hardware shop offers free powersuit orientation to customers?
+
+<grumbel> PauloMorfeo: yes, thats the plan
+
+<grumbel> PauloMorfeo: http://pingus.seul.org/~grumbel/tmp/windstille-spider2.png
+
+<MatzeB> SpoonMeiser: IMO we should make it so that you can complete it in 1 minute if you know how to control the character...
+
+<PauloMorfeo> :p I missed most of the beggining of the discussion...
+
+<ruskie> lol
+
+<grumbel> SpoonMeiser: thats where the game starts
+
+<MatzeB> SpoonMeiser: farcry did that quiet nicely if you know the game...
+
+<grumbel> MatzeB: how did farcry do it? know the game, but never played it
+
+<MatzeB> it basically instructed you how to get through the obstacles in the first level
+
+<MatzeB> but if you already knew how to control it you just walked forward and were done
+
+<pifactorial> back to the question - do you make the suit, or get the suit?
+
+<SpoonMeiser> MatzeB: wouldn't it be nice if a player didn't have to do it at all? but it was linked in via the 'walk about' game mode, like other missions?
+
+<grumbel> pifactorial: get it and improve it
+
+<MatzeB> they also introduce a small bit of story to make the tutorial interesting
+
+<ruskie> so Jane is a merc...
+
+<MatzeB> like mans watching you so you had to duck...
+
+<pifactorial> grumbel: if that's the decision, then it's difficult to link the tutorial into the game
+
+--> cory (cory@torque.acm.cs.rpi.edu) has joined #windstille
+
+--> miguel (~no@210.Red-80-37-149.pooles.rima-tde.net) has joined #windstille
+
+<SpoonMeiser> how does the story start, is there a particular point we start with? something significant? or do we start with 'just anothre day in the life of Jane'?
+
+<grumbel> pifactorial: why so?
+
+<MatzeB> I'd say another day...
+
+<MatzeB> the monthly VR training on the schedule...
+
+<pifactorial> because Jane already knows how to use the suit - she made it and has owned it for a long time
+
+<pifactorial> why does she have a training program?
+
+<PauloMorfeo> The tutorial could hapen in home! We start at home and we get tooltips telling us what to do to leave home out to the town
+
+<MatzeB> to stay fit :)
+
+<grumbel> pifactorial: somebody improved the VR programm so that its now actually usable for suit training
+
+<pifactorial> hmm, that might work MatzeB
+
+<SpoonMeiser> MatzeB: if say, she's coming back to work after being injured, or just starting employment with the boss, then we also have a reason why she might have to do the tutorial
+
+<grumbel> pifactorial: or otherwise updated it
+
+<ruskie> hmmm
+
+<ruskie> I like the idea just starting the work
+
+<pifactorial> physical therapy?
+
+<grumbel> pifactorial: 
+
+<grumbel> pifactorial: good idea
+
+<SpoonMeiser> or maybe she's running the tutorial to test her latest suit modification
+
+<ruskie> leaves the ability to improve the suit and other stuff...
+
+<MatzeB> the idea of recovering from an injury is good
+
+<grumbel> something like broke a leg a few weeks ago and has now to get back to work
+
+<ruskie> afk
+
+<pifactorial> had to be rescued
+
+<MatzeB> if we make it so taht Jane doesn't really remember what happened we have a nice element for later stories again :)
+
+<pifactorial> by her nemesis
+
+<jamesg382> mazteb, for some reason player == 0 in GameSession::draw
+
+<pifactorial> :D
+
+<grumbel> jamesg382: player never inited, use Player::current() maybe?
+
+<MatzeB> jamesg382: that might have to do with 1 of my hcanges...
+
+<MatzeB> I'll check it
+
+<MatzeB> didn't know GameSession keeps another ref to the player
+
+<MatzeB> I wonder why it never crashed for me
+
+<MatzeB> seems like we're out of story ideas now
+
+<MatzeB> are there some details in this setting we missed?
+
+<MatzeB> will someone summarize the setting and write it down?
+
+<pifactorial> well, I think we have enough groundwork
+
+<pifactorial> that the story guys can start meeting
+
+<pifactorial> and set some stuff in stone
+
+<MatzeB> most important thing would be to derive some dialogs, cutscenes and first jobs from this setting...
+
+<jamesg382> I think it's not my fault, but if in Europe you are given a number in the form "013-310330", then you type "013310330" and nothing else into the phone, right?
+
+<MatzeB> yes
+
+<MatzeB> there is no - on the phone
+
+<jamesg382> indeed
+
+<MatzeB> jamesg382: svn should be fixed
+
+<paxed> it's usually an area code before the dash...
+
+<jamesg382> must jist be engaged or something
+
+<jamesg382> they are in the same area, I think
+
+* paxed is actually in an area whose code is 013 :P
+
+<quickflash> grumbel: do you want to take the aspects of the story info we came up with and write that down?
+
+<grumbel> quickflash: yes, we need to move that into the wiki
+
+<pifactorial> if you tell us what exists, we can fill in the dialogues
+
+<MatzeB> we just create the a whole nice setting here in irc
+
+<PauloMorfeo> Who here will be willing to do real voices into the game?
+
+<MatzeB> someone would just need to place that in an logical order and write it down
+
+<MatzeB> PauloMorfeo: me
+
+<quickflash> I can do 1 female voice and 2 male voices
+
+<pifactorial> lol
+
+<PauloMorfeo> haha...
+
+<pifactorial> I don't want to know
+
+<MatzeB> you know someone female who would speak?
+
+<quickflash> my wife does the female voice :)
+
+<MatzeB> ah nice
+
+<PauloMorfeo> I will do voices also if required! Nobody else?
+
+<PauloMorfeo> Everybody shy?
+
+<-- miguel (~no@210.Red-80-37-149.pooles.rima-tde.net) has left #windstille
+
+<pifactorial> I would if somebody would ship me some recording equipment
+
+<MatzeB> well for milestone2 we don't have that many characters anyway...
+
+<quickflash> I'll do the boss, have a voice for him
+
+<MatzeB> pifactorial: I used my builtin soundcard and a 5Ã¢ÂÂ¬ cheapo micro
+
+<jamesg382> I wouldn't mind but I'm not sure if I can get a mic to work with my PC, as the sound card only has a digital in. So if there are enough other people already I won't bother, but if you need more voice people, or if an English accent could be useful, I could maybe try to get my parents to send me one of my super-cheapo sound cards from hoem in the post
+
+<MatzeB> pifactorial: but works quiet well
+
+<pifactorial> hmm every character will have a different accent
+
+<jamesg382> heh
+
+<PauloMorfeo> That's not bad! That is nice.
+
+<pifactorial> we want a pretty high standard for sound quality
+
+<pifactorial> which is hard if everybody's using a different mic
+
+<MatzeB> pifactorial: we could simply try it...
+
+<PauloMorfeo> That might be hard... Keeping all voices with similar quality...
+
+<pifactorial> it's worth a try
+
+<MatzeB> pifactorial: I added an experimental file to svn which I did
+
+<grumbel> while sound quality might be a problem, getting proper voice acting itself done is also far from easy
+
+<quickflash> I'll do the voice mixing stuff too, I have some software that's nice for that
+
+<grumbel> person with a mic doesn't make a good actor
+
+<PauloMorfeo> Sure is! How often we get a game with real voices...?
+
+<MatzeB> yep
+
+<jamesg382> Sound quality is nowhere near as important with voice as with music. You have to really concentrate to tell the difference between a good mic and a bad mic with voice.
+
+<MatzeB> how you speak the stuff is important
+
+<pifactorial> but if anybody uses homestarrunner.com, you know the low quality of Marzipan's voice, for example
+
+<SpoonMeiser> what are the changes that need to be made to flexlay?
+
+--> yonil (~me@bzq-80-40-61.red.bezeqint.net) has joined #windstille
+
+<grumbel> SpoonMeiser: need to decide on mapformat and implent that properly
+
+<grumbel> SpoonMeiser: then adding all the gameobjects, triggers and stuff
+
+<MatzeB> well should I do intro do flexlay now?
+
+<MatzeB> SpoonMeiser: mapformat will be based on lisp structures
+
+<SpoonMeiser> grumbel: did you come to a decision from your HP forum post about tilemaps?
+
+<MatzeB> SpoonMeiser: that is you basically have a list that contain symbols strings, int, floats and other lists
+
+<jamesg382> maybe for voices we should have a single piece of text that everyone reads out and submits, and then we could discuss which voices are best for which characters?
+
+<MatzeB> a trigger mmight look like this in this format:
+
+<MatzeB> (trigger
+
+<MatzeB>  (name "blup")
+
+<MatzeB>   (x 202) (y 100) (width 50) (height 59)
+
+<MatzeB> )
+
+<pifactorial> is there a web interface to our svn?
+
+<MatzeB> yes
+
+<MatzeB> moment...
+
+<SpoonMeiser> MatzeB: yeah, I get the idea, similar(ish) to a hash in perl
+
+<pifactorial> jamesg382: sounds good to me
+
+<grumbel> SpoonMeiser: yes, going to use the first aproach, the classic one with 32x32 tiles
+
+<grumbel> SpoonMeiser: and then need automatic tile-adding
+
+<MatzeB> http://svn.berlios.de/viewcvs/windstille/
+
+<grumbel> SpoonMeiser: and some way to mark edges
+
+<SpoonMeiser> grumbel: soo we put in the impassable blocks, and the decoration is automatically added?
+
+<pifactorial> good stuff
+
+<MatzeB> SpoonMeiser: that's the current level in svn: http://svn.berlios.de/viewcvs/windstille/trunk/data/levels/newformat2.wst?rev=511&view=markup
+
+<MatzeB> SpoonMeiser: the ground blokc is basically a list of properties and a (objects list
+
+<MatzeB> that contains all the GameObjects
+
+<grumbel> SpoonMeiser: half automatic I would say, ie. editor has a function to mark non-tiling tiles and automatically add decor tiles
+
+<MatzeB> GameObjects are TileMap, background images, triggers, spawnpoints, ...
+
+<MatzeB> badguys other people
+
+<MatzeB> everything that is somehow on screen or forms a logical unit for gameplay...
+
+<MatzeB> the thing that some people call "Entity"
+
+<MatzeB> in the engine we basically have 1 class per GameObject
+
+<MatzeB> this class has own loading code
+
+<MatzeB> you should model it like that in the flexlay editor as well
+
+<pifactorial> MatzeB, you sound like my boss
+
+<pifactorial> nice accent
+
+<MatzeB> heh :)
+
+<MatzeB> well it's not a perfect recording yet
+
+<MatzeB> but I didn't want to do it again after 8 tries
+
+<pifactorial> but it's a good example
+
+<MatzeB> I just needed something for testing
+
+<pifactorial> oh man
+
+<MatzeB> the word ability has too much expression
+
+<MatzeB> as I had spoken it wrong 7 times before :)
+
+<MatzeB> the "suit" also sounds a bit wrong...
+
+<pifactorial> I'm Canadian, and everybody knows Canadians speak perfect English ;)
+
+<PauloMorfeo> Where you downloaded it from? I want to hear it too :(
+
+<MatzeB> I'm german and only know english from school, movies and irc...
+
+<pifactorial> http://svn.berlios.de/viewcvs/*checkout*/windstille/trunk/data/sounds/speech/vr_intro.ogg?rev=504
+
+<SpoonMeiser> pifactorial: I'm British with a Canadian girlfriend, I know Canadians don't speak proper English :P
+
+<pifactorial> lol, Arnold Schwarzenegger movies
+
+<pifactorial> eh?
+
+<MatzeB> he's a senator so he has to speak good english, doesn't he? ;-)
+
+<MatzeB> s/senator/governor/ or whatever
+
+<PauloMorfeo> MatzeB: How old are you? That voice sounds very deep.
+
+<pifactorial> it's funny hearing British people try to do a Canadian accent
+
+<MatzeB> PauloMorfeo: 23
+
+<SpoonMeiser> pifactorial: I can imagine
+
+<MatzeB> PauloMorfeo: yes it's a deep voice
+
+<MatzeB> PauloMorfeo: I'd like to speak some character that matches that
+
+<pifactorial> SpoonMeiser:  vice versa, I would think
+
+<pifactorial> we could make boss german
+
+<PauloMorfeo> haha
+
+<MatzeB> :)
+
+<PauloMorfeo> Tha boss with tha german accent!
+
+<MatzeB> and I though the evil bosses are always french
+
+<MatzeB> but that is probably after the movies have been translated :)
+
+<MatzeB> but if you think I'll be talking in nazi-accent, forget it ;-)
+
+<MatzeB> this is no WW2 game...
+
+<PauloMorfeo> I didn't knew nazis had a special accent...
+
+<MatzeB> well in most english movies they surely have :)
+
+<PauloMorfeo> Anyway, speaking english, you'll hardly sound anything similar to a nazi accent.
+
+<MatzeB> things like "Ah mein Leben!" when they're dying...
+
+<PauloMorfeo> I don't supose we have any scotish dude around? That would be fun!
+
+<pifactorial> you sound like the german guy who buys the powerplant in the simpsons
+
+<MatzeB> pifactorial: are you going to write down the background stuff from irc?
+
+<jamesg382> I can't believe I have a like $3000 PC and 4 state of the art mobile phones on my desk and a microphone and I can't work out to get my voice into my computer
+
+<pifactorial> if anybody here watches the simpsons
+
+<pifactorial> obsessively
+
+<SpoonMeiser> :)
+
+<MatzeB> everyone does :)
+
+<grumbel> but only the first few seasons ;)
+
+<pifactorial> MatzeB: I suppose I could, but I'm not sure I'm aware of the final decisions
+
+<pifactorial> or just a brainstorming summary?
+
+<PauloMorfeo> And what about recording into the hard drive something that is going out to your PC speakers!? I've never managed to do that :S
+
+<MatzeB> pifactorial: simply do some or ask again :)
+
+<MatzeB> pifactorial: I think we were pretty fixed on:
+
+<MatzeB> - gold hunt athmopshere (maybe something else than gold)
+
+<MatzeB> - we're on a small mining planets
+
+<MatzeB> - people get there in the hope to get rish
+
+<PauloMorfeo> Definetly something less common than gold, no?
+
+<MatzeB> - you have to work for "bosses" that provide you with mining facilities but you have to share your profits with them
+
+<MatzeB> - the planet is a not so nice planet, but you can easily live and breath there
+
+<MatzeB> - there is few police/law enforcement present
+
+<MatzeB> most people settle their issues with themselfes (that's why everyone has a gun)
+
+<MatzeB> - There is some economy around the miners, like bars and shops
+
+<jamesg382> ARG! I've worked out the problem! My microphoen is broken!
+
+<MatzeB> - Jane will be the main character of the story she has worked as miner in the past
+
+<MatzeB> but now is a bounty hunter or something
+
+<MatzeB> - She has a modified miner suit
+
+<MatzeB> on which she added some weapons and more armor and other extras...
+
+<MatzeB> She mostyle works for miner boss #1...
+
+<MatzeB> In milestone2 we'll also meet the barkeeper
+
+<MatzeB> and eventually boss#2 that often is in competition to boss#1
+
+<PauloMorfeo> http://www.fileuniverse.com/uploads/lada.mp3 Just as a note, that voice is not mine!
+
+<MatzeB> - Bosses typically use a place on the planet and start mining there
+
+<MatzeB> - If the mine has found gold you have to be carefull and guard the place
+
+<MatzeB> as other "evil" miners will try to overtake the mine
+
+<MatzeB> or people trying to steal the mined gold and such
+
+<MatzeB> though most mines only find small amounts of gold and are not interesting
+
+<MatzeB> Bosses typically switch mining places from time to time...
+
+<MatzeB> There are other planets but we don't know much of them
+
+<MatzeB> Traveling is expensive and people mostly feel home on the colonie after living there for years
+
+<MatzeB> ok that's all I remember for now
+
+<MatzeB> - windstille releases will have episodic character like a TV show
+
+<jamesg382> woo I got my microphone working!!!
+
+<MatzeB> - colonies just places where people live on the planet
+
+<MatzeB> there are electro walls around colonies
+
+<grumbel> anybody posting that to the wiki as we speak?
+
+<MatzeB> the story will start with jane recovring from some injury
+
+<MatzeB> she doesn't really remember what happened, just somethinge with a *type in text here*
+
+<MatzeB> this will not be revealed in milestone2 but in later episodes
+
+<MatzeB> she has to do the VR training program again because she was recovering
+
+<MatzeB> she talks to boss and gets a new job about retrieving a miner who has been lost in the wood or so...
+
+<MatzeB> The miner will be captured by a big spider
+
+<SpoonMeiser> how about this for the start of the story: intro is Jane as a miner, some mining accident occurs and Jane attempts to rescue her co-workers, game starts with Jane recovering from injury and boss recruits her into a new role of mercenary/bounty hunter/whatever?
+
+<pifactorial> do mines exist inside or outside of colony walls?
+
+<MatzeB> pifactorial: outside
+
+<MatzeB> there'll be shuttles that transport miners to the mines
+
+<MatzeB> SpoonMeiser: how do we explain then that Jane has all the extras on her mining suit already?
+
+<MatzeB> SpoonMeiser: also I'd prefer not to tell from the past...
+
+<SpoonMeiser> MatzeB: uhh... she's a hobbiest?
+
+<MatzeB> only revealing this from time to time in some episodes
+
+<SpoonMeiser> MatzeB: OK, that makes sense actually, not to get bogged down with history
+
+<MatzeB> SpoonMeiser: well she does it for a living
+
+<MatzeB> SpoonMeiser: but she likes working with electric stuff, tuning her suit
+
+--> bob4rrttt (~quickflas@c-24-14-62-112.hsd1.il.comcast.net) has joined #windstille
+
+<MatzeB> SpoonMeiser: that's why I prefer this "can't remember what happened on that accident" thing...
+
+<SpoonMeiser> MatzeB: So long as we don't have a cliched 'total amnesia' story :)
+
+--- bob4rrttt is now known as quickflash2
+
+<MatzeB> not total amnesia
+
+<MatzeB> more like I remember that shuttle crushing on me...
+
+<MatzeB> but no idea how I got there and why...
+
+<MatzeB> but her boss or someone might be able to tell her later
+
+<MatzeB> it's just a few minutes lost in the mind
+
+<MatzeB> because of the shock
+
+<SpoonMeiser> makes sense
+
+<quickflash2> any more techinical things people want to talk about?
+
+<MatzeB> so will someone write this down?
+
+<MatzeB> would be a good thing to get involved ;-)
+
+<pifactorial> ok
+
+<pifactorial> I got a first draft in the wiki
+
+<pifactorial> http://windstille.berlios.de/wiki/index.php/IRC_Meeting_2_Brainstorming_Summary
+
+<MatzeB> looks good
+
+<SpoonMeiser> the windstille specific changes that need to be made to flexlay, should these be mentioned on the flexlay wiki, or the windstille wiki?
+
+<MatzeB> as long as you link to them it shouldn't matter I assume...
+
+<grumbel> SpoonMeiser: windstille one is probally better, since thats where peoples focus is 
+
+<quickflash2> anything else to discuss?
+
+<grumbel> SpoonMeiser: unless you want to write some long interesting guide into flexlay that would be usefull for other projects as well, then thats better placed in flexlay wiki and linked
+
+<SpoonMeiser> grumbel: in the windstille wiki then :)
+
+<grumbel> quickflash2: lets check the checklist :) http://windstille.berlios.de/wiki/index.php/Design_Discussion_CheckList
+
+<quickflash2> were 3d sprites discussed at all?
+
+<MatzeB> quickflash: so far we mostly discussed about setting
+
+<MatzeB> quickflash2: so what about the 3d sprites?
+
+<quickflash2> are we planning on using them in milestone 1?
+
+<grumbel> quickflash: yes
+
+<grumbel> don't see any reason why not
+
+<MatzeB> will we call this release milestone2?
+
+<grumbel> after all we already have one rotating around
+
+<MatzeB> as there already was some release...
+
+<MatzeB> quickflash2: should be possible to get 3d chars working
+
+<grumbel> wondering that as well
+
+<MatzeB> quickflash2: if we hit unexpected problems we can still go back to sprites
+
+<grumbel> could be milestone3 from the number of releases, but then the first one was really 'basic'
+
+<grumbel> milestone2 with version number 0.3.0 might be confusing
+
+<grumbel> we could also simply give it a uniq name
+
+<quickflash2> well, I was working on the animations from an in game perspective, so using whatever method is going to be used by default would help a bit
+
+<grumbel> like "Windstille - The Beginning"
+
+<quickflash2> making animations outside the game leads to some ugly animations- like the running one :)
+
+<MatzeB> Episode One?
+
+<grumbel> that one has some baaaaadddd karma ;)
+
+<MatzeB> :)
+
+<jamesg382> man, I just recorded myself, I'd forgotten that my voice really isn't cool. Anyway, http://galaxyhack.sourceforge.net/rec1.ogg
+
+* SpoonMeiser shudders
+
+<MatzeB> quickflash2: I don't see how 3d sprites would look different from prerendered ones
+
+<pifactorial> jamesg382:  sounds good to me
+
+<quickflash2> it's more matching up the movements in player.cpp
+
+<MatzeB> jamesg382: you should probably speak a little slower...
+
+<pifactorial> it's not Canadian English, but it's workable
+
+<PauloMorfeo> jamesg382: Don't know what you're talking about! Sounds like a good enough voice to me!
+
+<jamesg382> yes, I did speak too fast
+
+<grumbel> jamesg382: sounds pretty good
+
+<quickflash2> jamesg382 I like it
+
+<PauloMorfeo> Sounds like the voices of those dudes that comment those documentaries of wild life in Africa.
+
+<MatzeB> jamesg382: would make a good character
+
+<jamesg382>  if you need a nature documentary presenter character, I'm your man
+
+<pifactorial> lol
+
+<quickflash2> jamesg382: it's not too fast if you ask me, it's normal for an english accent
+
+<MatzeB> well depends if a character speaks it it's probably ok...
+
+<MatzeB> for background story it was a bit too fast for me...
+
+<MatzeB> but maybe that's because I'm not a native english speaker
+
+<PauloMorfeo> At least that's easy to change. Just speak slower if needed... :p
+
+<pifactorial> grumbel: What's the story behind the name Windstille?  Is it the name of the planet?  Does it mean something?
+
+<PauloMorfeo> Is that word German?
+
+<MatzeB> it's a german word
+
+<grumbel> pifactorial: calm air
+
+<pifactorial> so is that the planet's name?
+
+<PauloMorfeo> Similar to english: Still Wind
+
+<grumbel> pifactorial: no
+
+<PauloMorfeo> Name of girl?
+
+<pifactorial> lol Still Wind is an oxymoron
+
+<MatzeB> just a cool name for the game I assume...
+
+<MatzeB> pifactorial: indeed :)
+
+<grumbel> pifactorial: its basically two things, a word play on Turrican which again is a word play on hurrican
+
+<MatzeB> but a nice one
+
+<-- freed has quit (Read error: 104 (Connection reset by peer))
+
+<PauloMorfeo> oxymoron? What's that? It has anything to do with moron?
+
+<SpoonMeiser> I figured the link to Turrican
+
+<MatzeB> pifactorial: well in german it's not really an oxymoron
+
+<grumbel> pifactorial: and in addition to that it refers a little bit to the amount of the athmosphaere in a sommer night
+
+<pifactorial> I meant in english
+
+<MatzeB> pifactorial: it just means the state when there is no wind...
+
+<pifactorial> http://dictionary.reference.com/search?q=oxymoron
+
+<MatzeB> quickflash2: why do you need to adjust the animation to the game?
+
+<MatzeB> quickflash2: is that in terms of speed of the animation?
+
+<MatzeB> or how fast the character moves?
+
+<grumbel> might also refer a bit to "Die Ruhe vor dem Sturm" - "silence before storm" (or however you would translate that)
+
+<quickflash2> I need to see how they look in game
+
+<pifactorial> "the silence before the storm" - yeah, that's a saying in english
+
+<quickflash2> like matching the jump straight up to hanging and such
+
+<MatzeB> anyway the 3d sprites should mainly make it easier to get the sprites imported into the agme
+
+<MatzeB> and they would save some memory
+
+<quickflash2> in 2d you do it in pixels, 3d you do it with a vertice
+
+<quickflash2> yes, 3d is much easier :)
+
+<quickflash2> that's why I'm curious about it's priority
+
+<MatzeB> grumbel: are you actually working on the 3d sprites?
+
+<MatzeB> grumbel: I could take a look at them...
+
+<MatzeB> frame animations are missing from what I see?
+
+<grumbel> yep, animation are missing 
+
+<netsrot> What did he say in rec1.ogg?
+
+<grumbel> have a piece of proof-of-concept python script that gets the vertex data from blender animation
+
+<MatzeB> netsrot: I think it was not windstille related :)
+
+<netsrot> oki
+
+<MatzeB> ok I'll take a look then
+
+<MatzeB> jamesg382: what was that text from BTW?
+
+<grumbel> ok
+
+<pifactorial> hmm, I guess I'd better go soon
+
+<pifactorial> I'm hungry
+
+<pifactorial> but before I go
+
+<MatzeB> jamesg382: I remember some techno songs I don't like that had a very similar text...
+
+<pifactorial> does anybody here have experience with Ogre?
+
+<jamesg382> In English it is "the calm before the storm", not "the silence...."
+
+<MatzeB> not really
+
+<pifactorial> jamesg382: I think I've heard it both ways
+
+<jamesg382> mazteb, it is the opening paragraph to War of the Worlds
+
+<quickflash2> MatzeB: let me commit some changes to the heroken.blend file
+
+<quickflash2> take me a few minutes, it's on the other computer
+
+<pifactorial> anyway, they're thinking about porting vegastrike to an ogre backend
+
+<pifactorial> http://vegastrike.sf.net
+
+<MatzeB> pifactorial: we just want to bring some vertices on screen
+
+<MatzeB> pifactorial: not use yet another big framework
+
+<pifactorial> no
+
+<pifactorial> I didn't mean that
+
+<pifactorial> I'm just recruiting
+
+<pifactorial> for the VS project
+
+<pifactorial> sorry
+
+<jamesg382> the top google link for "silence before the storm" is someone who has translated the German  "Die Ruhe vor dem Sturm"
+
+<quickflash2> "the calm before the storm" is the common english phrase
+
+<pifactorial> yeah, but it wins in a googlefight!
+
+<grumbel> MatzeB: http://windstille.berlios.de/wiki/index.php/Graphics
+
+<grumbel> MatzeB: there is the snipped that does export the vertex data from animation
+
+<MatzeB> ah
+
+<MatzeB> I was searching it in the svn and couldn't find it :)
+
+<grumbel> svn only has the mesh-exporter without animations
+
+<grumbel> needs to get a bit more complicated than that, since thats just supports a single mesh, while we might need multiple meshes
+
+<PauloMorfeo> Dudes, I must go! Bye all. Have a nice work, fun, or whatever you're gonna do!
+
+<MatzeB> yes should be no big problem
+
+<MatzeB> cu PauloMorfeo 
+
+<pifactorial> I'm gone
+
+<MatzeB> well we can finish the meeting now :)

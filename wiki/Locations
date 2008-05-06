@@ -1,0 +1,41 @@
+Realistically, milestone 1 is only going to be able to have a very limited number of locations. This is an attempt to keep track of what locations we actually intend to create  - which requires art, level design, coding the required game objects, populating the location with characters and bad guys, and including the location in the plot.
+
+== VR Training ==
+
+* Used for the opening tutorial for the game.
+
+* provides a number of sub rooms to allow the player to train all kinds of stuff
+
+== City ==
+
+* Jane's apartment
+
+This is where the game opens. Perhaps it could be reused for other things, too?
+
+* Street / roof tops
+
+Maybe we will have a sector that just represents walking about the city? I don't know.
+
+* Bar
+
+Used for meeting some of the characters, perhaps you may go here for jobs, or whatever.
+
+* Train station
+
+Maybe this isn't needed, but we have a train model and train stations are a good location for meeting characters and travelling, and they also add to the feel that you are in a living city.
+
+* Shuttle port
+
+Where you get on shuttles to take you away from the city
+
+== Forest ==
+
+This is where the Milestone 1 powersuit mission takes place.
+
+* Above ground
+
+Will contain trees, and maybe some swamp or something too. The idea seems to be that on the forest surface your enemies are the local wildlife, not humans or aliens or whatever. The final boss is a huge spider (though they could be put below ground, see below)
+
+* Underground
+
+Both man made mines and natural labyrinth. Quite possibly it will contain some robots of various sorts for bad guys, perhaps also spiders.

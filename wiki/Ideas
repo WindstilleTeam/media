@@ -1,0 +1,405 @@
+This page is meant to collect whatever wild or less wild ideas people have, be it story, engine or gameplay. To make clear who wrote the message use <nowiki>-- ~~~~</nowiki> at the end to automatically insert your name and date. You can use : at the start of a line to indent if you want to answer somebody.
+
+=== Advanced Lighting ===
+
+As mentioned in the HP forum thread, perhaps lighting similar to [http://www.mechanicalcat.net/tech/ld48/6/bluescrn/diary FUBAR], a game entered in a 48 hour programming competition (so it can't be that difficult) might add a lot of atmosphere.  Files [http://www.mechanicalcat.net/tech/ld48/6/bluescrn available here].  I think it needs Windows, but obviously the lighting logic will be portable.
+
+-- [[User:Charlieg|charlieg]] 14 Jul 2005
+
+=== Fist Fights ===
+
+The game is meant to take place on a rough outerspace colonie on a distant planet, so its more or less natural that conflict arises at times, a bit of fist fighting could help resolve that. The fight system should probally implemented as a mix of something like having a uppercut, a face punch and a belly punch and a block (in form of high, middle, low), either the animation itself should give hints on the oponents actions or DDR/Viewtiefull Joe like explizit markers.
+
+-- [[User:Grumbel|Grumbel]] 17:07, 2 Jul 2005 (BST)
+
+:Anybody played [http://openmortal.sourceforge.net/ OpenMortal]?  Is that excessive, or kind of what you have in mind?
+:--[[User:Pifactorial|Pifactorial]] 16:13, 4 Jul 2005 (BST)
+
+::I haven't played OpenMortal, but I played MortalKombat, StreetFighter, KillerInstinct and the like, but no, thats not what I have in mind. I want something simpler and more mini-game like, more along the fights you get might get in some NHL titel (those EA Sports icehockey games), Indiana Jones or (even so thats kind of a different best) Zelda, ie. stuff where you can block, punch and maybe dodge but not much more. This should really just be for a little fight in the bar or so. No ground breaking boss fight.
+
+::-- [[User:Grumbel|Grumbel]] 23:04, 5 Jul 2005 (BST)
+
+=== Traveling between Planets ===
+Traveling between Planets should happen in this:
+
+http://pingus.seul.org/~grumbel/tmp/windstille-shuttle.png
+
+shuttle. A smaller dropship might be used to carry the player from one mission to the next
+
+-- [[User:Grumbel|Grumbel]] 17:07, 2 Jul 2005 (BST)
+
+
+== Backgroundstory Ideas ==
+
+=== Mining Minerals ===
+
+The collonie will mine some minerals. One idea could be that these minerals could be used as fuel/energie source. Gameplay wise this could be used so that:
+
+* the player can recover energie from collecting minerals
+* minerals can detonate when you shoot on them
+
+=== Cargo Ship ===
+
+Every few weeks/month a cargo ship comes and collects the minerals:
+
+[http://clanlib.org/~grumbel/testrepo/4e33a6db520bc12e4b1a5bfa4a5f918c/renders/0d46b68a4f2e87b0c402132c8089a70b.jpg Cargo Ship]
+
+-- [[User:Grumbel|Grumbel]] 20:09, 2 Jul 2005 (BST)
+
+=== Some History ===
+
+Project report
+Colony #: 003456-A
+Company: Inviro Mining
+Manager: Nicholas Nantu
+Date: 2468-03-23
+
+The first ships have landed on the planet and have begun to setup the initial
+industries. The colonists have established 3 prime cities and have named the
+planet Windstille.
+
+As per our preliminary reports the planet seems abaoundant in plant and animal
+life as well as rich in mineral deposits.
+
+***CONFIDENTIAL***
+We have already issued orders to our group on the planet to claim as much of
+the land as they can before the others come.
+
+There however seems to be a base for pirates established on the planet. We will
+keep this information hidden for the time being. NOTE: We should hire a merc
+to solve this problem for us asap before it get's well known or out of hand.
+
+Current recommendation: DENY any and all pirate rummors.
+
+Our scouts report a spider like creature in the forrest that seems to be
+sentient. This is not desired since that would require us to re-locate to a
+different planet due to the colonisation laws.
+
+Current recommendation: hire a mercenaries to eliminate any and all sentients native to the planet.
+
+Mineral deposits secured(so far): gold, silver, platinum, uranium and an unknown mineral that seems to be highly concentrated with energy.
+
+---CONFIDENTIAL---
+
+--[[User:Ruskie|Ruskie]] 16:26, 3 Jul 2005 (BST)
+
+=== Different History - Different Plot-take ===
+
+Our hero's location is a Moon designated SYS3991 3-1.  Orbiting a Gas Giant, piloting to the planet has always been difficult.  The Gas Giant produces large, powerful magnetic fields which protect the moon from dangerous rays emitted by the local sun.  The planet was found to be excellent from a source of minerals, but the magnetic field interferred with regular communications from and on the planet, making it unsuitable for normal human colonization.  The planet became marked as a frontier planet where the Goverment would only vest interest in the gathering of important minerals and, so long as there was a regular ship delivering materials, the goverment would not get involved within the way the planet was actually run.  The self formed goverment of the planet is loosely based on the companies that come and mine the planet.  The first company was the called the "Local Miners Union."  Since then many companies have come and gone, each bringing various technologies to the planet, but the Local Miners Union has been the only one to stay strong throughout.  A local militia was created that to help rid companies of any wildlife and creatures that interferred with their business.  The companies did not feel that a powerful militia was in their best interests, so the militia was so well funded.  The militia had to survive using old miners equipment that companies would leave behind when they left.  With the help of the recycling plant, they would modify the mining suits for use more in line with their work.  The head of the militia was a man named Donovan. 
+
+Jane (our hero) was born on this planet, and orphaned as a child when her parents where killed in a mining accident. The circumstances of her parents' death had always been kept secret from her.  Yagor, the owner of the local recycling shop took her in as he usually did with any children left as orphans.  He and Jane grew a special bond.  Delilah, another child left orphaned by the same accident also came to stay with Yagor.  Delilah, while tough, was also always manipulative, and her and Jane never got along.  Delilah was jealous of Jane and Yagor's relationship.  At the age of 16, each girl went out on her own.  Jane joined the Local Miners Union.  Delilah joined the militia with the help of Yagor.
+
+At the age of 20, Delilah stayed behind on a mission due to a case a pneumonia.  While on the mission, everyone else in the militia was killed (Militia was around 30 people).  Everyone's body was recovered except for Donovans.  Once the militia was gone the companies on the planet decided not to try to rebuild a new one.  They felt that most of the planet had been tamed, and that only a few people where needed in order to battle any remaining local wildlife.  They therefore set up a mercenary system, where companies would just request help and pay per incident, instead of an annual subsidy.  Delilah quickly fell into the role of everyone's favorite merc.
+
+At the age of 21 Jane was not happy with her life.  Mining was in no way satisfieng her.  She saw the success that Delilah was having as a merc, and during her off hours started modifying her mining suit with the help of Yagor.  At 22 she took her first job as a mercenary, and by the time she was 23 she was doing it full time.  Now at the age of 25, her and Delilah are known as the best mercs in the business, and competition between them is getting increasingly fierce of late.  2 weeks ago Jane broke her foot.  Now she's doing Physical Therapy to help her recover.
+
+Some ideas on seperate stories that can be used:
+
+The local space goverment SYS3991 is in high need of titanium (or whatever).  Therefore they are offering a tax break on the company that produces the most titanium within a year.  This tax break counts across the whole galaxy, so companies that have never even entered the sector are on there way to start mining at SYS3991 3-1.  With these companies is coming new technology to the planet.  As people in these companies die, they recycle the new technologies, giving Jane (and Delilah) new power-ups to their suits.  The companies at first ignore each other, but after a while start offering merc jobs that interfere with one another's business.  This is not the first time this has happened, we find that the goverment made a similar deal 20 years ago.  At that time, merc jobs where offered against other companies, just the same.  We than come to find that Donovan used to do these types of missions while he was in the militia.
+
+The recent mining has upset the semi-sentient Regalis.  The Regalis have been attacking companies on the barriers more frequently. (Regalis are like Ewoks as far as brains go, but they aren't cute in any way)
+
+A new semi-sentient species (called the Verpasis) has been discovered, due to the recent mining.  They seem to be a spinoff of the Regalis species, except that they live deep within the planet.  The species seems to exhale a chemical that causes scary hallucinations within humans.
+
+3 mercs have shown up that work for one of the companies.  They have very good equipment, and often talk with Jane.  They do not seem to be antagonists to her, but they clearly want her to stay out of their way (which she respects as a fellow merc).
+
+In the end we find that Donavon is still alive.  He found the Verpasis 5 years ago, and discovered the properties of the chemical that they exhale.  He ended up killing all the others in the militia and then flying off the planet to find someone interested in using the chemical as a weapon.  That company got the local space goverment SYS3991 to start the tax break contest in order to build a mine in disguise to really export the chemical created from the Verpasis.  It is also found that Donavon was the one who killed Delilah and Janes parents.
+
+I'm sure we can add more to this.  Just think of little backstories that can intertwine within this.
+
+For episodic purposes, in the end we can basically state that the planet is mined out, so Jane and Yagor take off to find somewhere else to live...
+
+--[[User:Quickflash|quickflash]] 06:55, 4 Jul 2005 (BST)
+
+Grammar and spelling improvements.  The story is good, although needs a little more scientific checking (do magnetic fields interfere with radio waves?) and the species needs further development.  Could also do with moving from a conjecture tone to something more solid.  Currently the story is asking to be agreed with, rather than being told.  Also probably should go on a separate page.
+
+--[[User:Charlieg|charlieg]] 14 Jul 2005
+
+=== Backstory, Round III ===
+'''Just started throwing this together:'''
+
+Jane grew up on a planet in a system near to the Gold Planet (do we have a name?).  This planet is also a mining planet, but they mine common minerals, and the quality of life is low.  Jane grew up, like 95% of the other residents, in a mining family.  She worked with Boss as her supervisor (not actually a "boss" yet).
+
+One day, when Jane was a teenager, there was a collapse and the miners (including Jane) were trapped for many days.  Boss staged a rescue, and was surprised to find that Jane had the strength left to help with the rescue, even though many of her fellow miners were barely conscious.  He took a liking to her, and they forged a lasting relationship.
+
+Later, with the gold rush, Boss split off and formed his own mining company on the Gold Planet.  He invited Jane to come work for him, and she did.  Unfortunately, one of Boss' employees (nemesis) defected to another mining company, and gave away the security codes to Boss' mine.  When the miners returned to work the next day, they found the mine heavily fortified, and were unable to get in.  Boss lacked the resources to reclaim his property, and was forced into bankruptcy.  At this point, he started his junkyard.
+
+Although all of Boss' employees had abandoned him, Jane stayed loyal.  Instead of joining another mining company, she started to hire herself out as a mercenary to earn money, in hopes of rebuilding Boss' business.
+
+
+--[[User:Pifactorial|Pifactorial]] 12:27, 4 Jul 2005 (BST)
+
+=== IRC-Discussion ===
+----
+ <netsrot> Do you have any new ideas? =)
+ <netsrot> will there be a stunngun?
+ <grumbel> for the human-mode we will probally have plenty of non-deadly weapons
+ <netsrot> nice
+ <grumbel> don't wanna have much of a mass-murder kind of game
+ <netsrot> Will there be smoke grenades?
+ <grumbel> not sure how usefull they would be 
+ <grumbel> but cheff granates might be in there
+ <grumbel> not really sure how to handle the aiming
+ <grumbel> with granates its probally best when one goes a bit into the direction of a yoshi island, ie. some kind  of cross or whatever that one has to target 
+ <grumbel> for shooting i am not really sure what I want
+ <grumbel> something more rpg like, something where you can actually miss without doing anything wrong
+ <grumbel> need probally to have some shild or dodge system in place to allow the player some interaction
+ <grumbel> want to have it more mini-game based
+ <grumbel> ie. a shootout should play like a small game in itself, rather disconnected from the walking around
+ <netsrot> oki
+ <grumbel> for the powersuit mode however that needs to be kind of different, but even there I would prefer to not  have it to much metroid like 
+ <netsrot> I know .
+ <netsrot> More like a tank?
+ <grumbel> not sure, but its something I am thinking about
+ <grumbel> cybernator was a game that played pretty much like that
+ <grumbel> ie. you played a huge battlemech, but it was all sidescrolling 2d jump'n shoot
+ <grumbel> it was nice game, but powersuit here is a lot more lightweight, more a suit, then a mech
+ <grumbel> question is really: you stand on a platform, some enemy in front of you, what do you do?
+ <grumbel> should you need to duck to hit him if he is small?
+ <grumbel> should you auto-aim when he flies?
+ <grumbel> should you manually aim when he flies?
+ <grumbel> should you be able to aim at all?
+ <netsrot> I think not
+ <netsrot> You should always aim forward or up?
+ <grumbel> should I be able to run and shoot at the same time?
+ <netsrot> Yes but you should aim very bad?
+ <netsrot> Possibly shoot yourself in leg if unluckey =)
+ <netsrot> Should there be walk/run mode?
+ <netsrot> And walking backwards?
+ <netsrot> Will there be any kind of knockback system?
+ <netsrot> When getting hit or something.
+ <netsrot> grumbel: still here?
+ <grumbel> yep, still there
+ <grumbel> just programming a bit while talking
+ <netsrot> nice =)
+ <netsrot> knockback would be nice if there is falling dammage on enemy.
+ <grumbel> getting hit should definitivly give some feedback
+ <grumbel> not just a drop of energie
+ <netsrot> good
+ <grumbel> at best it should be something special, say some badguy might bight you in the leg
+ <grumbel> or ram you or capture you with tentacles
+ <grumbel> or attack you visually by other means
+ <grumbel> if you throws some acid/poision at you it should fly in a balistic curve, not linear
+ <netsrot> Will there be somethig like cars?
+ <netsrot> s/somethig/something/
+ <netsrot> I would like a running dropkick move =)
+ <netsrot> giving the enemy a long knockback =)
+ <grumbel> there will be a dropship that brings you to whereever you need to go
+ <netsrot> oki
+ <grumbel> cars probally in the background or so, not sure what they should be good for gameplay whise
+ <netsrot> You could have bigg guns on it =)
+ <netsrot> But thats probably a bad idea.
+ <netsrot> Will it be possible to distract an enemy or set up traps?
+ <grumbel> distraction yes
+ <grumbel> traps not sure, maybe mines or so could be usefull
+ <netsrot> Will there be binoculars?
+ <grumbel> maybe
+ <netsrot> IR goggles?
+ <grumbel> they would be a bit weird in 2d 
+ <netsrot> I have seen them work in a never released 2d sidescroller
+ <grumbel> ir or other kinds of vision most likly
+ <netsrot> but it used maps like in worms1
+ <netsrot> Will there be some kind of maps over the levels?
+ <netsrot> World map/starsystem?
+ <grumbel> there won't be a worldmap, because there won't be levels
+ <grumbel> but there will be a level map
+ <netsrot> oki
+ <grumbel> there will also be some overview map, but not in the supertux-kind of way
+ <grumbel> more like a real map that you see on a terminal
+ <netsrot> ok
+ <netsrot> Pherhaps it will be areas instead of level?
+ <netsrot> and sectors
+ <grumbel> official name currently is 'sector'
+ <netsrot> oki
+ <grumbel> which can be basically anything from a large outdoor areal to some small back room in the bar
+ <grumbel> something different: I also would like to a have a resident evil like inventory
+ <grumbel> something where you can look at close-ups of your items, rotate them and stuff like that
+ <netsrot> That would be nice.
+
+----
+=== Escaping ===
+
+Most games your 'you against the rest of the world' and in the end you win. How about situations in Windstille which you can't win? In which you have to run for your life and just barly make it?
+
+Good idea. For example: There could be an assassination attempt from other mining companies resulting in an explosion in a mine Jane is in. She has to run to find the exit and her Mission obivously fails this time. There could be other events like this.
+
+Or more like it you're attacked by an insane number of enimies, and you have to retreate fighting and doging just to save your skin :)
+
+=== City ===
+
+It would be nice if the city you walk around in non-powersuit mode had a slightly living feel to it, like Syndicate or GTA or whatever. Obviously our extremely limited resources mean anything even resembling a true living city is impossible, but some ideas to heighten the feel of a real city might be:
+
+* NPCs who exist only to provide back story and hints, who you don't actually need to talk to to progress
+* Being able to travel via train or subway rather than just by foot. You wouldn't actually control the vehicle or anything, it would just be an animation for when you go between different areas
+* It might be nice if there was stuff going on in the background, though this is probably never going to happen. E.g. if you are at a shuttle port then shuttles take off and land in the background, if you are at a train station trains come and go in the background
+
+-- ----
+
+Here is a Screenshot to give the player a bit more feeling of walking in a big city (just added a few dots with a big effect): [http://people.freenet.de/almightymagnus/blubb.JPG]
+
+== Episode 1 ==
+
+=== Intro/Tutorial ===
+
+There was some discussion during the IRC meeting about how to work the tutorial into the story.  I was thinking it might make sense to open the game with a short cut scene where Jane is trapped and her suit badly damaged, and then the training takes over from there, with a dialog with a mechanic character which both introduces plot and explains the game mechanics.  Something along the lines of:
+
+Mechanic: Man, your suit really took a beating down in that mine.  What the hell were you doing down there?
+
+Jane: (Boss) sent me down there to meet someone who was interested in our services, but he didn't give me much detail.  I'm going to go find out if he knows any more than he told me.
+
+Mechanic: Before you go, could you help me test your suit?  I've got everything repaired.
+
+Jane: sure.
+
+...
+
+Mechanic: Why don't you start by climbing onto that block over there
+
+Blinking Overlay: To climb, press Jump and Up together
+
+...
+
+--[[User:Mdgeorge|Mdgeorge]] 20:50, 4 Jul 2005 (BST)
+
+== Enemy Ideas ==
+=== Swarm Enemies ===
+
+Instead of simply using a bunch of almost men-sized enemies the game should feature a bunch of swarm-enemies, ie. very little enemies that act as a collective, fighting against them with normal projectile weapons will be pretty much impossible, instead the player has to either utilizie the flame thrower or destroy the swarms nest (if available).
+
+== Items and puzzles ==
+
+If the game is to be a little bit more thoughtful and slow paced than an out-and-out shoot-em-up, perhaps it would be nice if there were a whole bunch of items and objects in the game world, which have to be combined in the right way in the right places to progress?
+
+Grumbel has sketched some ideas out at:
+[http://pingus.seul.org/~grumbel/tmp/windstille-files/puzzles.png]
+
+Combining the item/puzzle related ideas from the above sketch as well as some thoughts of my own, here is a list of possible item/object comination puzzle ideas:
+
+* you have to push or pull a crate/box or multiple boxes into position to climb over an obstacle, or to gain access to a ladder
+* doors, walls, boxes or other objects that stand in your way could be destroyed with guns and/or explosives
+* explosive barrels can be placed next to a wall and then blown up to destory the wall
+* a bad guy has a powerful machine gun or whatever and you have to duck behind game objects to avoid being hit, but can shoot him when he stops to reload
+* press a button to make a lift go up or down
+* press a button to connect/disconnect a bridge
+* ladders
+* monkey-bar style traversing of ravines
+* zoomed out aiming with sniper rifle or missile launcher or other very powerful weapon to take out very dangerous enemies from afar
+* keycard doors
+* forcing people to do things at gunpoint
+* using a torch to light up/find items in darkness. Perhaps certain enemies don't like the light and would try and creep up on you until you shine your torch at them, and which point they scamper away
+* EMP grenades could take out automated weapon systems or very powerful robot enemies that are otherwise next to impossible to defeat
+* hacking into computers to control doors, lifts, automated weapon systems, robots, etc
+* destroying a power generator to allow you to get through an electrified fence, or to stop automated weapon systems from working, or to intentionally pluge a sector into darkness
+* an aqualung or similar that is needed to dive underwater
+* stealing or forging an identity card to gain access to a restricted area
+* radiation suit to go in a radioactive area
+* sabotaging a train or shuttle using a toolkit
+* putting a tracking device on a shuttle
+
+-- ----
+
+== Fog of War/Visibility ==
+
+Not sure if we need it, but might be helpfull to limit visibility to things that are currently in the players view. For example it shouldn't be possible to look through the roof.
+
+
+== Voice Acting Script ==
+
+I think the script could use some work, but maybe my tastes are different, so I figured I'd post a sample of how I'd have written what's in the Plot section and if folks feel it's better, I'd be happy to handle it:
+
+Intro:
+
+The Big Boom.  Humanity found out it could travel to the stars, and it did, en masse.  But it didn't take long for it to turn into The Big Bust.  The guilds, the governments and the corporations staked out the best worlds.  Still, many more took their chances, even without military hardware and terraformers.  Most worlds were so barren, or dangerous, that whole colonies died out.  In the Free Colonies that survive, life isn't easy.
+
+(I like, first of all, to detach from concrete dates, and try to imagine how people would come to refer to an era--in this case the obvious connection is between The Big Bang and The Big Boom.  This also establishes four major classes of humanity: Guild, gov't, corp and free--which I think affords some good storyline and gameplay aspects.)
+
+This is my new home, Sys-triple-three-nine.  The locals call it Hellas.  There are only two real jobs in the colonies: miner and merc.  I tried mining--bouncing from planet to planet, trying to find  work.  Then I met Yagor and he told me I could make more money in one mission as a merc than I could make in a year as a miner.  That was about six months ago.  It's like any other job, really, you have good days.. and bad days.
+
+First Mission
+Boss[4]: "Hey, you feelin' re-coop-er-ated?"
+
+Jane: "I think so, why?"
+
+Boss: "Not sure exactly, somethin' at Jimbo's.  Do me a favor, head down and see what's up."
+
+Jane: "I'm on my way."
+
+(Jane grabs her jacket and leaves her apartment and goes to Jimbo's bar, just a few screens away)
+
+Jane: "Hi, Bob."
+
+Bob: "Jane! I thought you were dead. Looks like one of our boys got into trouble. He ended up trapped in the nothern forest.  We got the emergency call half an hour ago."
+
+Jane: "Doesn't Northern Star take care of this?"
+
+Bob: "Don't ask me, ask them..."
+
+Miner: "Are you kidding? I'm gonna risk my neck for that poor bastard? Only an idiot goes into that forest."
+
+Jane: "I can't believe you'd just abandon him there!"
+
+Miner: "What do you care?  You're just a damn mercenary."
+
+Jane: "I guess I can't expect much from a drunken miner. Anyway, I'll find him.  Where was he when he sent the distress signal?"
+
+Bob: "Here ya go.  You know NorStar can't pay much... "
+
+(Communicator call from Boss)
+
+Boss: "Got something?"
+
+Jane: "Everything's set, boss, looks like we have a job. Come and get me."
+
+Boss: "Okay, meet me on the roof."
+
+(Jane goes to the roof and enters the spaceship, piloted by Boss)
+
+(little cutscene that shows spaceship flying over to the northern forest)
+
+(Jane gets dropped at the forest)
+
+Boss: "Ok Jane, this is as far as I can bring you, you have to make the rest on your own. I'll stay in contact."
+
+: I think that's mostly OK, except:
+: 1. Only Americans say "niner". If an American is doing the voice over of Jane, then OK, but otherwise it's just a pointless Americanism
+: 2. I don't know about using the word "bastard" - I guess I don't really mind, it just swearing in a game almost always makes it looks more childish than more adult
+: 3. I hate the phrase "Have you know honor?", noone in real life would ever say that, ever, it sounds like Fantasy-RPG-talk.
+: -- [[User:James Gregory|James Gregory]] 22:43, 5 Aug 2005 (BST)
+
+I never realized the niner thing (Being an American) though I do think it's more natural to say things like, 'triple-three', rather than simply stating the numbers.  I tend to agree with the stance on cursing (That it can come across as juvenile), unless it's pulled off naturally (Again, being an American, cursing to me lends an air of realism, but it can easily be ditched).  The 'have you no honor' line is crud, I agree, but I thought the idea of a certain disdain between miners and mercs would be interesting and I could think of no way to prompt the miner's response (Which I like).  Perhaps just a simple, "Don't you care?" to which the miner could respond, "You kill people for money and you're lecturing me on morals?"  (Though it'd need to be modified idiomatically--that doesn't sound quite how I'd imagine a miner to speak)
+-Meeks
+
+::Just a note - AFAIK "niner" was coined during WWII to avoid confusion with the German word "nein".  As of today, it is still the standard of the FAA and ICAO.
+::--[[User:Pifactorial|Pifactorial]] 11:55, 7 Aug 2005 (BST)
+
+:::I didn't know that, however, the fact that the dialog says "triple three" indicates that the dialog is casual, and not air-traffic-control speak. -- [[User:James Gregory|James Gregory]] 16:23, 7 Aug 2005 (BST)
+
+:: Yep, I like it as well. I think the 'bastard' sounds fine in the context of a drunken miner, the honor-thing might be a bit over the top. Another thing, Bob should only be barkeeper and informant, not the one to pay, so 'we can't pay much' is wrong, should be Northern Star who pays.
+:: -- [[User:Grumbel|Grumbel]] 23:50, 5 Aug 2005 (BST)
+
+:Okay, I changed it around a bit (Kept the 'bastard' for now--I think that the actors will change the script in little ways when they think it doesn't sound natural, so it can get dropped if it sounds silly).  I thought about making it 'Sys-triple-zed-niner' just so we could get both sides of the Atlantic in on the action, but I dropped it.  It's a rather silly trick, but we should consider having different real-world accents for the various different in-game groups (In the way that all the officers in Star Wars were British).  Otherwise, just let me know a scene overview and I'll write the script for it.
+:-Meeks
+
+: I like it, and even made a short test intro using the first few lines of text. Whilst doing so, I found the following very small style points slightly different to how I would write, not sure if it matters:
+: 1. "Staked out" is usually an almost-synonym for "being closely watched", yet here it is being used to mean something a bit different
+: 2. "Still, many more took their chances" should probably be "Still, many individuals took their chances" to differentiate what we are talking about in contrast to the organisations in the previous sentence
+: 3. "Most worlds were so barren, or dangerous, that whole colonies died out" - getting really nitpicky now, but the commas in the sentence seem unneccessary. If I say that sentence out loud I don't include any pauses. Perhaps "Most worlds were so barren or so dangerous that whole colonies died out"?
+: -- [[User:James Gregory|James Gregory]] 01:40, 7 Aug 2005 (BST)
+
+:I like this version but I would like to add some comments.
+:: 1. Jane has not been introduced with any depth. Some form of character or character flaw could come across fairly strongly straight away to help us identify with her. Maybe there could be some humourous banter rather than "I guess I can't expect much from a drunken miner."
+:: 2. Nobody would call their home Sys-Triple-Three-Nine. More likely would be "This is my new home, Hellas. The Corporations would call it Sys-Triple-Three-Nine".
+:: 3. Too many pleasantries reduce the pace and the atmosphere. Maybe cut out:
+::: Jane: "I think so, why?" (and collapse the two Boss lines so that he's not expecting a reply)
+::: Jane: "Hi, Bob."
+::: Bob: "Don't ask me, ask them..."
+::: Boss: "Got something?" (Instead, Jane should make the call)
+:: 4. The line "Ok Jane, this is as far as I can bring you, you have to make the rest on your own" feels weak. How about "Ok Jane, this is as close as I can get you. The distress signal is coming from just under a klick North-East."?
+: -- Dan <mauve@mauveweb.co.uk>
+
+:: I'm not so sure about points 1 and 3, it seems pretty good as it is to me.
+:: -- [[User:James Gregory|James Gregory]] 02:17, 7 Aug 2005 (BST)
+
+: Some comments about the intro text: I don't like Big Boom and Big Bust, just sounds wrong to me, probally better to not name those events or give them some more subtle names, something that doesn't jump out of the text so much. I also find the seperation in different classes far to strict, governments are by that time probally mostly the pets of the cooperations and guilds sounds too much fantasy-RPG. -- [[User:Grumbel|Grumbel]] 11:32, 7 Aug 2005 (BST)
+
+:My inspiration for the guilds was the Spacing Guild in Frank Herbert's Dune, so I think that the inclusion of that style of organization has a good, non-FRPG basis.  I also think that even if we decide corps are the superpowers, that there would still be governmental types and (Even if they are weaker than the corps) the people in the governments would still be different from corporate guys.  Maybe that's part of their characterization, too, in that government agents will act high and mighty but weild little real power, or constantly be superseded by corporate agents.  Finally, since this is a voice acting script, I feel it's necessary to iterate that the script is malleable, such that comma placement and individual word choice (And in some cases, whole phrases) can and should be adapted by the voice actor to whatever their interpretation of the character.  That said, it seems like people are comfortable with me writing the script (And providing editing commentary, which is welcome) so now I need to know what else needs to be written. -- Meeks
