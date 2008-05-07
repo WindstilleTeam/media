@@ -1058,7 +1058,7 @@
 
 <quickflash> I'll do the boss, have a voice for him
 
-<MatzeB> pifactorial: I used my builtin soundcard and a 5Ã¢ÂÂ¬ cheapo micro
+<MatzeB> pifactorial: I used my builtin soundcard and a cheapo micro
 
 <jamesg382> I wouldn't mind but I'm not sure if I can get a mic to work with my PC, as the sound card only has a digital in. So if there are enough other people already I won't bother, but if you need more voice people, or if an English accent could be useful, I could maybe try to get my parents to send me one of my super-cheapo sound cards from hoem in the post
 
