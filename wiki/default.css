@@ -1,0 +1,16 @@
+body { 
+  margin: 1em 6em 1em 6em;
+  background: rgb(50, 50, 100);
+}
+
+#body {
+  padding: 1em 3em 2em 3em;
+  background: white; 
+}
+
+#navbar { 
+  text-align: center;
+  background: lightgrey;
+}
+
+/* EOF */
