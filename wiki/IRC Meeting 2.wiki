@@ -274,7 +274,7 @@
 
 <pifactorial> but we have to know how the story ends before we start writing it
 
-<PauloMorfeo> Could the storyline be dependant on the jobs the player takes? So if he took ÃÂ«badÃÂ» jobs, he would eventually become a bad guy and fight the good guys?
+<PauloMorfeo> Could the storyline be dependant on the jobs the player takes? So if he took "bad" jobs, he would eventually become a bad guy and fight the good guys?
 
 <quickflash> than maybe go to the point where the hero is saving the competitor
 
@@ -782,7 +782,7 @@
 
 <MatzeB> SpoonMeiser: I'd like to drive development by a story
 
-<PauloMorfeo> Will there be ÃÂ«cut-scenesÃÂ» (or whatever you want to call them) or ÃÂ«moviesÃÂ» or something to present us with story elements?
+<PauloMorfeo> Will there be "cut-scenes" (or whatever you want to call them) or "movies" or something to present us with story elements?
 
 <MatzeB> SpoonMeiser: not drive the story by what the engine currently can do
 
