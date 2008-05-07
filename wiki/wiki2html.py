@@ -3,6 +3,9 @@
 from genshi.template import MarkupTemplate
 import creoleparser
 import sys
+
+# Creoleparser chokes on long documents
+sys.setrecursionlimit(2000)
 
 def file2string(filename):
     f = open(filename)
