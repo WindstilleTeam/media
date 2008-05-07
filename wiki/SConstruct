@@ -1,0 +1,10 @@
+import glob
+import os
+
+bld = Builder(action = './wiki2html.py $SOURCE > $TARGET')
+env = Environment(BUILDERS = {'Wiki' : bld})
+for i in glob.glob('*.wiki'):
+    (filename, ext) = os.path.splitext(i)
+    env.Wiki("build/" + filename + ".html", i)
+
+# EOF #

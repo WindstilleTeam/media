@@ -4,17 +4,20 @@ A Prefab ist a pre-fabricated game-object or a group prefabricated game-objects.
 
 All prefab need to be defined in a file so that the editor can find out which are available and how they should be represented in the level editor.
 
- (windstille-prefab
-  (name "streetlamp")
-  (sprite "images/objects/trashcan.sprite"
-  (parameter (pos "vector") (image "sprite") ... ({Name} {Type}))
-  (function "prefab_streetlamp"))
-
+{{{
+(windstille-prefab
+ (name "streetlamp")
+ (sprite "images/objects/trashcan.sprite"
+ (parameter (pos "vector") (image "sprite") ... ({Name} {Type}))
+ (function "prefab_streetlamp"))
+}}}
 Name gives the name of the prefab, while sprite gives the sprite which should represent it in the editor. Parameter is a list of possible parameters that the prefab can have and which should be editable in the editor. Function is the scripting function which is called with the given parameter to create the prefab.
 
- function prefab_streetlamp(params)
- {
-  // set trashcan_params and flies_params here according to what is set in params
-  spawn_object("scriptable-objects", trashcan_params)
-  spawn_object("flies", flies_params)
- }
+{{{
+function prefab_streetlamp(params)
+{
+ // set trashcan_params and flies_params here according to what is set in params
+ spawn_object("scriptable-objects", trashcan_params)
+ spawn_object("flies", flies_params)
+}
+}}}
