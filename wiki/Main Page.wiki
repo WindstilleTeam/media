@@ -49,15 +49,15 @@ We are still looking for new developers to join this project, have a look at the
 
 == Links ==
 
-* [http://windstille.berlios.de Official Windstille Webpage]
-* [http://pingus.seul.org/~grumbel/tmp/windstille-files/ Windstille Sketches] - directory full of tons of unsorted sketches and ideas
+* [[http://windstille.berlios.de|Official Windstille Webpage]]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-files/|Windstille Sketches]] - directory full of tons of unsorted sketches and ideas
 
 == Contact ==
 
-* [https://lists.berlios.de/mailman/listinfo/windstille-devel Windstille-Devel mailinglist] - discussion about the game development
-* [https://lists.berlios.de/mailman/listinfo/windstille-commit Windstille-Commit mailinglist] - automatic mail from the Subversion repository
-* EMail: [mailto:grumbel@gmx.de grumbel@gmx.de]
-* IRC: [irc://freenode.net/#windstille]
+* [[https://lists.berlios.de/mailman/listinfo/windstille-devel|Windstille-Devel mailinglist]] - discussion about the game development
+* [[https://lists.berlios.de/mailman/listinfo/windstille-commit|Windstille-Commit mailinglist]] - automatic mail from the Subversion repository
+* EMail: grumbel@gmx.de
+* IRC: irc://freenode.net/#windstille
 * ICQ: 59461927
 * Jabber: grumbel@jabber.org (this is *NOT* an email, its a jabber-id)
 

@@ -7,86 +7,86 @@
 * Windstille 0.3.0 got released
 
 2007-04-27
-* [http://pingus.seul.org/~grumbel/tmp/md5/07294e356e1f09425f79dd940dfaadf4-head.png Retextured/Modeled Jane's Head]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/07294e356e1f09425f79dd940dfaadf4-head.png|Retextured/Modeled Jane's Head]]
 
 2007-04-05
-* Thumbnails of all/most Windstille 3D models are now available [http://pingus.seul.org/~grumbel/tmp/windstille-models-2007-04-03/ here]
+* Thumbnails of all/most Windstille 3D models are now available [[http://pingus.seul.org/~grumbel/tmp/windstille-models-2007-04-03/|here]]
 
 2007-04-01
-* SVN contains now a script (blender_thumbnail) that can automatically generate thumbnails of 3D models, like [http://pingus.seul.org/~grumbel/tmp/md5/6f627d003a14e92ffc785fe824886199-jeep.png this]
+* SVN contains now a script (blender_thumbnail) that can automatically generate thumbnails of 3D models, like [[http://pingus.seul.org/~grumbel/tmp/md5/6f627d003a14e92ffc785fe824886199-jeep.png| this]]
 
 2007-03-22
 * The SVN Repository just got a few huge commits of all the old artwork and 3D models that Grumbel had floating around on his harddisk
 
 2007-03-14
-* [http://pingus.seul.org/~grumbel/tmp/md5/d90bb62fca1fc7cd443b59ca53507bda-launchvehicle.png Launch Vehicle]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/d90bb62fca1fc7cd443b59ca53507bda-launchvehicle.png|Launch Vehicle]]
 
 2007-03-12
-* [http://pingus.seul.org/~grumbel/tmp/md5/6788f6a443f9bf60c4e5198fd9a63ff5-windstille-pda.jpg PDA Mock-Up]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/6788f6a443f9bf60c4e5198fd9a63ff5-windstille-pda.jpg|PDA Mock-Up]]
 
 2007-03-11
-* [http://pingus.seul.org/~grumbel/tmp/md5/d27ff9b41d67f2d1dbd16f24c8ea9905-launchvehicle4.jpg Launch Vehicle]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/d27ff9b41d67f2d1dbd16f24c8ea9905-launchvehicle4.jpg|Launch Vehicle]]
 
 200?-??-??
-* [http://pingus.seul.org/~grumbel/tmp/md5/875224254fca9aacc0ef5fbeb01a093e-publictrain.png Public Train InGame]
-* [http://pingus.seul.org/~grumbel/tmp/md5/e93ba7e4b396c2592125cf8d967acd26-publictrainrender.jpg Public Train 1]
-* [http://pingus.seul.org/~grumbel/tmp/md5/24949eb9575f08cac35e1e0dc46c3065-publictrainrender2.jpg Public Train 2]
-* [http://pingus.seul.org/~grumbel/tmp/md5/04dc676300640f7cff48f8cc68132be2-publictrainrender3.jpg Public Train 3]
-* [http://pingus.seul.org/~grumbel/tmp/md5/f3002bfb917781f7f72da7c1fd7f52ad-publictrainrender4.jpg Public Train 4]
-* [http://pingus.seul.org/~grumbel/tmp/md5/0037afdb45f635fa2e761c172b8aeb7d-windstille-anime.png Jane Anime Style]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/875224254fca9aacc0ef5fbeb01a093e-publictrain.png|Public Train InGame]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/e93ba7e4b396c2592125cf8d967acd26-publictrainrender.jpg|Public Train 1]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/24949eb9575f08cac35e1e0dc46c3065-publictrainrender2.jpg|Public Train 2]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/04dc676300640f7cff48f8cc68132be2-publictrainrender3.jpg|Public Train 3]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/f3002bfb917781f7f72da7c1fd7f52ad-publictrainrender4.jpg|Public Train 4]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/0037afdb45f635fa2e761c172b8aeb7d-windstille-anime.png|Jane Anime Style]]
 
 200?-??-??
-* [http://video.google.com/videoplay?docid=6407848482326054992 Windstille DS Door Interaction]
-* [http://video.google.com/videoplay?docid=-7167040824757906656 Windstille Gameplay (very old)]
-* [http://video.google.com/videoplay?docid=9023431494719249531 Windstille DS Door Interaction]
-* [http://video.google.com/videoplay?docid=3929109335747664257 Windstille on DS]
+* [[http://video.google.com/videoplay?docid=6407848482326054992|Windstille DS Door Interaction]]
+* [[http://video.google.com/videoplay?docid=-7167040824757906656|Windstille Gameplay (very old)]]
+* [[http://video.google.com/videoplay?docid=9023431494719249531|Windstille DS Door Interaction]]
+* [[http://video.google.com/videoplay?docid=3929109335747664257|Windstille on DS]]
 
 2006-09-03
-* [http://pingus.seul.org/~grumbel/tmp/windstille-nds-2006-09-03.jpg Windstille NintendoDS (no game, just some static images for testing)]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-nds-2006-09-03.jpg|Windstille NintendoDS (no game, just some static images for testing)]]
 
 2006-05-23
-* [http://pingus.seul.org/~grumbel/tmp/md5/5fa061fc1c017ff8402360b06345e5ce-rescuepod.png Rescue Pod]
-* [http://pingus.seul.org/~grumbel/tmp/md5/3ed79927b9ed8f1d1a0f4ccf5b8f44ad-rescuepod_large.png Rescue Pod, large version]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/5fa061fc1c017ff8402360b06345e5ce-rescuepod.png|Rescue Pod]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/3ed79927b9ed8f1d1a0f4ccf5b8f44ad-rescuepod_large.png|Rescue Pod, large version]]
 
 2006-05-16
-* [http://pingus.seul.org/~grumbel/tmp/md5/9f789096170bc92de8460073eb2a4e48-nstartmineentrance.png NStar Mine Entrance]
-* [http://pingus.seul.org/~grumbel/tmp/md5/17d00adff886aa23732a03ab9025a784-nstarcellar.png NStar Cellar]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/9f789096170bc92de8460073eb2a4e48-nstartmineentrance.png|NStar Mine Entrance]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/17d00adff886aa23732a03ab9025a784-nstarcellar.png|NStar Cellar]]
 
 2006-05-12
-* [http://pingus.seul.org/~grumbel/tmp/md5/e2954ded3106bedffdb71b6892388661-scientist2.png Scientist EnvSuit]
-* [http://pingus.seul.org/~grumbel/tmp/md5/0ecccd892d3f0ca3e2fbddac2d9440fe-police.png Police]
-* [http://pingus.seul.org/~grumbel/tmp/md5/86e6f617effb5ea4871f960c538f9283-nstarguard.png NStart Guard]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/e2954ded3106bedffdb71b6892388661-scientist2.png|Scientist EnvSuit]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/0ecccd892d3f0ca3e2fbddac2d9440fe-police.png|Police]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/86e6f617effb5ea4871f960c538f9283-nstarguard.png|NStart Guard]]
 
 2006-05-11
-* [http://pingus.seul.org/~grumbel/tmp/md5/aa0dfd525ffed92300e9960c280702e6-merc3.png Merc 3]
-* [http://pingus.seul.org/~grumbel/tmp/md5/14ea49fc32e3911bdf3876931c67a835-scientist.png Scientist]
-* [http://pingus.seul.org/~grumbel/tmp/md5/ead42c17fc90eb586e81db0b59da490b-merc3suit.png Merc Suit]
-* [http://pingus.seul.org/~grumbel/tmp/md5/8d76ae7dca7874a584997fc33383b4b5-holoplatform.png Holoplatform]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/aa0dfd525ffed92300e9960c280702e6-merc3.png|Merc 3]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/14ea49fc32e3911bdf3876931c67a835-scientist.png|Scientist]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/ead42c17fc90eb586e81db0b59da490b-merc3suit.png|Merc Suit]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/8d76ae7dca7874a584997fc33383b4b5-holoplatform.png|Holoplatform]]
 
 2006-05-07
-* [http://pingus.seul.org/~grumbel/tmp/md5/cf886dbe7d61043360b510a697a437a2-airportpersonal2.png Airport Personal Uniform]
-* [http://pingus.seul.org/~grumbel/tmp/md5/d8f02e33c7b9775a1fff3b471e6cf715-shuttle.png Intro shuttle from the inside]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/cf886dbe7d61043360b510a697a437a2-airportpersonal2.png|Airport Personal Uniform]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/d8f02e33c7b9775a1fff3b471e6cf715-shuttle.png|Intro shuttle from the inside]]
 
 2006-04-24
-* [http://pingus.seul.org/~grumbel/tmp/md5/47d4d7e9858e9c8a3c32735d98265ad3-render1.jpg Shuttle Test Render 1]
-* [http://pingus.seul.org/~grumbel/tmp/md5/61407fae7d761b3ac3a80d60228b710e-render2.jpg Shuttle Test Render 2]
-* [http://pingus.seul.org/~grumbel/tmp/md5/2d5b27b6b5f879898bc8424d5cb5c801-render3.jpg Shuttle Test Render 3]
-* [http://pingus.seul.org/~grumbel/tmp/md5/96ff4547ee664d39fac5406c127cfa1d-cargotruck.png Cargo Truck Sketch]
-* [http://pingus.seul.org/~grumbel/tmp/md5/7048fbae5c79ac9af072d303a942ed97-diggertruck.png Digger Truck Sketch]
-* [http://pingus.seul.org/~grumbel/tmp/md5/e7d1bef78d09ca823ee3a58fe4f6f9ae-texture.png a mine texture]
-* [http://pingus.seul.org/~grumbel/tmp/md5/51c07764d839bfa405568bc265abc401-texture1.png another mine texture]
-* [http://pingus.seul.org/~grumbel/tmp/md5/db27f384d1cbaa41389fc001510d5246-largetruck.png large truck sketch]
-* [http://pingus.seul.org/~grumbel/tmp/md5/83712fa6f1b95eb226571b1b71817ce1-merc3.png character sketch]
-* [http://pingus.seul.org/~grumbel/tmp/md5/3664d852c3c73efab41f06ea52f405c5-scientist.png rough sketch of scientist cloth]
-* [http://pingus.seul.org/~grumbel/tmp/md5/e91e5e57b2bbc72aa3ee0f8f7f790444-soldier.png soldier cloth]
-* [http://pingus.seul.org/~grumbel/tmp/md5/ac29021eea01e5a04e4e39c8a4fab6a9-harry_soldier.png soldier cloth - Harry's version]
-* [http://pingus.seul.org/~grumbel/tmp/md5/88828d8cb00e3b256fb70606ac5f36d2-airportpersonal.png rough sketch of airport personal cloth]
-* [http://pingus.seul.org/~grumbel/tmp/md5/97f64621ab3b90e5a337f37837dbdc46-miner.png miner sketch]
-* [http://pingus.seul.org/~grumbel/tmp/md5/8a6f8fe69979240a0e24fa669ea2f244-minerfront.png miner sketch total]
-* [http://pingus.seul.org/~grumbel/tmp/md5/2cfe0c982de2ab5ff6cedf6fc863f99c-city.png city sketch]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/47d4d7e9858e9c8a3c32735d98265ad3-render1.jpg|Shuttle Test Render 1]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/61407fae7d761b3ac3a80d60228b710e-render2.jpg|Shuttle Test Render 2]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/2d5b27b6b5f879898bc8424d5cb5c801-render3.jpg|Shuttle Test Render 3]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/96ff4547ee664d39fac5406c127cfa1d-cargotruck.png|Cargo Truck Sketch]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/7048fbae5c79ac9af072d303a942ed97-diggertruck.png|Digger Truck Sketch]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/e7d1bef78d09ca823ee3a58fe4f6f9ae-texture.png|a mine texture]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/51c07764d839bfa405568bc265abc401-texture1.png|another mine texture]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/db27f384d1cbaa41389fc001510d5246-largetruck.png|large truck sketch]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/83712fa6f1b95eb226571b1b71817ce1-merc3.png|character sketch]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/3664d852c3c73efab41f06ea52f405c5-scientist.png|rough sketch of scientist cloth]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/e91e5e57b2bbc72aa3ee0f8f7f790444-soldier.png|soldier cloth]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/ac29021eea01e5a04e4e39c8a4fab6a9-harry_soldier.png|soldier cloth - Harry's version]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/88828d8cb00e3b256fb70606ac5f36d2-airportpersonal.png|rough sketch of airport personal cloth]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/97f64621ab3b90e5a337f37837dbdc46-miner.png|miner sketch]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/8a6f8fe69979240a0e24fa669ea2f244-minerfront.png|miner sketch total]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/2cfe0c982de2ab5ff6cedf6fc863f99c-city.png|city sketch]]
 
 2006-04-16
-* [http://pingus.seul.org/~grumbel/tmp/md5/8f49906d7ea46f09df46aef3c58ac7e9-shuttle.png Shuttle Sketchs] for use in the Windstille Intro, untextured 3D model of the shuttle is in the repo
+* [[http://pingus.seul.org/~grumbel/tmp/md5/8f49906d7ea46f09df46aef3c58ac7e9-shuttle.png|Shuttle Sketchs]] for use in the Windstille Intro, untextured 3D model of the shuttle is in the repo
 
 2006-04-14
 * Windstille now contains a simple slideshow viewer, usefull for viewing the notes and other stuff, use it via:
@@ -98,40 +98,40 @@
  wget -m -np http://pingus.seul.org/~grumbel/tmp/windstille-notes4/index.html
  
   cd  /home/user/projects/windstille/trunk/data/tmp/
- ./windstille --sprite2dview /tmp/pingus.seul.org/~grumbel/tmp/windstille-notes4/img_*.jpg --geometry 1024x768
+ ./windstille --sprite2dview /tmp/pingus.seul.org/~grumbel/tmp/windstille-notes4/img_*.jpg|--geometry 1024x768
 
 2006-04-05
-* [http://pingus.seul.org/~grumbel/tmp/windstille-notes4/index.html Windstille Notes 4]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-notes4/index.html|Windstille Notes 4]]
 
 2006-03-20
-* [http://pingus.seul.org/~grumbel/tmp/windstille-notes3/index.html Windstille Notes 3]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-notes3/index.html|Windstille Notes 3]]
 
 2006-03-19
-* [http://pingus.seul.org/~grumbel/tmp/windstille-notes/index.html Windstille Notes]
-* [http://pingus.seul.org/~grumbel/tmp/windstille-notes2/index.html Windstille Notes 2 (older stuff)]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-notes/index.html|Windstille Notes]]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-notes2/index.html|Windstille Notes 2 (older stuff)]]
 
 2006-03-01
-* [http://pingus.seul.org/~grumbel/tmp/md5/a703721fe5f0923fd98d4adf4b3f75c3-mechrender13.png Mech Rendering 1]
-* [http://pingus.seul.org/~grumbel/tmp/md5/b28432cbe65debcd29925957a2da9835-mechrender10.png Mech Rendering 2]
-* [http://pingus.seul.org/~grumbel/tmp/md5/faf65297107fc171d35f8452d40e2181-mechs.png Mech Sketches 1]
-* [http://pingus.seul.org/~grumbel/tmp/md5/7492d2fee62bf6131874f5d227ac70a7-mechs2.png Mech Sketches 2]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/a703721fe5f0923fd98d4adf4b3f75c3-mechrender13.png|Mech Rendering 1]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/b28432cbe65debcd29925957a2da9835-mechrender10.png|Mech Rendering 2]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/faf65297107fc171d35f8452d40e2181-mechs.png|Mech Sketches 1]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/7492d2fee62bf6131874f5d227ac70a7-mechs2.png|Mech Sketches 2]]
 
 2005-11-21
-* [http://pingus.seul.org/~grumbel/tmp/md5/be21dbc75df2208363ceed93d4db695f-elevatorsketchcolor.jpg Elevator Sketch (forest)]
-* [http://pingus.seul.org/~grumbel/tmp/md5/363e8b273008be323cd3a9004b0b9ed8-elevatorsketchcolor.jpg Elevator Sketch]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/be21dbc75df2208363ceed93d4db695f-elevatorsketchcolor.jpg|Elevator Sketch (forest)]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/363e8b273008be323cd3a9004b0b9ed8-elevatorsketchcolor.jpg|Elevator Sketch]]
 
 2005-11-20
-* [http://pingus.seul.org/~grumbel/tmp/md5/eb2bd086698b88be82d69c5316fe0234-minesketch.png Mine Sketch]
-* [http://pingus.seul.org/~grumbel/tmp/md5/bb14afef86310d5ba4b7913de4bb9cee-troopshuttle-crash1.jpg Shuttle Crash Sketch]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/eb2bd086698b88be82d69c5316fe0234-minesketch.png|Mine Sketch]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/bb14afef86310d5ba4b7913de4bb9cee-troopshuttle-crash1.jpg|Shuttle Crash Sketch]]
 
 2005-11-15
-* [http://pingus.seul.org/~grumbel/tmp/md5/34bb919733b9510c13c1d7684abe696b-elevator.png Elevator]
-* [http://pingus.seul.org/~grumbel/tmp/md5/661fe108c69397de8cb128f5b7683059-stonetextures.jpg Stone Texture]
-* [http://pingus.seul.org/~grumbel/tmp/md5/56229b5ca764e475ed4d1fe9b4c4cf0a-elevatorbase.png Elevator base]
-* [http://pingus.seul.org/~grumbel/tmp/md5/638636cfc49f2fa7e267504bd12c9cc6-explosivecase.png Elevator case]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/34bb919733b9510c13c1d7684abe696b-elevator.png|Elevator]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/661fe108c69397de8cb128f5b7683059-stonetextures.jpg|Stone Texture]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/56229b5ca764e475ed4d1fe9b4c4cf0a-elevatorbase.png|Elevator base]]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/638636cfc49f2fa7e267504bd12c9cc6-explosivecase.png|Elevator case]]
 
 2005-09-31
-* [http://pingus.seul.org/~grumbel/tmp/md5/f8821262d08e58b79ae8c4a6cf4e40d5-windstillelevel.png Sketch of the first mission]
+* [[http://pingus.seul.org/~grumbel/tmp/md5/f8821262d08e58b79ae8c4a6cf4e40d5-windstillelevel.png|Sketch of the first mission]]
 
 2005-09-23
 * has been a slow month, anyway, 3D attachment points are now working and a water-effect is now included as well
@@ -140,7 +140,7 @@
 * Bob the barkeeper is rigged and a little bit animated
 
 2005-08-22
-* [http://pingus.seul.org/~grumbel/tmp/windstille-monster-2005-08-21-2.png Monster 3d model as entered SVN (unanimated)]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-monster-2005-08-21-2.png|Monster 3d model as entered SVN (unanimated)]]
 
 2005-08-20
 * a new generic gamepad driven GUI has entered SVN
@@ -167,8 +167,8 @@
 * switched away from ClanLib, SDL now creates the Windows and stuff
 
 2005-08-01
-* [http://pingus.seul.org/~grumbel/tmp/windstille-2005-08-01-1.png some new streetlamps]
-* some new tiles, [http://pingus.seul.org/~grumbel/tmp/windstille-2005-08-01-1.png Screenshot 1], [http://pingus.seul.org/~grumbel/tmp/windstille-2005-08-01.png Screenshot 2]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-2005-08-01-1.png|some new streetlamps]]
+* some new tiles, [[http://pingus.seul.org/~grumbel/tmp/windstille-2005-08-01-1.png|Screenshot 1]], [[http://pingus.seul.org/~grumbel/tmp/windstille-2005-08-01.png|Screenshot 2]]
 
 2005-07-29
 * some more cleanup and restructuring to get rid of ClanLib
@@ -179,7 +179,7 @@
 2005-07-26
 * TTF support now also in dialogs
 * particle system partly accessible from levelfile
-* [http://pingus.seul.org/~grumbel/tmp/windstille-screenshot-2005-07-26.png TextArea now has some formating abilites]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-screenshot-2005-07-26.png|TextArea now has some formating abilites]]
 * lots of more code got switched from ClanLib to SDL
 
 2005-07-25
@@ -187,7 +187,7 @@
 
 2005-07-24
 * TTF font support
-* [http://pingus.seul.org/~grumbel/tmp/windstille-monster-2.jpg some new monster design]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-monster-2.jpg|some new monster design]]
 
 2005-07-23
 * collision engine is now implemented and mostly working
@@ -204,29 +204,29 @@
 * a new ClanLib independed 2d sprite class is available
 
 2005-07-16
-* [http://pingus.seul.org/~grumbel/tmp/windstille-nightvision-2005-07-16.png Nightvision]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-nightvision-2005-07-16.png|Nightvision]]
 
 2005-07-14
 * console now has some simple line editing capabilities
 
 2005-07-10
-* Some more work on [http://pingus.seul.org/~grumbel/tmp/windstille-yagor-2005-07-10-1.png Yagor] and [http://pingus.seul.org/~grumbel/tmp/windstille-yagor-2005-07-10-2.png another one]
+* Some more work on [[http://pingus.seul.org/~grumbel/tmp/windstille-yagor-2005-07-10-1.png|Yagor]] and [[http://pingus.seul.org/~grumbel/tmp/windstille-yagor-2005-07-10-2.png|another one]]
 
 2005-07-08
-* [http://windstille.berlios.de/wiki/index.php/Ideas A first 3D version of Yagor]
+* [[http://windstille.berlios.de/wiki/index.php/Ideas A first 3D version of Yagor]]
 
 2005-07-03
 * Animated 3D Sprites
 
 2005-06-30
-* [http://pingus.seul.org/~grumbel/tmp/windstille-plasmagranate.png Plasma Granate Sketch]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-plasmagranate.png|Plasma Granate Sketch]]
 
 2005-06-29
-* [http://pingus.seul.org/~grumbel/tmp/windstille-2005-06-30.png experimental tilemap deformer]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-2005-06-30.png|experimental tilemap deformer]]
 * Flexlay compiles successfully on Windows for the first time
 
 2005-06-28
-* [http://pingus.seul.org/~grumbel/tmp/windstille-spider2.png 2D sketch of the spider]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-spider2.png|2D sketch of the spider]]
 
 2005-06-25
 * scripting is now available via the console

@@ -28,7 +28,8 @@ def main(args):
 
         for filename in args:
             tmpl = MarkupTemplate(file2string("template.xml"))
-            print tmpl.generate(body = creole_parser.generate(file2string(filename)))
+            print tmpl.generate(body = creole_parser.generate(file2string(filename)),
+                                title = filename.replace(".wiki", ""))
 
             
 if __name__ == "__main__":
