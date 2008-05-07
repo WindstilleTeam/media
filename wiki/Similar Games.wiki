@@ -8,8 +8,8 @@ One of the most athmosperic games ever created, it has tons of little details, b
 
 Still probally one of the best animated games ever, especially the later levels where you travel around in a city had quite a bit of influence on the 'human-part' of Windstille.
 
-* [http://pingus.seul.org/~grumbel/tmp/flashback-gameplay.avi Flashback Gameplay Video 1]
-* [http://pingus.seul.org/~grumbel/tmp/flashback-gameplay3.avi Flashback Gameplay Video 2]
+* [[http://pingus.seul.org/~grumbel/tmp/flashback-gameplay.avi|Flashback Gameplay Video 1]]
+* [[http://pingus.seul.org/~grumbel/tmp/flashback-gameplay3.avi|Flashback Gameplay Video 2]]
 
 == Persian Gulf Inferno ==
 
@@ -17,7 +17,7 @@ Can't really remember much about this game, but the general look was somewhat si
 
 == Metroid ==
 
-Obviously a heavy inspiration for the powersuit part, however Windstille should try to be quite a bit slower, making the action more real and less jumpy. Metroid Zero Mission actually also contains a short 'human-part', where you have to survive without your powersuit, however that is not all that well executed, looks for most part like a sneaking-game (MetalGear), but actually is just run and hide with the enemies since one simply can't actually 'sneak'. Still is worth a look, video is available [http://ia200100.eu.archive.org/hdc1/items/MetroidZM_2850/MetroidZM_2850_part4.avi here (forward a minute or two to get to the human-part, its from a speedrun, so it doesn't exactly represent normal gameplay, but it gets close)].
+Obviously a heavy inspiration for the powersuit part, however Windstille should try to be quite a bit slower, making the action more real and less jumpy. Metroid Zero Mission actually also contains a short 'human-part', where you have to survive without your powersuit, however that is not all that well executed, looks for most part like a sneaking-game (MetalGear), but actually is just run and hide with the enemies since one simply can't actually 'sneak'. Still is worth a look, video is available [[http://ia200100.eu.archive.org/hdc1/items/MetroidZM_2850/MetroidZM_2850_part4.avi|here (forward a minute or two to get to the human-part, its from a speedrun, so it doesn't exactly represent normal gameplay, but it gets close)]].
 
 == Turrican ==
 
@@ -32,5 +32,5 @@ A 2D Sidescrolling mech game, looks somewhat similar to Metroid, but plays *much
 Rather obscure reference, however was probally the first 2D game that had a somewhat 'realistic' environment, or at least the first one I touched.
 
 == Other similar scrollers ==
-* [http://www.blizzard.com/blizzclassic/#blackthorne Blackthorne]
-* [http://www.oddworld.com/games/ow_abeodd.shtml Abe's Oddysee]
+* [[http://www.blizzard.com/blizzclassic/#blackthorne|Blackthorne]]
+* [[http://www.oddworld.com/games/ow_abeodd.shtml|Abe's Oddysee]]

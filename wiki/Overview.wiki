@@ -45,15 +45,15 @@ that is based on Ruby and should be replaced with Squirrel
 The goals for the first Milestone would be:
 
 * create a virtual reality look alike mission that teaches the player the use of the powersuit:
-** [http://pingus.seul.org/~grumbel/tmp/windstille-virtualreality.png Virtual Reality Artwork]
+** [[http://pingus.seul.org/~grumbel/tmp/windstille-virtualreality.png|Virtual Reality Artwork]]
 * create a small part of the city including a bar where the player finds is first job:
-** [http://pingus.seul.org/~grumbel/tmp/windstille-level.xcf Gimp XCF sketch of a level]
-** [http://windstille.berlios.de/artworks.html#scenery Some close up sketched of possible scenarios]
+** [[http://pingus.seul.org/~grumbel/tmp/windstille-level.xcf|Gimp XCF sketch of a level]]
+** [[http://windstille.berlios.de/artworks.html#scenery|Some close up sketched of possible scenarios]]
 * have the first real mission play in a forest like setting:
-** [http://windstille.berlios.de/images/screenshot6.jpg screenshot of forest setting]
+** [[http://windstille.berlios.de/images/screenshot6.jpg|screenshot of forest setting]]
 * write proper dialog and story
 * some more info is available at:
-** [http://windstille.berlios.de Official Webpage] (information on the official webpage however might be outdated and inaccurate)
+** [[http://windstille.berlios.de|Official Webpage]] (information on the official webpage however might be outdated and inaccurate)
 
 == Game Mechanics ==
 

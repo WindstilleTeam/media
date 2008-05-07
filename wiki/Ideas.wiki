@@ -2,7 +2,7 @@ This page is meant to collect whatever wild or less wild ideas people have, be i
 
 === Advanced Lighting ===
 
-As mentioned in the HP forum thread, perhaps lighting similar to [http://www.mechanicalcat.net/tech/ld48/6/bluescrn/diary FUBAR], a game entered in a 48 hour programming competition (so it can't be that difficult) might add a lot of atmosphere.  Files [http://www.mechanicalcat.net/tech/ld48/6/bluescrn available here].  I think it needs Windows, but obviously the lighting logic will be portable.
+As mentioned in the HP forum thread, perhaps lighting similar to [[http://www.mechanicalcat.net/tech/ld48/6/bluescrn/diary|FUBAR], a game entered in a 48 hour programming competition (so it can't be that difficult) might add a lot of atmosphere.  Files [http://www.mechanicalcat.net/tech/ld48/6/bluescrn available here]].  I think it needs Windows, but obviously the lighting logic will be portable.
 
 -- [[User:Charlieg|charlieg]] 14 Jul 2005
 
@@ -12,7 +12,7 @@ The game is meant to take place on a rough outerspace colonie on a distant plane
 
 -- [[User:Grumbel|Grumbel]] 17:07, 2 Jul 2005 (BST)
 
-:Anybody played [http://openmortal.sourceforge.net/ OpenMortal]?  Is that excessive, or kind of what you have in mind?
+:Anybody played [[http://openmortal.sourceforge.net/|OpenMortal]]?  Is that excessive, or kind of what you have in mind?
 :--[[User:Pifactorial|Pifactorial]] 16:13, 4 Jul 2005 (BST)
 
 ::I haven't played OpenMortal, but I played MortalKombat, StreetFighter, KillerInstinct and the like, but no, thats not what I have in mind. I want something simpler and more mini-game like, more along the fights you get might get in some NHL titel (those EA Sports icehockey games), Indiana Jones or (even so thats kind of a different best) Zelda, ie. stuff where you can block, punch and maybe dodge but not much more. This should really just be for a little fight in the bar or so. No ground breaking boss fight.

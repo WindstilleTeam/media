@@ -1,8 +1,8 @@
-Windstille uses [http://www.squirrel-lang.org/ Squirrel] for scripting. The full source code of squirrel is included within the "squirrel" subdirectory of Windstille's source, and it is automatically built into the game.
+Windstille uses [[http://www.squirrel-lang.org/|Squirrel]] for scripting. The full source code of squirrel is included within the "squirrel" subdirectory of Windstille's source, and it is automatically built into the game.
 
 C++ functions are exposed to scripts via the interface in the "scripting" sub directory". Miniswig, found in the "tools/miniswig" subdirectory, is a tool that creates wrapper functions to allow the interface functions to be called from squirrel. If you have bison and flex installed then miniswig will be built automatically, and any changes you make to the scripting interface will automatically be added to the wrapper functions when you execute jam.
 
-Each sector/level is stored in an sexpr based .wst file. This contains tilemap layout, trigger locations (doors etc), spawn locations of bad guys, NPCs and the player character, as well as various other things. At some point thse will be editable using the [http://flexlay.berlios.de/ Flexlay] tile/level editor, though this doesn't work correctly at the moment.
+Each sector/level is stored in an sexpr based .wst file. This contains tilemap layout, trigger locations (doors etc), spawn locations of bad guys, NPCs and the player character, as well as various other things. At some point thse will be editable using the [[http://flexlay.berlios.de/|Flexlay]] tile/level editor, though this doesn't work correctly at the moment.
 
 The plan is that scripts can then be associated with these .wst sectors, or indeed with individual bad guys or objects within these sectors. Multiple scripts can be run simultanously. Some examples of things scripts might be used for:
 

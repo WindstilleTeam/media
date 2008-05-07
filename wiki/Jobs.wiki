@@ -11,7 +11,7 @@ As always with [[wikipedia:Free Software|Free Software]] game projects, no payme
 * make sure all animations are exported and available in the game
 * discuss what sort of bad guys will be needed and create models for them
 * you will move between levels in a transport ship, this requires a model (or maybe a 2D based sprite instead?) - this needs to be discussed and made
-* animations for going stairs up and down, [http://pingus.seul.org/~grumbel/tmp/windstille-stairs-2005-07-17.png stairs look like this]
+* animations for going stairs up and down, [[http://pingus.seul.org/~grumbel/tmp/windstille-stairs-2005-07-17.png|stairs look like this]]
 
 === Tilemap editor ===
 
@@ -31,7 +31,7 @@ As always with [[wikipedia:Free Software|Free Software]] game projects, no payme
 
 === Various bit-sized C++ tasks that require no particular knowledge ===
 
-* fix bugs - you can find some in the [http://svn.berlios.de/viewcvs/windstille/trunk/BUGS?view=markup SVN BUGS file]
+* fix bugs - you can find some in the [[http://svn.berlios.de/viewcvs/windstille/trunk/BUGS?view=markup|SVN BUGS file]]
 * integrate all available animations
 * boxes or other items that you can push and pull
 * initialising/loading/saving script variables (this is already being worked on by JamesG and MazteB)
@@ -57,7 +57,7 @@ As always with [[wikipedia:Free Software|Free Software]] game projects, no payme
 * firing weapons - machine gun, flamethrower, etc
 * implement water that has waves
 * add a player-holding-torch lighting effect
-* write a GameObject/Entity that simulates a 'laser display' or however you call things like [http://www.laserist.org/Laserist/2003Awards/LFI_Static_Cubi%20Bubi_B.jpg this], ie. something that uses a laser to project a 2d vector object on a wall, color of the laser should be configurable
+* write a GameObject/Entity that simulates a 'laser display' or however you call things like [[http://www.laserist.org/Laserist/2003Awards/LFI_Static_Cubi%20Bubi_B.jpg|this]], ie. something that uses a laser to project a 2d vector object on a wall, color of the laser should be configurable
 * remove the players light sprite and replace it with a scripted entity, something analog to the fire-particle effect that attaches to the player
 * fix nightvision to handle highlights correctly
 * implement moths or other little insects that fly around street lamps or other things

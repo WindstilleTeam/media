@@ -1,4 +1,4 @@
-Character animation could also be done with the help of [http://cal3d.sf.net cal3d]. There are good blender exporters around for cal3d and using it is easy.
+Character animation could also be done with the help of [[http://cal3d.sf.net|cal3d]]. There are good blender exporters around for cal3d and using it is easy.
 
 
 ----
@@ -6,24 +6,24 @@ Character animation could also be done with the help of [http://cal3d.sf.net cal
 
 Created some animations for the hero - feedback welcomed...
 
-WalkCycle - [http://esoteric.clanlib.org/~khirsch/windstille/Walk.avi Walk.avi]
+WalkCycle - [[http://esoteric.clanlib.org/~khirsch/windstille/Walk.avi|Walk.avi]]
 
 :The stride is a bit long for walking and the front leg makes an odd move when it is pulled forwards. Otherwise it great. 
 
-Basic Stance, perhaps listening to someone - [http://esoteric.clanlib.org/~khirsch/windstille/Stand.avi Stand.avi]
+Basic Stance, perhaps listening to someone - [[http://esoteric.clanlib.org/~khirsch/windstille/Stand.avi|Stand.avi]]
 
-Turning around, the sprite will have to be a little off, but it looks much more un-natural otherwise [http://esoteric.clanlib.org/~khirsch/windstille/Turn.avi Turn.avi]
+Turning around, the sprite will have to be a little off, but it looks much more un-natural otherwise [[http://esoteric.clanlib.org/~khirsch/windstille/Turn.avi|Turn.avi]]
 
-Curiously looking around.  Perhaps if you have her standing in certain area's waiting she can do actions like these [http://esoteric.clanlib.org/~khirsch/windstille/Curious.avi Curious.avi]
+Curiously looking around.  Perhaps if you have her standing in certain area's waiting she can do actions like these [[http://esoteric.clanlib.org/~khirsch/windstille/Curious.avi|Curious.avi]]
 
-RunCycle, this is at a slower speed than in game - [http://esoteric.clanlib.org/~khirsch/windstille/Run.avi Run.avi]
+RunCycle, this is at a slower speed than in game - [[http://esoteric.clanlib.org/~khirsch/windstille/Run.avi|Run.avi]]
 
-Jump Up [http://esoteric.clanlib.org/~khirsch/windstille/StandJump.avi StandJump.avi]
+Jump Up [[http://esoteric.clanlib.org/~khirsch/windstille/StandJump.avi|StandJump.avi]]
 
-Hanging - [http://esoteric.clanlib.org/~khirsch/windstille/Hang.avi Hang.avi]
+Hanging - [[http://esoteric.clanlib.org/~khirsch/windstille/Hang.avi|Hang.avi]]
 
-Jump Up to Hanging - Hanging animation will be off compared to this one... [http://esoteric.clanlib.org/~khirsch/windstille/JumpToHang.avi JumpToHang.avi]
+Jump Up to Hanging - Hanging animation will be off compared to this one... [[http://esoteric.clanlib.org/~khirsch/windstille/JumpToHang.avi|JumpToHang.avi]]
 
-Hero Swinging from above - [http://esoteric.clanlib.org/~khirsch/windstille/Swing.avi Swing.avi]
+Hero Swinging from above - [[http://esoteric.clanlib.org/~khirsch/windstille/Swing.avi|Swing.avi]]
 
-Hero Climbing a ladder - [http://esoteric.clanlib.org/~khirsch/windstille/Climb.avi Climb.avi]
+Hero Climbing a ladder - [[http://esoteric.clanlib.org/~khirsch/windstille/Climb.avi|Climb.avi]]

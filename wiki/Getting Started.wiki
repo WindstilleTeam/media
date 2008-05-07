@@ -14,7 +14,7 @@ It is available via:
 
 <pre><nowiki>svn checkout https://clanlib.org/svn/ClanLib/Development/ClanLib-0.7 ClanLib-0.7</nowiki></pre>
 
-This is required by the Flexlay level editor but not by Windstille itself. ClanLib itself also needs some additional libraries and programs to compile like pkg-config, libjpeg, libpng, libvorbis and some other things, however all those should come with your distro, so it shouldn't be to much trouble to install them. Check the [http://www.clanlib.org/subversion.html Official ClanLib Webpage] for details.
+This is required by the Flexlay level editor but not by Windstille itself. ClanLib itself also needs some additional libraries and programs to compile like pkg-config, libjpeg, libpng, libvorbis and some other things, however all those should come with your distro, so it shouldn't be to much trouble to install them. Check the [[http://www.clanlib.org/subversion.html|Official ClanLib Webpage]] for details.
 
 == Flexlay SVN Version - Windstille's Level Editor ==
 
@@ -23,13 +23,13 @@ Flexlay is the editor that is used for Windstille, it is not required to run Win
 * the development version of ClanLib
 * Ruby 1.8
 * Swig 1.3.24
-* [http://www.scons.org SCons] (to build)
+* [[http://www.scons.org|SCons]] (to build)
 
 You can get it via:
 
  svn checkout svn://svn.berlios.de/flexlay/trunk/
 
-Check the [http://flexlay.berlios.de/ Official Flexlay Webpage] for details.
+Check the [[http://flexlay.berlios.de/|Official Flexlay Webpage]] for details.
 
 == Windstille SVN Version ==
 
@@ -37,8 +37,8 @@ Dependencies:
 
 * SDL
 * SDL_image
-* [http://icculus.org/physfs/ PhysicsFS]
-* [http://www.openal.org/ OpenAL]
-* [http://www.perforce.com/jam/jam.html Jam] (to build)
+* [[http://icculus.org/physfs/|PhysicsFS]]
+* [[http://www.openal.org/|OpenAL]]
+* [[http://www.perforce.com/jam/jam.html|Jam]] (to build)
 
  svn checkout svn://svn.berlios.de/windstille/trunk/
