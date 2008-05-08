@@ -4,8 +4,7 @@ Each dialog function below should be thought of like a page in a "Choose your ow
 
 Example pseudo code:
 
-<pre>
-<nowiki>
+{{{
 //first we need to decide where in out story-book/linked-list like structure to start
 if (t_spiderquest.famous_for_killing_big_spider)
 	//haven't actually written this function, this just demonstrates namespacing
@@ -82,5 +81,4 @@ function bye()
       get_answer();
 	return;
 }
-</nowiki>
-</pre>
+}}}

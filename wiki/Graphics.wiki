@@ -22,7 +22,8 @@ The highlight layer is drawn ontop of the light layer, it is meant for lense-fla
 
 The idea behind 3D sprites is to avoid the annoying and disk-space consuming procedure of converting all animations into 2D images. This should also allow to much easier apply different skins to the models and change cloth or the like. Bone animation and ragdoll physics would be nice, but for the first few releases (or probally ever) simple keyframe animation would be enough. Bone deform animation can be exported by something like this (only code to get the actual mesh data, no file writing there): 
 
-<pre><nowiki>import Blender
+{{{
+import Blender
 from Blender import NMesh
 
 for i in xrange(1,30):
@@ -30,7 +31,7 @@ for i in xrange(1,30):
         mesh = NMesh.GetRawFromObject("Plane")
         obj = NMesh.PutRaw(mesh)
         obj.setLocation(0, i*5, 0)
-</nowiki></pre>
+}}}
 
 = GLSL Effects =
 

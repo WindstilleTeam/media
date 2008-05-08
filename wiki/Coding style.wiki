@@ -6,7 +6,7 @@ In Windstille, code looks like this:
 
 From hypothetical file class_name.cpp:
 
-<pre><nowiki>
+{{{
 void
 ClassName::function_name (float delta)
 {
@@ -23,7 +23,7 @@ ClassName::function_name (float delta)
         }
     }
 }
-</nowiki></pre>
+}}}
 
 The following rules can be deduced:
 

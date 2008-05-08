@@ -60,4 +60,4 @@ There should be a way to link objects together, this linking might either be pri
 
 == Links ==
 
-[http://www.harveycartel.org/metanet/tutorials.html] has plenty of very good docu about collision detection between different object types.
+[[http://www.harveycartel.org/metanet/tutorials.html]] has plenty of very good docu about collision detection between different object types.

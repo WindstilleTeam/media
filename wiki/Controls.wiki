@@ -19,7 +19,7 @@ When using the a keyboard this can be mapped as:
 
 Controls in general should be context sensitive meaning there don't necessarily is a hard mapping between a button and what you do, this could for example mean that the jump executed when you are standing infront of a ledge is a different one than when standing on normal ground or on the edge of a cliff or that when you walk against a wall you halt or when walking against a box you automatically start to push the box.
 
-[http://pingus.seul.org/~grumbel/tmp/windstille-control-scheme.jpg Picture of some Control Modes]
+[[http://pingus.seul.org/~grumbel/tmp/windstille-control-scheme.jpg|Picture of some Control Modes]]
 
 Controlls for powersuit and non-powersuit mode will be rather similar, except some details.
 

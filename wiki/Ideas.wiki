@@ -42,7 +42,7 @@ The collonie will mine some minerals. One idea could be that these minerals coul
 
 Every few weeks/month a cargo ship comes and collects the minerals:
 
-[http://clanlib.org/~grumbel/testrepo/4e33a6db520bc12e4b1a5bfa4a5f918c/renders/0d46b68a4f2e87b0c402132c8089a70b.jpg Cargo Ship]
+[[http://clanlib.org/~grumbel/testrepo/4e33a6db520bc12e4b1a5bfa4a5f918c/renders/0d46b68a4f2e87b0c402132c8089a70b.jpg|Cargo Ship]]
 
 -- [[User:Grumbel|Grumbel]] 20:09, 2 Jul 2005 (BST)
 

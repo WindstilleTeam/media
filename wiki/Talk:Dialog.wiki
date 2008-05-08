@@ -1,6 +1,5 @@
 
-<pre>
-<nowiki>
+{{{
 //first we need to decide where in out story-book/linked-list like structure to start
 if (famous_for_killing_big_spider)
 	//haven't actually written this function, this just demonstrates global/local distinction
@@ -76,5 +75,4 @@ function bye()
 		dialog_show("See you again some time, maybe");
 	return;
 }
-</nowiki>
-</pre>
+}}}
