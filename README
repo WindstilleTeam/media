@@ -10,5 +10,11 @@ models/
 music/
  - music for use in Windstille, source files when available (FLAC, .rg, etc)
 
+videos/
+ - gameplay videos
+
+wiki/
+ - Content of http://windstille.berlios.de/wiki/
+
 ________________________________________________________________________
 $Id: README 1296 2007-01-02 19:42:58Z grumbel $

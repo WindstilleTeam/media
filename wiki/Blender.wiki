@@ -1,0 +1,20 @@
+There are plenty of ways to construct Blender models (*.blend) in a way that they don't work properly on other machines, this text shall give a little guideline on things to keep in mind.
+
+== Textures ==
+
+* The path to the texture must be relative, not absolute, this can be accomplished with the "Relative Path" option in the file dialog when selecting a texture
+* Images must not be packed, the texture screen (Shift-F10) has a toggle button for that
+
+== Links ==
+
+
+
+== Armatures ==
+
+Armatures and character models should stay seperate.
+
+
+== Lighting ==
+
+Since the models are meant to be used in a game, all the lighting is the job of the game engine, not the .blend file. Model files should thus be free of light sources.
+

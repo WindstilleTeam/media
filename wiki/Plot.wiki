@@ -1,5 +1,3 @@
-==Plot==
-
 This page is meant to show what has been decided so far. Please add dialog/script for new plot to the [[Ideas]] page rather than editing this page directly. This page already goes into the actual dialog, if you want a broader overview, go to the [[Plot Events]] page.
 
 When you are writing your new plot on the [[Ideas]] page, take account of the following:

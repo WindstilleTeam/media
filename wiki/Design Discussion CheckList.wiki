@@ -1,5 +1,3 @@
-= Design/Plan Checklist =
-
 We should complete the following things before starting real work:
 
 * Decide about (main) Programming Language and Coding Style

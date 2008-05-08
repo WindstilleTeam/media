@@ -15,7 +15,6 @@ look at the [[Jobs]] section to see if you might be able to help.
 * [[Roadmap]]
 * [[Design Discussion CheckList]]
 * [[Jobs|Jobs/Tasks]]
-* [[http://en.wikipedia.org/wiki/Wikipedia:How_to_edit_a_page|How to edit a page]]
 
 == IRC Meetings ==
 
@@ -35,25 +34,29 @@ look at the [[Jobs]] section to see if you might be able to help.
 * [[Prefab]]
 * [[Coding style]]
 
-== Game design: gameplay, plot, etc ==
+== Story ==
 
 * [[Plot]]
 * [[Plot Events]]
 * [[Characters]]
 * [[Locations]]
+
+== Gameplay ==
+
 * [[Controls]]
 * [[Actions]]
 * [[Fighting]]
 * [[GUI]]
 * [[PDA]]
 * [[Menu screens, save games, etc]]
-* [[Ideas]] - please add your own new ideas here!
 * [[Similar Games]]
+* [[Ideas]] - please add your own new ideas here!
 
 == File Formats ==
 * [[Level Format]]
 * [[Tile Specification Format]]
 * [[Sprite Format]]
+* [[Blender]]
 
 == Links ==
 
@@ -69,4 +72,4 @@ look at the [[Jobs]] section to see if you might be able to help.
 * ICQ: 59461927
 * Jabber: xmpp:grumbel@jabber.org
 
----
+: Test

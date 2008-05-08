@@ -1,5 +1,3 @@
-This page is meant to collect whatever wild or less wild ideas people have, be it story, engine or gameplay. To make clear who wrote the message use <nowiki>-- ~~~~</nowiki> at the end to automatically insert your name and date. You can use : at the start of a line to indent if you want to answer somebody.
-
 === Advanced Lighting ===
 
 As mentioned in the HP forum thread, perhaps lighting similar to [[http://www.mechanicalcat.net/tech/ld48/6/bluescrn/diary|FUBAR]], a game entered in a 48 hour programming competition (so it can't be that difficult) might add a lot of atmosphere.  Files [[http://www.mechanicalcat.net/tech/ld48/6/bluescrn|available here]].  I think it needs Windows, but obviously the lighting logic will be portable.

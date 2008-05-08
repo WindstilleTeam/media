@@ -10,16 +10,16 @@
   </head>
   <body>
     <div id="title">
-      <h1>Windstille</h1>
-      <small>A 2D Action Adventure</small>
+        <h1>Windstille</h1>
+        <small>A 2D Action Adventure</small>
     </div>
     <div id="navbar">
       <a href="News.html">News</a> |
       <a href="Main Page.html">Main Page</a><br/>
     </div>
     <div id="body">
-    <h1>${title}</h1>
-    ${body}
+      <h1>${title}</h1>
+      ${body}
     </div>
     <div id="navbar">
 
