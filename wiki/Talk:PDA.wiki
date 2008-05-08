@@ -1,5 +1,0 @@
-Is an auto-map really neccessary/useful in a side-on 2D game?
-It would also make the viewable area of the screen smaller.
--- [[User:James Gregory|James Gregory]] 22:22, 6 Aug 2005 (BST)
-
-:Yes, just look at Metroid or similar games with huge maps. There is plenty of screenspace available and even if that isn't enough you can still move the automap into the PDA -- [[User:Grumbel|Grumbel]] 23:48, 6 Aug 2005 (BST)

@@ -29,7 +29,7 @@ ClassName::do_stuff_method(int blup)
 }}}
 
 For the emacs users this would be similar to this I think:
-<pre>
+{{{
 (defconst my-c-style
        '((c-tab-always-indent        . t)
          (c-basic-offset . 4)
@@ -56,4 +56,4 @@ For the emacs users this would be similar to this I think:
                                         (knr-argdecl-intro . -)))
          (c-echo-syntactic-information-p . t))
        "My C Programming Style")
-</pre>
+}}}

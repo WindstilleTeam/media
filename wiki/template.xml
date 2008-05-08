@@ -8,11 +8,15 @@
     <link rel="icon" href="images/favicon.png" type="image/png" />
   </head>
   <body>
+    <div id="title">
+      <h1>Windstille</h1>
+      <small>A 2D Action Adventure</small>
+    </div>
     <div id="navbar">
       <a href="Main Page.html">Back</a><br/>
     </div>
     <div id="body">
-    <h1>Windstille - ${title}</h1>
+    <h1>${title}</h1>
     ${body}
     </div>
     <div id="navbar">

@@ -13,6 +13,17 @@ body {
   background: lightgrey;
 }
 
+#title { 
+  background: black;
+  padding: 0.5em 2em 0.5em 2em;
+  color: white;
+  text-align: left;
+}
+
+#title h1 { 
+  margin: 0px;
+}
+
 pre {
  white-space: pre-wrap;
 }
