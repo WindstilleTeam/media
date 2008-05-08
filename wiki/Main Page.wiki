@@ -1,6 +1,12 @@
-Windstille is a 2D action adventure game released under the [[http://www.gnu.org/licenses/licenses.html#GPL|GPL] and [http://creativecommons.org/licenses/by-sa/2.5/ Creative Commmons]] license, which basically means you can modify and redistribute it as you like, as long as you allow others to do the same with your released modifications.
+Windstille is a 2D action adventure game released under the
+[[http://www.gnu.org/licenses/licenses.html#GPL|GPL]] and
+[[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commmons]]
+license, which basically means you can modify and redistribute it as
+you like, as long as you allow others to do the same with your
+released modifications.
 
-We are still looking for new developers to join this project, have a look at the [[Jobs]] section to see if you might be able to help.
+We are still looking for new developers to join this project, have a
+look at the [[Jobs]] section to see if you might be able to help.
 
 * [[News]]
 * [[Overview]]

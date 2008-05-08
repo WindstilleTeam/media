@@ -1,5 +1,3 @@
-__NOTOC__
-
 To get Windstille up and running you basically need these things:
 
 == Subversion ==
@@ -12,7 +10,7 @@ Description: A compelling replacement for CVS
 
 It is available via:
 
-<pre><nowiki>svn checkout https://clanlib.org/svn/ClanLib/Development/ClanLib-0.7 ClanLib-0.7</nowiki></pre>
+{{{svn checkout https://clanlib.org/svn/ClanLib/Development/ClanLib-0.7 ClanLib-0.7}}}
 
 This is required by the Flexlay level editor but not by Windstille itself. ClanLib itself also needs some additional libraries and programs to compile like pkg-config, libjpeg, libpng, libvorbis and some other things, however all those should come with your distro, so it shouldn't be to much trouble to install them. Check the [[http://www.clanlib.org/subversion.html|Official ClanLib Webpage]] for details.
 

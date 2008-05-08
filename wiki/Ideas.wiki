@@ -2,7 +2,7 @@ This page is meant to collect whatever wild or less wild ideas people have, be i
 
 === Advanced Lighting ===
 
-As mentioned in the HP forum thread, perhaps lighting similar to [[http://www.mechanicalcat.net/tech/ld48/6/bluescrn/diary|FUBAR], a game entered in a 48 hour programming competition (so it can't be that difficult) might add a lot of atmosphere.  Files [http://www.mechanicalcat.net/tech/ld48/6/bluescrn available here]].  I think it needs Windows, but obviously the lighting logic will be portable.
+As mentioned in the HP forum thread, perhaps lighting similar to [[http://www.mechanicalcat.net/tech/ld48/6/bluescrn/diary|FUBAR]], a game entered in a 48 hour programming competition (so it can't be that difficult) might add a lot of atmosphere.  Files [[http://www.mechanicalcat.net/tech/ld48/6/bluescrn|available here]].  I think it needs Windows, but obviously the lighting logic will be portable.
 
 -- [[User:Charlieg|charlieg]] 14 Jul 2005
 
@@ -130,7 +130,7 @@ Although all of Boss' employees had abandoned him, Jane stayed loyal.  Instead o
 --[[User:Pifactorial|Pifactorial]] 12:27, 4 Jul 2005 (BST)
 
 === IRC-Discussion ===
-----
+{{{
  <netsrot> Do you have any new ideas? =)
  <netsrot> will there be a stunngun?
  <grumbel> for the human-mode we will probally have plenty of non-deadly weapons
@@ -215,8 +215,8 @@ Although all of Boss' employees had abandoned him, Jane stayed loyal.  Instead o
  <grumbel> something different: I also would like to a have a resident evil like inventory
  <grumbel> something where you can look at close-ups of your items, rotate them and stuff like that
  <netsrot> That would be nice.
+}}}
 
-----
 === Escaping ===
 
 Most games your 'you against the rest of the world' and in the end you win. How about situations in Windstille which you can't win? In which you have to run for your life and just barly make it?
@@ -235,7 +235,7 @@ It would be nice if the city you walk around in non-powersuit mode had a slightl
 
 -- ----
 
-Here is a Screenshot to give the player a bit more feeling of walking in a big city (just added a few dots with a big effect): [http://people.freenet.de/almightymagnus/blubb.JPG]
+Here is a Screenshot to give the player a bit more feeling of walking in a big city (just added a few dots with a big effect): [[http://people.freenet.de/almightymagnus/blubb.JPG]]
 
 == Episode 1 ==
 
@@ -271,7 +271,8 @@ Instead of simply using a bunch of almost men-sized enemies the game should feat
 If the game is to be a little bit more thoughtful and slow paced than an out-and-out shoot-em-up, perhaps it would be nice if there were a whole bunch of items and objects in the game world, which have to be combined in the right way in the right places to progress?
 
 Grumbel has sketched some ideas out at:
-[http://pingus.seul.org/~grumbel/tmp/windstille-files/puzzles.png]
+
+[[http://pingus.seul.org/~grumbel/tmp/windstille-files/puzzles.png]]
 
 Combining the item/puzzle related ideas from the above sketch as well as some thoughts of my own, here is a list of possible item/object comination puzzle ideas:
 

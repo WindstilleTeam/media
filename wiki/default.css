@@ -13,4 +13,8 @@ body {
   background: lightgrey;
 }
 
+pre {
+ white-space: pre-wrap;
+}
+
 /* EOF */
