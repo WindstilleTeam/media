@@ -1,5 +1,0 @@
- Name: Ingo Ruhnke
- Nick: Grumbel
- Email: [mailto:grumbel@gmx.de grumbel@gmx.de]
- 
- Original creator, programmer and graphic artist of this project.
