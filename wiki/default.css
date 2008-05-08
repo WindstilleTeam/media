@@ -21,11 +21,30 @@ body {
 }
 
 #title h1 { 
+  padding-left: 1em;
   margin: 0px;
 }
 
 pre {
- white-space: pre-wrap;
+  padding: 1em;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(150, 150, 150);
+  background: rgb(220, 220, 220);
+  white-space: pre-wrap;
+
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#body h1,h2,h3,h4,h5 { 
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: lightgrey;
+}
+
+#body p { 
+  text-indent: 1em;
 }
 
 /* EOF */

@@ -1,5 +1,6 @@
 Sprite handle animation based on 2d images, they support using multiple images as frames as well as cutting the frames out of a single image.
 
+{{{
  (sprite 
    (action
      (name "default")
@@ -14,5 +15,6 @@ Sprite handle animation based on 2d images, they support using multiple images a
        (file "human_turn.png")
        (x-size 98)
        (y-size 125))))
+}}}
 
 Other stuff from sprite which might not yet be implemented: 'Origin', alpha, color, pingpong, blendfunc, scale, vflip.
