@@ -388,17 +388,27 @@ I never realized the niner thing (Being an American) though I do think it's more
 : -- [[User:James Gregory|James Gregory]] 01:40, 7 Aug 2005 (BST)
 
 :I like this version but I would like to add some comments.
+
 :: 1. Jane has not been introduced with any depth. Some form of character or character flaw could come across fairly strongly straight away to help us identify with her. Maybe there could be some humourous banter rather than "I guess I can't expect much from a drunken miner."
+
 :: 2. Nobody would call their home Sys-Triple-Three-Nine. More likely would be "This is my new home, Hellas. The Corporations would call it Sys-Triple-Three-Nine".
+
 :: 3. Too many pleasantries reduce the pace and the atmosphere. Maybe cut out:
+
 ::: Jane: "I think so, why?" (and collapse the two Boss lines so that he's not expecting a reply)
+
 ::: Jane: "Hi, Bob."
+
 ::: Bob: "Don't ask me, ask them..."
+
 ::: Boss: "Got something?" (Instead, Jane should make the call)
+
 :: 4. The line "Ok Jane, this is as far as I can bring you, you have to make the rest on your own" feels weak. How about "Ok Jane, this is as close as I can get you. The distress signal is coming from just under a klick North-East."?
+
 : -- Dan <mauve@mauveweb.co.uk>
 
 :: I'm not so sure about points 1 and 3, it seems pretty good as it is to me.
+
 :: -- [[User:James Gregory|James Gregory]] 02:17, 7 Aug 2005 (BST)
 
 : Some comments about the intro text: I don't like Big Boom and Big Bust, just sounds wrong to me, probally better to not name those events or give them some more subtle names, something that doesn't jump out of the text so much. I also find the seperation in different classes far to strict, governments are by that time probally mostly the pets of the cooperations and guilds sounds too much fantasy-RPG. -- [[User:Grumbel|Grumbel]] 11:32, 7 Aug 2005 (BST)
