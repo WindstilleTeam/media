@@ -20,8 +20,13 @@ def macro_func(name,arg_string,body):
         return bldr.tag.div(bldr.tag(bldr.tag.div(arg_string[1:], class_='user'),
                                      bldr.tag.div(text2html.generate(body), class_= "body")), # FIXME: Recursive comments don't really work 
                             class_='comment')
+    elif name == "ind":
+        return bldr.tag.div(text2html.generate(body), class_='indent' + arg_string[1:])
     else:
         raise Exception("Invalid Macro name: %s" % name)
+
+def talk_links_funcs(str):
+    return "Talk%3a" + str + ".html"
 
 def main(args):
     if args == []:
@@ -33,7 +38,8 @@ def main(args):
                 wiki_links_space_char=' ',
                 # no_wiki_monospace=True,
                 use_additions=True,
-                macro_func = macro_func
+                macro_func = macro_func,
+                interwiki_links_funcs={'Talk' : talk_links_funcs }
                 ))
 	
 

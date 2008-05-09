@@ -1,22 +1,35 @@
+<<ind:0>>
 I know this is a pain, but would it be possible to do (nightly? weekly?) development builds?  I'm not working with the source much, so I just want to get a feel of where the game is at.  As grumbel said, the script should be written for the gameplay, and not vice-versa.
 
 --[[User:Pifactorial|Pifactorial]] 12:49, 5 Jul 2005 (BST)
+<</ind>>
 
-: I think this is a bad idea. The script might be important but actually writing the game requires 100 times more work. I think the more people taking the time to get the game to compile (perhaps finding and fixing minor bugs in the process), the better. If you can do some coding work whilst you are there, even better. Also, I'm pretty sure you meant to say "the gameplay should be written for the script, and not vice versa", as what you did say implies the script is unimportant, which I don't think you meant.
+<<ind:1>>
+I think this is a bad idea. The script might be important but actually writing the game requires 100 times more work. I think the more people taking the time to get the game to compile (perhaps finding and fixing minor bugs in the process), the better. If you can do some coding work whilst you are there, even better. Also, I'm pretty sure you meant to say "the gameplay should be written for the script, and not vice versa", as what you did say implies the script is unimportant, which I don't think you meant.
 
-: -- [[User:James Gregory|James Gregory]] 13:21, 5 Jul 2005 (BST)
+-- [[User:James Gregory|James Gregory]] 13:21, 5 Jul 2005 (BST)
+<</ind>>
 
-:: Actually, I meant what I said.  IIRC, in my last conversation with grumbel, he said it's our primary priority to make sure that the gameplay is fun: we should write a plot that fits in with the gameplay, whatever that may be, instead of creating gameplay around a plot.
+<<ind:2>>
+Actually, I meant what I said.  IIRC, in my last conversation with grumbel, he said it's our primary priority to make sure that the gameplay is fun: we should write a plot that fits in with the gameplay, whatever that may be, instead of creating gameplay around a plot.
 
-:: --[[User:Pifactorial|Pifactorial]] 13:52, 5 Jul 2005 (BST)
+--[[User:Pifactorial|Pifactorial]] 13:52, 5 Jul 2005 (BST)
+<</ind>>
 
-::: Actually you need to focus on both, can't have gameplay without some story and neither story without having any idea of gameplay. The important part is that it is fun and therefore gameplay and story need to go hand in hand. About the nightly builds, don't really think they are necessary, physfs and OpenAL should come with your distro, Squirrel is integrated into the source and ClanLib is also just a './configure && make' away. And after that its just a matter of regularly 'svn update && jam'.
+<<ind:3>>
+Actually you need to focus on both, can't have gameplay without some story and neither story without having any idea of gameplay. The important part is that it is fun and therefore gameplay and story need to go hand in hand. About the nightly builds, don't really think they are necessary, physfs and OpenAL should come with your distro, Squirrel is integrated into the source and ClanLib is also just a './configure && make' away. And after that its just a matter of regularly 'svn update && jam'.
 
-::: -- [[User:Grumbel|Grumbel]] 14:00, 5 Jul 2005 (BST)
+-- [[User:Grumbel|Grumbel]] 14:00, 5 Jul 2005 (BST)
+<</ind>>
 
-:::: I just didn't want to have to download, compile and install subversion, clanlib and windstille under ''Knoppix''. :P None of my office computers have Linux, and I don't have a computer at home right now.
-::::--[[User:Pifactorial|Pifactorial]] 14:43, 5 Jul 2005 (BST)
+<<ind:4>>
+I just didn't want to have to download, compile and install subversion, clanlib and windstille under ''Knoppix''. :P None of my office computers have Linux, and I don't have a computer at home right now.
 
-::::: I don't currently have access to Linux at all, I use cygwin + mysys.
+--[[User:Pifactorial|Pifactorial]] 14:43, 5 Jul 2005 (BST)
+<</ind>>
 
-::::: -- [[User:James Gregory|James Gregory]] 15:22, 5 Jul 2005 (BST)
+<<ind:5>>
+I don't currently have access to Linux at all, I use cygwin + mysys.
+
+-- [[User:James Gregory|James Gregory]] 15:22, 5 Jul 2005 (BST)
+<</ind>>

@@ -75,4 +75,12 @@ div.comment {
   border-width: thin;
 }
 
+div.indent0 { border-style: solid; border-width: thin; padding: 0.5em 1em 0.5em 1em; margin-left: 0em; margin-bottom: 0.5em; }
+div.indent1 { border-style: solid; border-width: thin; padding: 0.5em 1em 0.5em 1em; margin-left: 1em; margin-bottom: 0.5em; }
+div.indent2 { border-style: solid; border-width: thin; padding: 0.5em 1em 0.5em 1em; margin-left: 2em; margin-bottom: 0.5em; }
+div.indent3 { border-style: solid; border-width: thin; padding: 0.5em 1em 0.5em 1em; margin-left: 3em; margin-bottom: 0.5em; }
+div.indent4 { border-style: solid; border-width: thin; padding: 0.5em 1em 0.5em 1em; margin-left: 4em; margin-bottom: 0.5em; }
+div.indent5 { border-style: solid; border-width: thin; padding: 0.5em 1em 0.5em 1em; margin-left: 5em; margin-bottom: 0.5em; }
+div.indent6 { border-style: solid; border-width: thin; padding: 0.5em 1em 0.5em 1em; margin-left: 6em; margin-bottom: 0.5em; }
+
 /* EOF */

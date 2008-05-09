@@ -1,35 +1,46 @@
+<<ind:0>>
 Some questions concerning the collision handling:
 # Should we use constant or increasing speed, while pushing/pulling boxes ?
 # Moving the player avatar is done in constant speed, yes? I've not compiled the game yet.
 # What about elasticity - do we need this?
 # What about pushing more than 1 box? Should this be prevented?
+
 -- [Godrin]
+<</ind>>
 
-:The most important point is that the GameObjects get proper feedback on collision, which object collided with which other objects, at which side, what speed had the other object when the collision occurred, at which exact point in time the collision occured and such. How to react on that is then the job of the GameObject, for most GameObjects physical behaviour is not usefull, it would be just a 'nice to have' for the few cases where one wants stacked boxes and such.
-:-- [[User:Grumbel|Grumbel]] 16:23, 25 Jun 2005 (BST)
+<<ind:1>>
+The most important point is that the GameObjects get proper feedback on collision, which object collided with which other objects, at which side, what speed had the other object when the collision occurred, at which exact point in time the collision occured and such. How to react on that is then the job of the GameObject, for most GameObjects physical behaviour is not usefull, it would be just a 'nice to have' for the few cases where one wants stacked boxes and such.
 
+-- [[User:Grumbel|Grumbel]] 16:23, 25 Jun 2005 (BST)
+<</ind>>
 
-:About the box example: You should use normal impulse equations, so this would result in the box increasing it's speed and it would also allow pushing multiple boxes. Elasticity is in general not needed I think.
+<<ind:1>>
+About the box example: You should use normal impulse equations, so this would result in the box increasing it's speed and it would also allow pushing multiple boxes. Elasticity is in general not needed I think.
 
-:Another important part of the phyiscs/collision stuff would be to handle slopes correctly.
-:-- [[User:MatzeB|MatzeB]]
+Another important part of the phyiscs/collision stuff would be to handle slopes correctly.
 
+-- [[User:MatzeB|MatzeB]]
+<</ind>>
 
-:Some more questions:
+<<ind:1>>
+Some more questions:
 # As I see, there is already some nice collision demo in test. I think I'll integrate this with the old way collision is done with the tilemap, ok?
 # As Jane isn't really box-shaped, should we part here into several boxes? That would mean linked boxes, which share speed, force and mass. And that leads to the question how to get these boxes. Maybe we should stick to one box, but that has the drawback of bad collision detection when shooting.
 
-:-- [[User:Godrin|Godrin]] 10:07, 26 Jun 2005 (BST)
+-- [[User:Godrin|Godrin]] 10:07, 26 Jun 2005 (BST)
+<</ind>>
 
+<<ind:0>>
+There are actually two seperate collision engines in Windstille, completly forgot that I already started the first one after starting the second one a few month later. The second one is in test/physics/ with the jumping boxes and the first one is in collision_manager.cxx and ctest.cxx (last file needs to be recovered from svn history), the first one doesn't do physics but has some API that handles the collision events, which is much more important than jumping boxes, jumping boxes are something that should be implemented ontop of a proper collision event system, not the other way around. 
 
-:There are actually two seperate collision engines in Windstille, completly forgot that I already started the first one after starting the second one a few month later. The second one is in test/physics/ with the jumping boxes and the first one is in collision_manager.cxx and ctest.cxx (last file needs to be recovered from svn history), the first one doesn't do physics but has some API that handles the collision events, which is much more important than jumping boxes, jumping boxes are something that should be implemented ontop of a proper collision event system, not the other way around. 
+Another thing that isn't handle by either of those is what I call 'attachments', ie. when you are standing on a moving platform or a conveyour belt you are attached to it and navigate in its coordinate space as long as you are attached, thats something that the physic/collision/entity engine would need to handle as well, so that one could mark objects as attachable to other objects
 
-:Another thing that isn't handle by either of those is what I call 'attachments', ie. when you are standing on a moving platform or a conveyour belt you are attached to it and navigate in its coordinate space as long as you are attached, thats something that the physic/collision/entity engine would need to handle as well, so that one could mark objects as attachable to other objects
+-- [[User:Grumbel|Grumbel]] 15:40, 26 Jun 2005 (BST)
+<</ind>>
 
-:-- [[User:Grumbel|Grumbel]] 15:40, 26 Jun 2005 (BST)
+<<ind:0>>
+Some news on the collision detection. I think I've found a solution for the 3-box-problem falling on each other. After doing the actual collision detection a constraint-assurance-algorithm is run in each frame. This algorithm does push colliding objects from each other till there is no penetration or a maximal count of tries is reached. This seems to work ok. Now I need some more time to fix some problems with slopes and implement this unstucking for combined collision-objects.
+I hope you can cope with some more delay on this, as I have very limited time. The current code can be found at: http://www-users.rwth-aachen.de/David.Kamphausen/collisiontest_050629.tgz
 
-
-:Some news on the collision detection. I think I've found a solution for the 3-box-problem falling on each other. After doing the actual collision detection a constraint-assurance-algorithm is run in each frame. This algorithm does push colliding objects from each other till there is no penetration or a maximal count of tries is reached. This seems to work ok. Now I need some more time to fix some problems with slopes and implement this unstucking for combined collision-objects.
-:I hope you can cope with some more delay on this, as I have very limited time. The current code can be found at: http://www-users.rwth-aachen.de/David.Kamphausen/collisiontest_050629.tgz
-
-:-- [[User:Godrin|Godrin]] 11:47, 29 Jun 2005 (BST)
+-- [[User:Godrin|Godrin]] 11:47, 29 Jun 2005 (BST)
+<</ind>>
