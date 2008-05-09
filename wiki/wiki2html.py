@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
+from creoleparser import text2html
 from genshi.template import MarkupTemplate
+import genshi.builder as bldr
 import creoleparser
 import sys
 
@@ -13,6 +15,14 @@ def file2string(filename):
     f.close()   
     return s
 
+def macro_func(name,arg_string,body):
+    if name == "comment":
+        return bldr.tag.div(bldr.tag(bldr.tag.div(arg_string[1:], class_='user'),
+                                     bldr.tag.div(text2html.generate(body), class_= "body")), # FIXME: Recursive comments don't really work 
+                            class_='comment')
+    else:
+        raise Exception("Invalid Macro name: %s" % name)
+
 def main(args):
     if args == []:
         print "Usage: wiki2html.py FILENAME..."
@@ -22,7 +32,8 @@ def main(args):
                 wiki_links_path_func=lambda pagename: pagename + ".html",
                 wiki_links_space_char=' ',
                 # no_wiki_monospace=True,
-                use_additions=True
+                use_additions=True,
+                macro_func = macro_func
                 ))
 	
 

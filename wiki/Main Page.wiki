@@ -17,13 +17,13 @@ look at the [[Jobs]] section to see if you might be able to help.
 * [[Design Discussion CheckList]]
 * [[Jobs|Jobs/Tasks]]
 
-== IRC Meetings ==
+== IRC Meetings
 
 * [[IRC Meeting 1]]
 * [[IRC Meeting 2]]
 * [[IRC Meeting 2 Brainstorming Summary]]
 
-== Engine Parts ==
+== Engine Parts
 
 * [[Basic Features]]
 * [[Collision Detection]]
@@ -35,14 +35,14 @@ look at the [[Jobs]] section to see if you might be able to help.
 * [[Prefab]]
 * [[Coding style]]
 
-== Story ==
+== Story
 
 * [[Plot]]
 * [[Plot Events]]
 * [[Characters]]
 * [[Locations]]
 
-== Gameplay ==
+== Gameplay
 
 * [[Controls]]
 * [[Actions]]
@@ -53,18 +53,31 @@ look at the [[Jobs]] section to see if you might be able to help.
 * [[Similar Games]]
 * [[Ideas]] - please add your own new ideas here!
 
-== File Formats ==
+== File Formats
 * [[Level Format]]
 * [[Tile Specification Format]]
 * [[Sprite Format]]
 * [[Blender]]
 
-== Links ==
+== Talk
+
+* [[Talk:Coding style.wiki]]
+* [[Talk:Collision Detection.wiki]]
+* [[Talk:Dialog.wiki]]
+* [[Talk:Getting Started.wiki]]
+* [[Talk:Graphics.wiki]]
+* [[Talk:Ideas.wiki]]
+* [[Talk:IRC Meeting 2 Brainstorming Summary.wiki]]
+* [[Talk:Plot.wiki]]
+* [[Talk:Roadmap.wiki]]
+* [[Talk:Windstille Drawing Model.wiki]]
+
+== Links
 
 * [[http://windstille.berlios.de|Official Windstille Webpage]]
 * [[http://pingus.seul.org/~grumbel/tmp/windstille-files/|Windstille Sketches]] - directory full of tons of unsorted sketches and ideas
 
-== Contact ==
+== Contact
 
 * [[https://lists.berlios.de/mailman/listinfo/windstille-devel|Windstille-Devel mailinglist]] - discussion about the game development
 * [[https://lists.berlios.de/mailman/listinfo/windstille-commit|Windstille-Commit mailinglist]] - automatic mail from the Subversion repository

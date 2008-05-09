@@ -59,4 +59,20 @@ pre {
   padding: 0px;
 }
 
+div.comment div.user { 
+  background: lightgrey;
+  border-bottom-style: dotted;
+  border-bottom-width: thin;
+ }
+
+div.comment div.body { 
+  padding-left:  1em;
+  padding-right: 1em;
+}
+
+div.comment { 
+  border-style: solid;
+  border-width: thin;
+}
+
 /* EOF */

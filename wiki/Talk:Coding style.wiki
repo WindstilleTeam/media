@@ -1,5 +1,4 @@
-Matze:
-
+<<comment:Matze>>
 While I don't really care about class and variable naming as long as it's consistent. I'd like to not have to put curly braces on an own line and indent them separately (I don't know if vim supports that and other IDEs will shoke on it probably as well). I'd propose a more java like indenting of braces (with 4 space or tab indentation):
 
 {{{
@@ -57,3 +56,5 @@ For the emacs users this would be similar to this I think:
          (c-echo-syntactic-information-p . t))
        "My C Programming Style")
 }}}
+
+<</comment>>
