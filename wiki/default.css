@@ -1,11 +1,13 @@
 body { 
-  margin: 1em 6em 1em 6em;
+  margin: 1em 15% 1em 15%;
   background: rgb(50, 50, 100);
 }
 
 #body {
   padding: 1em 3em 2em 3em;
   background: white; 
+/*  margin-left: 1em;  */
+/*  margin-right: 1em; */
 }
 
 #navbar { 
@@ -13,11 +15,17 @@ body {
   background: lightgrey;
 }
 
+#titlebox { 
+  text-align: center; 
+  float: left; 
+}
+
 #title { 
   background: black;
   padding: 0.5em 2em 0.5em 2em;
   color: white;
   text-align: left;
+  clear: both;
 }
 
 #title h1 { 
@@ -45,6 +53,10 @@ pre {
 
 #body p { 
   text-indent: 1em;
+}
+
+#titlebox h1 {
+  padding: 0px;
 }
 
 /* EOF */

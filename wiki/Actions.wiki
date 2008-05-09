@@ -1,143 +1,141 @@
 The game has basically 3 different control modes, one is with the powersuit, one is for player without the powersuit and a seperate mode is there for the player with his weapon equiped without the powersuit.
 
-== Moving around without a gun / Adventure Mode ==
+== Moving around without a gun / Adventure Mode
 
 Moving around without the gun puts you basically into an adventure-mode, ie. a mode where you don't spend most of your time fighting, but talking to people, exploring city, factories and stuff.
 
-== Gunfights without the powersuit ==
+== Gunfights without the powersuit
 
 When you meet somebody in the adventure mode that you need to fight, you have the ability to draw your gun.  This mode should focus on allowing the player to perform a close-distance gun fight, walking/jumping in this mode is limited to what makes sense with a drawn gun.
 
-== Fighting with the powersuit ==
+== Fighting with the powersuit
 
 When you have the powersuit equiped the gameplay changes quite a bit in that it gives you much more strength, higher jumps, power for your weapons and simply different weapons. However the powersuit is not allowed in some areas and won't be of much use in other, ie. when you want to sneak into enemy territory. The powersuit will also not be available at its full strength from the beginning of the game.
 
-== Movement ==
+== Movement
 
 Below follows some older information which was previously at the webpage, might not be 100% accurate as to what is planed and might need further cleanup
 
-=== Jumps ===
-=== Sit ===
+=== Jumps
+=== Sit
 
 http://windstille.berlios.de/images/sit.jpg
 
-=== Run/Walk ===
+=== Run/Walk
 
 We might have seperate walk and run actions (basically like in Super Mario), don't know if that will work out well, so we might end up with only a run action.
 
-=== Hang ===
+=== Hang
 
 http://windstille.berlios.de/images/posing4.jpg
 
-=== Climb ===
+=== Climb
 
 The Hero should be able to climb both wall and roof ladders.
 
 http://windstille.berlios.de/images/posing2.jpg
 
-=== Swim/Underwater ===
+=== Swim/Underwater
 
 Swimming should basically be a 'endless' jump. You might also be able to simply walk underwater. [FIXME: This doesn't fit dogether with the otherwise planed realistic movement]
 Weapons
 
 Will we need different weapon stages like Turrican or static ones? (Weaponstage <-> Hero's energie!?)
 
-=== Jetpack ===
+=== Jetpack
 
 The game will have a jetpack, I am currently not sure if we have it as a item which you can use all the time or just in some special events/levels.
 
 http://windstille.berlios.de/images/jetpack.png
 
-=== Actions Diagram ===
+=== Actions Diagram
 
 The following diagram tries to illustrate possible actions and how the engine should switch between them.
 http://www.stud.uni-karlsruhe.de/~uxsm/windstille-actions.png
 
-== Shoot ==
+== Shoot
 
 Should the hero be able to shoot in different directions or should be stick to a MegaMan like shooting?
 
-=== Surround ===
+=== Surround
 
 Basically a turrican style surround shooting. Not sure how the thing will shoot (ice-freeze, flamethrower, normal). I kind of like it to behavice like a flamethrower to remove slime or other poison liquids on the ceiling or ground, which are immune against and unreachable with other weapons.
 
 http://windstille.berlios.de/images/surround.jpg
 
 
-=== Light/Torch ===
+=== Light/Torch
 
 http://windstille.berlios.de/images/flashlight.png
 http://windstille.berlios.de/images/flashlight2.png
 
-=== Machinegun ===
+=== Machinegun
 
 http://windstille.berlios.de/images/machinegun.png
 
-=== Plasmagun ===
+=== Plasmagun
 
 http://windstille.berlios.de/images/plasmagun.png
 
-=== Lasergun ===
-=== Flamegun ===
+=== Lasergun
+=== Flamegun
 
 http://windstille.berlios.de/images/flamegun.png
 
-=== Rocketlauncher ===
+=== Rocketlauncher
 
 Rocketlauncher can hold missiles:
 
 * Missile
 * Homing Missile
 
-=== Smart Bomb - Shockwave ===
+=== Smart Bomb - Shockwave
 
 Turrican 2 style, but maybe circular, which basically means that the bomb will not erase anything on the screen, but only these enemies which are reachable from the heros position.
 
 http://windstille.berlios.de/images/shockwave.jpg
 
-== Items ==
+== Items
 
 * Power Up
 * Machinegun ammunition
 * Plasmagun ammunition
 * Laser energie
 
-== Enemies ==
+== Enemies
 
-=== Respawn ===
+=== Respawn
 
 Big enemies, final bosses and similar things should not respawn. Small standard enemies should respawn at specific events (level/section change).
 Levels
 
 The game will not be sperated into normal levels, instead it will consist of 'sections', where one can more or less move freely around. Translating between section will be done via special events (like the water-thing in another world) or via doors (where one has to find the keys before passing them). Moving forward and backward should basically possible, but there might be points-of-no-return. Some kind of guidance system should always show you where to go, so that one doesn't lost himself in a level.
 
-== Different types of assault suits ==
+== Different types of assault suits
 
-=== Standard ===
+=== Standard
 
-=== Ice ===
+=== Ice
 
 might protect against ice water and give better grip on ice
 
-=== Fire/Lava ===
+=== Fire/Lava
 
 protect better against lava and hot regions
-Level File Format
+
+=== Level File Format
 
 The level file format will be at its basic level tile based, support for multiple overlapping tiles would be nice, the tile size will be 128x128. In addition the map might support brushes, meaning you can insert (animated) surface objects at arbitrary positions, not sure how this will influence the collision map.
 
 A flewible controller api should be provided for remapping the buttons to specific gamepads.
 
+== Weapon Select
 
+* [[http://windstille.berlios.de/images/weaponitemselect.jpg]]
 
-== Weapon Select ==
+== Animations
 
-http://windstille.berlios.de/images/weaponitemselect.jpg
-
-
-== Animations ==
-
-http://pingus.seul.org/~grumbel/tmp/windstille-files/anim1.png
-http://pingus.seul.org/~grumbel/tmp/windstille-files/anim2.png
-http://pingus.seul.org/~grumbel/tmp/windstille-files/anim3.png
-http://pingus.seul.org/~grumbel/tmp/windstille-files/anim4.png
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-files/anim1.png]]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-files/anim2.png]]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-files/anim3.png]]
+* [[http://pingus.seul.org/~grumbel/tmp/windstille-files/anim4.png]]

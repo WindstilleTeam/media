@@ -1,5 +1,0 @@
-I don't understand what a slot would be if it's not a file. Can someone explain that?
-
-:I assume it means in terms of the UI, not in terms of implementation. I.e., rather than clicking "load game" and then clicking "Save game mySaveGame96", you instead click "Play game" and then there will be maybe 3 slots displayd and you can continue on from where you left off in any slot. SuperTux does the same thing. -- [[User:James|James]]
-
-:: Yep, exactly. Its simply a matter of hiding the implementation from the user so that all he has todo is to click on his slot instead of having a fullblown file-dialog pop-up. -- [[User:Grumbel|Grumbel]] 13:51, 24 Jun 2005 (BST)

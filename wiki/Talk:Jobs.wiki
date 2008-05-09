@@ -1,8 +1,0 @@
-==Bug: Hero hiding behind pictures==
-I found a 'bug' in the current SVN (2006.00.01 CET), and I dunno where to put it so i drop it here:<BR/>
-When starting the <code>apartment.wst</code> level and going down the stairs and then back up again the hero is ''behind'' the pictures on the wall. --[[User:80.109.73.21|80.109.73.21]] 00:31, 1 Sep 2005 (BST)
-
-== about morph targets in blender ==
-http://orange.blender.org/blog/the-amazing-incredible-monkey-brush#more-49
-
-IIRC you can "bake" blender morphs into keyframes for use in external apps such as GL games

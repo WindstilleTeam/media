@@ -1,3 +1,7 @@
+2008-05-08
+* Windstille rebirth is in progress
+* Wiki content is moved into SVN and build by custom scripts with help of creoleparser
+
 2007-06-21
 * the write of skeletal animation is under way, Blender export and Windstille import of armatures already works
 * navigation graph is mostly working and ready for integration into the main game

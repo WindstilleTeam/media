@@ -1,8 +1,0 @@
-Matze: About human mode: &#8220;a + up: jump up, a: jump forward&#8221; seems odd to me, why jump forward when only pressing a and what will happen when you press a + left/right?
-
-NMcCoy: Yeah, that&#8217;s weird. Also, if we&#8217;re assuming a SNES-style controller then B should be jump. (B has been the jump button in every SNES game I&#8217;ve played, anyway.) Also, I&#8217;d suggest:<br/>
-L = aim 45 degrees counter-clockwise<br/>
-R = aim 45 degrees clockwise<br/>
-up= aim up<br/>
-down=aim down while in the air<br/>
-L+R = stop movement controls, arbitrary rotation of aim with D-pad (for precise shooting)

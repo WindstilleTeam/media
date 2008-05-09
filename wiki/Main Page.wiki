@@ -9,6 +9,7 @@ We are still looking for new developers to join this project, have a
 look at the [[Jobs]] section to see if you might be able to help.
 
 * [[News]]
+* [[Rebirth]]
 * [[Overview]]
 * [[Getting Started]]
 * [[People|People involved with this project]]
