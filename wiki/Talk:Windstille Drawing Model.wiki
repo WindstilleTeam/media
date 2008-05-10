@@ -1,5 +1,0 @@
-I don't think the color is worth to care about, in some situations its even changed per vertex, so changing it per DrawingRequest shouldn't hurt much, what might be of much more importance is the used texture. Texture switches should be reducable a lot by when more surfaces are packaged to a single texture.
-
-Another thing that is very important is to figure out which DrawingRequests need sorting and which don't. While all our textures are RGBA, except those used for the 3d models, many of them only really need one bit-alpha, so with a correctly set glAlphaFunc() it should be possible to draw them out of order by using the z-buffer. Additive blended surfaces might be drawn out of order as well, even so only after all solid ones.
-
--- [[User:Grumbel|Grumbel]] 20:45, 29 Jul 2005 (BST)
