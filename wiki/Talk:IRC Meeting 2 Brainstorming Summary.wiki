@@ -1,10 +1,17 @@
+<<ind:0>>
 "Jane is using a VR training program for physical therapy now (first mission in milestone2)." - Don't you mean milestone1?
 
 --[[User:Pifactorial|Pifactorial]] 10:17, 4 Jul 2005 (BST)
+<</ind>>
 
-:There already was a playable Windstille release, actually two, however the first couldn't be called playable. So its more like Milestone2 or Milestone3, Milestone2 probally fitting better. Anyway, we are aiming for a real title, not just Milestone XY, ie. something like "Windstille - The Beginning", "Windstille - Hard live on Alpha Prime" or whatever. 
+<<ind:1>>
+There already was a playable Windstille release, actually two, however the first couldn't be called playable. So its more like Milestone2 or Milestone3, Milestone2 probally fitting better. Anyway, we are aiming for a real title, not just Milestone XY, ie. something like "Windstille - The Beginning", "Windstille - Hard live on Alpha Prime" or whatever. 
 
-:-- [[User:Grumbel|Grumbel]] 11:44, 4 Jul 2005 (BST)
+-- [[User:Grumbel|Grumbel]] 11:44, 4 Jul 2005 (BST)
+<</ind>>
 
-::I've always been calling this release Milestone1, so please forgive me for any misnomers I may have perpetuated.  We should come up with at least a working name though, because all these arbitrary milestone numbers are going to get confusing.
-::--[[User:Pifactorial|Pifactorial]] 13:25, 4 Jul 2005 (BST)
+<<ind:2>>
+I've always been calling this release Milestone1, so please forgive me for any misnomers I may have perpetuated.  We should come up with at least a working name though, because all these arbitrary milestone numbers are going to get confusing.
+
+--[[User:Pifactorial|Pifactorial]] 13:25, 4 Jul 2005 (BST)
+<</ind>>

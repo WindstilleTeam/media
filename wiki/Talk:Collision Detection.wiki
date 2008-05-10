@@ -41,6 +41,6 @@ Another thing that isn't handle by either of those is what I call 'attachments',
 <<ind:0>>
 Some news on the collision detection. I think I've found a solution for the 3-box-problem falling on each other. After doing the actual collision detection a constraint-assurance-algorithm is run in each frame. This algorithm does push colliding objects from each other till there is no penetration or a maximal count of tries is reached. This seems to work ok. Now I need some more time to fix some problems with slopes and implement this unstucking for combined collision-objects.
 I hope you can cope with some more delay on this, as I have very limited time. The current code can be found at: http://www-users.rwth-aachen.de/David.Kamphausen/collisiontest_050629.tgz
-
+ 
 -- [[User:Godrin|Godrin]] 11:47, 29 Jun 2005 (BST)
 <</ind>>

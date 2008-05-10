@@ -12,7 +12,7 @@ env.Command("build/default.css", "default.css",
 for i in glob.glob('*.wiki'):
     (filename, ext) = os.path.splitext(i)
     Depends(env.Wiki("build/" + filename + ".html", i), 
-            ["./wiki2html.py", 
+            [# "./wiki2html.py", 
              "template.xml"])
 
 # EOF #
