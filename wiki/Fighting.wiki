@@ -17,7 +17,3 @@ AstroyBoy uses a rather special weapon based fight system, each punch to an enem
 Dancing Stage like where you have to press a given number of buttons to be successfull
 
 Viewtifull Joe like where a direction to dodge is shown shortly before the enemies action, so you can dodge.
-
-== Powersuit Mode ==
-
-Surround shoot

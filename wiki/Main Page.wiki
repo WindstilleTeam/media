@@ -61,16 +61,9 @@ look at the [[Jobs]] section to see if you might be able to help.
 
 == Talk
 
-* [[Talk:Coding style]]
 * [[Talk:Collision Detection]]
 * [[Talk:Dialog]]
-* [[Talk:Getting Started]]
 * [[Talk:Graphics]]
-* [[Talk:Ideas]]
-* [[Talk:IRC Meeting 2 Brainstorming Summary]]
-* [[Talk:Plot]]
-* [[Talk:Roadmap]]
-* [[Talk:Windstille Drawing Model]]
 
 == Links
 

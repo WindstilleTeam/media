@@ -13,13 +13,9 @@ As always with [[wikipedia:Free Software|Free Software]] game projects, no payme
 * you will move between levels in a transport ship, this requires a model (or maybe a 2D based sprite instead?) - this needs to be discussed and made
 * animations for going stairs up and down, [[http://pingus.seul.org/~grumbel/tmp/windstille-stairs-2005-07-17.png|stairs look like this]]
 
-=== Tilemap editor ===
-
-* we need to use Flexlay to create some tilemaps. Join the IRC channel if interested
-
 === Sound ===
 
-* We have noone at all currently doing sound effects. If you want to do this, please get in contact
+* We have none at all currently doing sound effects. If you want to do this, please get in contact
 * Voice acting. We have probably quite a few male volunteers for voice acting, but possibly not many female volunteers. However, we cannot start organising this until later in the development process, because dialog has yet to be written, let alone finalized
 * Wansti is making some music. If you want to write music too, join the IRC channel and coordinate as to what is and isn't already being done, etc
 
