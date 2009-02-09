@@ -33,10 +33,10 @@ look at the [[Jobs]] section to see if you might be able to help.
 * [[Tilemap]]
 * [[Dialog]]
 * [[Prefab]]
-* [[Coding style]]
 
 == Story
 
+* [[Backstory]]
 * [[Plot]]
 * [[Plot Events]]
 * [[Characters]]

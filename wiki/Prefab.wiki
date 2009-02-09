@@ -11,6 +11,7 @@ All prefab need to be defined in a file so that the editor can find out which ar
  (parameter (pos "vector") (image "sprite") ... ({Name} {Type}))
  (function "prefab_streetlamp"))
 }}}
+
 Name gives the name of the prefab, while sprite gives the sprite which should represent it in the editor. Parameter is a list of possible parameters that the prefab can have and which should be editable in the editor. Function is the scripting function which is called with the given parameter to create the prefab.
 
 {{{

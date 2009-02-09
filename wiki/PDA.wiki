@@ -4,4 +4,6 @@ The PDA is a tool that can be used in the game to perform various functions, suc
 * record mission/quest logs
 * detailed auto-map
 
-When not in use the PDA should be in small form at the edge of the screen to provide a little automap, when activated it should pop-up and fill half the screen, while the player is visible on the other side, the game should continue to run when the PDA is activated.
+When not in use the PDA should be in small form at the edge of the screen to provide a little automap, when activated it should pop-up and fill half the screen, while the player is visible on the other side, the game should continue to run when the PDA is activated. 
+
+The PDA shall also act as communicator to call remote characters, the ship, the base or services. 

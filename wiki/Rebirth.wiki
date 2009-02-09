@@ -8,6 +8,6 @@ How do I intend to fix this? The level in terms of graphics will be a series of 
 
 Some code for this is in place and availabe in a test application, it is not hooked up into the game.
 
-== Sectors
+== 
 
-
+Gam e
