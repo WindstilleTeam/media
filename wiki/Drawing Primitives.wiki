@@ -1,0 +1,62 @@
+= Drawing Primitives
+
+== Sprite
+
+Simple rectangular sprite that is rotabable and scaleable.
+
+{{{
+Sprite {
+  Vector2f position;
+  float    rotation;
+  float    scale;
+}
+}}}
+
+== Simple Quad
+
+Same as sprite, except that its four vertices can be moved
+independently around.
+
+{{{
+Quad {
+  Vector2f position[4];
+}
+}}}
+
+== Textured Quad
+
+A quad that is filled with a repeating textured.
+
+{{{
+TexturedQuad {
+  Vector2f position[4];
+
+  float    texture_rotation;
+  float    texture_scale;
+  Vector2f texture_offset;
+}
+}}}
+
+== Rope
+
+A series of points that is connected by a thick textured line to
+represent ropes or pipes. Begin/end could use seperate textures.
+
+{{{
+Rope {
+  Vector2f position[N];
+  float    thickness;
+}
+}}}
+
+== Group
+
+Groups allow docking multiple primitives together.
+
+{{{
+Group {
+  DrawingPrimitives primitives[N];
+  float rotation;
+  float scale;
+}
+

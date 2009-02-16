@@ -1,0 +1,26 @@
+= Structure of the Wiki
+
+== Plot/Story
+
+* [[Backstory]]
+* [[Characters]]
+* [[Weapons]]
+* [[Vehicles]]
+* [[Locations]]
+
+== Engine
+
+* [[Particles]]
+* [[Navigation Mesh]]
+* [[Scripting]]
+* [[Drawing Model]]
+* [[Editor]]
+* Sector
+* Scene
+
+
+== Misc
+
+* [[PDA]]
+
+# EOF #

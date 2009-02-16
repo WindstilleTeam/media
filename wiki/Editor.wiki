@@ -1,0 +1,3 @@
+The Windstille Editor will follow a sandbox model. The engine shall be
+flexible enough that it can run inside the editor and be manipulated.
+
