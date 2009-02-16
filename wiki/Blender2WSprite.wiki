@@ -1,3 +1,4 @@
+{{{
 Notes about blender models:
 
 - You can install the exporter by placing it in your $HOME/.blender/scripts
@@ -58,3 +59,4 @@ Notes about blender models:
     ws.x = blend.y
     ws.y = blend.z
     ws.z = blend.x )
+}}}

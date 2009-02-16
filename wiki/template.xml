@@ -18,7 +18,7 @@
     </div>
     <div id="navbar">
       <a href="News.html">News</a> |
-      <a href="Main Page.html">Main Page</a><br/>
+      <a href="Windstille.html">Index</a><br/>
     </div>
     <div id="body">
       <h1>${title}</h1>

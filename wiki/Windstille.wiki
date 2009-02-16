@@ -1,5 +1,3 @@
-= Structure of the Wiki
-
 == Plot/Story
 
 * [[Backstory]]
@@ -15,12 +13,15 @@
 * [[Scripting]]
 * [[Drawing Model]]
 * [[Editor]]
-* Sector
-* Scene
-
 
 == Misc
 
 * [[PDA]]
 
-# EOF #
+== File Formats
+
+* [[Blender]]
+* [[Blender2WSprite]]
+* [[WSprite]]
+* [[Sprite]]
+

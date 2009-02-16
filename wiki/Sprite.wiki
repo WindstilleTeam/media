@@ -1,0 +1,24 @@
+= C++ Specification:
+
+{{{
+SpriteAction:
+  std::string name;
+  float       speed;
+  Vector2f    offset;
+  float       scale;
+
+SpriteData:
+  SpriteAction[] actions;
+}}}
+
+= .sprite File Format:
+
+{{{
+(sprite
+  (action
+    (name "default")
+    (images "streetlamp-highlight.png")
+    (offset -111 -215)
+  )
+)
+}}}

@@ -39,7 +39,7 @@ pre {
   border-width: thin;
   border-color: rgb(150, 150, 150);
   background: rgb(220, 220, 220);
-  white-space: pre-wrap;
+  white-space: pre;
 
   margin-left: 1em;
   margin-right: 1em;

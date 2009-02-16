@@ -11,7 +11,7 @@ sys.setrecursionlimit(2000)
 def file2string(filename):
     f = open(filename)
     s = f.read()
-    f.close()   
+    f.close()
     return s
 
 class Wiki2HTML:

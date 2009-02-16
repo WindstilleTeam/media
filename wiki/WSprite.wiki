@@ -1,3 +1,4 @@
+{{{
 Header
     char     magic[4] (= W3DS)
     uint16_t format_version      (=2 at the moment)
@@ -36,6 +37,4 @@ Action Header (x action_count)
       (x attachement_point_count)
         float locX, locY, locZ
         float rotW, rotX, rotY, rotZ (it's a quaternion)
-
-
-# EOF #
+}}}
