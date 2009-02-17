@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import os.path
 import codecs
 import re
 from genshi.template import MarkupTemplate
@@ -27,7 +28,47 @@ def file2string(filename):
     s = f.read()
     f.close()
     return s
+
+all_pages = ['Windstille',
+             'News',
+             'Rebirth',
+             'Backstory',
+             'Characters',
+             'Vehicles',
+             'Locations',
+             'Particles',
+             'Navigation Mesh',
+             'Scripting',
+             'Drawing Model',
+             'Drawing Primitives',
+             'Editor',
+             'Actions',
+             'PDA',
+             'Weapons',
+             'Fighting',
+             'Blender',
+             'BlenderToSprite3D',
+             'Sprite3D',
+             'Sprite']
 
+def find_next_page(str):
+    for i in range(len(all_pages)):
+        if all_pages[i] == str:
+            if i == len(all_pages)-1:
+                return "Windstille"
+            else:
+                return all_pages[i+1]
+    raise Exception("Couldn't find next page for " + str)
+
+def find_prev_page(str):
+    for i in range(len(all_pages)):
+        if all_pages[i] == str:
+            if i == 0:
+                return "Windstille"
+            else:
+                return all_pages[i-1]
+    raise Exception("Couldn't find prev page for " + str)
+
 class Wiki2HTML:
     def macro_func(self, name, arg_string, body, block_type):
         if name == "comment":
@@ -88,12 +129,13 @@ class Wiki2HTML:
             try:
                 for filename in args:
                     tmpl = MarkupTemplate(file2string("template.xml"))
-                    print tmpl.generate(body = self.creole_parser.generate(file2string(filename)),
+                    print tmpl.generate(next = find_next_page(os.path.basename(filename)[:-5]),
+                                        prev = find_prev_page(os.path.basename(filename)[:-5]),
+                                        body = self.creole_parser.generate(file2string(filename)),
                                         title = filename.replace(".wiki", "")).render(method='xhtml', 
                                                                                       strip_whitespace=True)
             except Exception, err:
-                print err
-            
+                sys.stderr.write(str(err) + "\n")
 
             
 if __name__ == "__main__":

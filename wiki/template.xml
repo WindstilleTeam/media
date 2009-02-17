@@ -6,15 +6,20 @@
     <title>Windstille - ${title}</title>
     <link rel="stylesheet" type="text/css" href="default.css" />
     <link rel="icon" href="images/favicon.png" type="image/png" />
-    <link rel="top" href="Main Page.html" />
+    <link rel="top" href="Windstille.html" />
+    <link rel="next" href="${next}.html" />
+    <link rel="prev" href="${prev}.html" />
   </head>
   <body>
     <div id="title">
       <h1><img src="images/windstille-logo.png" alt="Windstille" /></h1>
     </div>
     <div id="navbar">
-      <a href="News.html">News</a> |
-      <a href="Windstille.html">Index</a><br/>
+      <a href="${prev}.html">← Prev</a>
+      <a href="News.html">News</a>
+      <a href="Windstille.html">Index</a>
+      <a href="${next}.html">Next →</a>
+      <br clear="all" />
     </div>
     <div id="body">
       <h1>${title}</h1>
@@ -22,8 +27,11 @@
       <br clear="all" />
     </div>
     <div id="navbar">
-      <a href="News.html">News</a> |
-      <a href="Windstille.html">Index</a><br/>
+      <a href="${prev}.html">← Prev</a>
+      <a href="News.html">News</a>
+      <a href="Windstille.html">Index</a>
+      <a href="${next}.html">Next →</a>
+      <br clear="all" />
     </div>
   </body>
 </html>

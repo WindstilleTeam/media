@@ -32,8 +32,29 @@ img.thumbnail {
 
 #navbar { 
   clear: both;
-  text-align: center;
   background: lightgrey;
+  text-align: center;
+  padding: 0.2em;
+}
+
+#navbar a {
+  color: black;
+  text-decoration: none;
+  background-color: lightgrey;
+  display: inline-block;
+  text-align: center;
+  border-style: solid;
+  border-color: darkgrey;
+  border-width: thin;
+  margin-left:  1em;
+  margin-right: 1em;
+  width: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#navbar a:hover {
+  background-color: white;
 }
 
 #title h1 { 
