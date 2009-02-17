@@ -1,13 +1,29 @@
+<<note>>The following text is written by Grumbel.<</note>>
+
 Time to document a few things that went wrong in the past and how I intend to fix them.
 
 == Tilemaps
 
 While tilemaps are a classic building block of 2D games, they just didn't work out for what I had in mind. There is to much flexibility that is lost due to them and there are quite a few things that are made much harder, like slopes, AI reactions to the environment, etc.
 
-How do I intend to fix this? The level in terms of graphics will be a series of textures quads that can be freely placed. The collision geometry on the other side will be a series of line segments. When a player walks he will follow those line segments instead of constantly checking a tilemap. This will lead to a kind of on-rails gameplay instead of a more freeform one. 
+The level, in terms of graphics, will be a series of textures quads that can be freely placed. The collision geometry on the other side will be a series of line segments, this concept is called [[Navigation Mesh]]. When a player walks, he will follow those line segments instead of constantly checking a tilemap. This will lead to a kind of on-rails gameplay instead of a more freeform one. 
 
 Some code for this is in place and availabe in a test application, it is not hooked up into the game.
 
-== 
+Some support for Tilemaps might be kept, since they are somewhat useful to get a base graphics done. However its not clear if real tilemaps will be keep or just some surfaces that can be docked together.
 
-Gam e
+== Vertex Animation
+
+<<note>>
+For the time being we might stick with Vertex animation, since they already work, but bone based animation is really the target.
+<</note>>
+
+Vertex animation looked like and easy target and it kind of was, we have them implemented in the game. However the size of the files grew quicker then expected and a lot of flexibility is lost with vertex animation (i.e. no easy way to change clothes, no easy way to seperate animation from the mesh, etc.). Bone based animations are needed.
+
+== Story
+
+To much time was wasted on discussion about backstory and stuff and to little with things that could be turned into actual gameplay. A prototype level that demonstrates dialog and overall gameflow is therefore a priority. 
+
+== Editor
+
+Flexlay, while usable and working, is based on an old version of ClanLIb. This isn't all that good in the long run, since it limits the GUI quite a bit. Current plan is to make a sandbox editor based on Gtkmm, that will allow to edit the levels in engine itself.

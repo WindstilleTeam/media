@@ -11,7 +11,7 @@ SpriteData:
   SpriteAction[] actions;
 }}}
 
-= .sprite File Format:
+= File Format - *.sprite
 
 {{{
 (sprite

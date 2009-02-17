@@ -1,5 +1,9 @@
+<<note>>
 ToDo: Document current particle systems and document possible
 shortcommings and missing features
+<</note>>
+
+Particle systems in Windstille consists of two main sub parts, a drawer object and a distribution object. The drawer gets the particle and draws it, while the distribution is used to spawn the particles. Distributions are geometric shapes like lines, rectangles or circles.
 
 == Drawer
 

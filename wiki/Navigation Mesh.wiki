@@ -1,0 +1,1 @@
+The Navigation Mesh is a graph structure that is used to represent the walkable area.

@@ -1,3 +1,9 @@
+<<note>>
+Shall we use Vector2f or Vector3f? Later one would allow to make better and cleaner use of 3D objects, but would it would also require more work from the level designer. -- Grumbel
+<</note>>
+
+Windstille uses a ortogonal projection, meaning everything in the game will have a flat 2D look. Multiple layers scrolling at different speeds will be allowed to give a scene a sense of depth. Most non-animated objects in Windstille will be represented by simple 2D sprites,  while animated objects, like humans, robots or vehicles will be represented by 3D objects.
+
 == Sprite
 
 Simple rectangular sprite that is rotabable and scaleable.
@@ -57,4 +63,15 @@ Group {
   float rotation;
   float scale;
 }
+}}}
 
+== Sprite3D
+
+Draws a 3d model exported from Blender on screen. 
+
+{{{
+Sprite3D {
+  Vector3f   position;
+  Quaternion rotation;
+}
+}}}

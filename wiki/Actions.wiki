@@ -1,6 +1,8 @@
-<<thumbnail src="actions.png">>
+<<thumbnail src="actions.png" title="Source for this file is actions.dia">>
 
 The game has basically 3 different control modes, one is with the powersuit, one is for player without the powersuit and a seperate mode is there for the player with his weapon equiped without the powersuit.
+
+The diagram on the right shows all the actions and how they relate to each other. 
 
 == Moving around without a gun / Adventure Mode
 
@@ -39,22 +41,6 @@ The Hero should be able to climb both wall and roof ladders.
 
 === Swim/Underwater
 
-Swimming should basically be a 'endless' jump. You might also be able to simply walk underwater. [FIXME: This doesn't fit dogether with the otherwise planed realistic movement]
-Weapons
-
-Will we need different weapon stages like Turrican or static ones? (Weaponstage <-> Hero's energie!?)
-
-=== Jetpack
-
-The game will have a jetpack, I am currently not sure if we have it as a item which you can use all the time or just in some special events/levels.
-
-{{ http://windstille.berlios.de/images/jetpack.png }}
-
-=== Actions Diagram
-
-The following diagram tries to illustrate possible actions and how the engine should switch between them.
-http://www.stud.uni-karlsruhe.de/~uxsm/windstille-actions.png
-
 == Shoot
 
 Should the hero be able to shoot in different directions or should be stick to a MegaMan like shooting?
@@ -79,30 +65,6 @@ Basically a turrican style surround shooting. Not sure how the thing will shoot 
 
 {{ http://windstille.berlios.de/images/plasmagun.png }}
 
-=== Lasergun
-=== Flamegun
-
-{{ http://windstille.berlios.de/images/flamegun.png }}
-
-=== Rocketlauncher
-
-Rocketlauncher can hold missiles:
-
-* Missile
-* Homing Missile
-
-=== Smart Bomb - Shockwave
-
-Turrican 2 style, but maybe circular, which basically means that the bomb will not erase anything on the screen, but only these enemies which are reachable from the heros position.
-
-{{ http://windstille.berlios.de/images/shockwave.jpg }}
-
-== Items
-
-* Power Up
-* Machinegun ammunition
-* Plasmagun ammunition
-* Laser energie
 
 == Enemies
 
@@ -113,31 +75,10 @@ Levels
 
 The game will not be sperated into normal levels, instead it will consist of 'sections', where one can more or less move freely around. Translating between section will be done via special events (like the water-thing in another world) or via doors (where one has to find the keys before passing them). Moving forward and backward should basically possible, but there might be points-of-no-return. Some kind of guidance system should always show you where to go, so that one doesn't lost himself in a level.
 
-== Different types of assault suits
-
-=== Standard
-
-=== Ice
-
-might protect against ice water and give better grip on ice
-
-=== Fire/Lava
-
-protect better against lava and hot regions
-
-=== Level File Format
-
-The level file format will be at its basic level tile based, support for multiple overlapping tiles would be nice, the tile size will be 128x128. In addition the map might support brushes, meaning you can insert (animated) surface objects at arbitrary positions, not sure how this will influence the collision map.
-
-A flewible controller api should be provided for remapping the buttons to specific gamepads.
-
-== Weapon Select
-
-* [[http://windstille.berlios.de/images/weaponitemselect.jpg]]
-
 == Animations
 
-* [[http://pingus.seul.org/~grumbel/tmp/windstille-files/anim1.png]]
-* [[http://pingus.seul.org/~grumbel/tmp/windstille-files/anim2.png]]
-* [[http://pingus.seul.org/~grumbel/tmp/windstille-files/anim3.png]]
-* [[http://pingus.seul.org/~grumbel/tmp/windstille-files/anim4.png]]
+<<thumbnail src="anim1.png">>
+<<thumbnail src="anim2.png">>
+<<thumbnail src="anim3.png">>
+<<thumbnail src="anim4.png">>
+

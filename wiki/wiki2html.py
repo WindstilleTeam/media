@@ -34,6 +34,10 @@ class Wiki2HTML:
             body = self.creole_parser.generate(body)
             return bldr.tag.div(body, class_= 'comment')
 
+        elif name == "note":
+            body = self.creole_parser.generate(body)
+            return bldr.tag.div(body, class_='note')
+
         elif name == "thumbnail":
             dict = parse_arg_string(arg_string)
             if not dict.has_key('src'):
@@ -81,11 +85,15 @@ class Wiki2HTML:
                     interwiki_links_funcs={'Talk' : self.talk_links_funcs }
                     ))
 
-            for filename in args:
-                tmpl = MarkupTemplate(file2string("template.xml"))
-                print tmpl.generate(body = self.creole_parser.generate(file2string(filename)),
-                                    title = filename.replace(".wiki", "")).render(method='xhtml', 
-                                                                                  strip_whitespace=True)
+            try:
+                for filename in args:
+                    tmpl = MarkupTemplate(file2string("template.xml"))
+                    print tmpl.generate(body = self.creole_parser.generate(file2string(filename)),
+                                        title = filename.replace(".wiki", "")).render(method='xhtml', 
+                                                                                      strip_whitespace=True)
+            except Exception, err:
+                print err
+            
 
             
 if __name__ == "__main__":

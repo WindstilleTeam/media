@@ -10,10 +10,7 @@
   </head>
   <body>
     <div id="title">
-      <div id="titlebox">
-        <h1><img src="images/windstille-logo.png" alt="Windstille" /></h1>
-      </div>
-      <br clear="all" />
+      <h1><img src="images/windstille-logo.png" alt="Windstille" /></h1>
     </div>
     <div id="navbar">
       <a href="News.html">News</a> |
@@ -22,6 +19,7 @@
     <div id="body">
       <h1>${title}</h1>
       ${body}
+      <br clear="all" />
     </div>
     <div id="navbar">
       <a href="News.html">News</a> |

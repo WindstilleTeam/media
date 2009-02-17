@@ -101,8 +101,10 @@
  cd /tmp/
  wget -m -np http://pingus.seul.org/~grumbel/tmp/windstille-notes4/index.html
  
-  cd  /home/user/projects/windstille/trunk/data/tmp/
- ./windstille --sprite2dview /tmp/pingus.seul.org/~grumbel/tmp/windstille-notes4/img_*.jpg|--geometry 1024x768
+{{{
+cd  /home/user/projects/windstille/trunk/data/tmp/
+./windstille --sprite2dview /tmp/pingus.seul.org/~grumbel/tmp/windstille-notes4/img_*.jpg --geometry1024x768
+}}}
 
 2006-04-05
 * [[http://pingus.seul.org/~grumbel/tmp/windstille-notes4/index.html|Windstille Notes 4]]

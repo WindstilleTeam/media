@@ -1,6 +1,6 @@
-Some thoughts on fighting in Windstille.
-
-== Human Mode ==
+<<note>>
+Just some general thoughts on fighting, nothing specific to Windstille.
+<</note>>
 
 Another World had a very interesting way to fight. You had a gun that you could charge, in three stages:
 

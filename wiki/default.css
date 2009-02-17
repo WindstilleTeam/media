@@ -1,11 +1,18 @@
 body { 
-  margin: 1em 15% 1em 15%;
-  background: rgb(50, 50, 100);
+  max-width: 60em;
+  height: 100%;
+
+  margin: 0 auto 0 auto;
+  background: black;
 }
 
 #body {
-  padding: 1em 3em 2em 3em;
+  margin-top:    auto;
+  margin-bottom: auto;
+
+  padding: 0.2em 3em 1em 3em;
   background: white; 
+
 /*  margin-left: 1em;  */
 /*  margin-right: 1em; */
 }
@@ -29,22 +36,19 @@ img.thumbnail {
   background: lightgrey;
 }
 
-#titlebox { 
+#title h1 { 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  margin:  0;
   text-align: center; 
-  float: left; 
 }
 
 #title { 
-  background: black;
-  padding: 0.5em 2em 0.5em 2em;
+/*  background: rgb(0, 0, 50); */
+  background-image: url("images/title-background.png");
   color: white;
-  text-align: left;
-  clear: both;
-}
-
-#title h1 { 
-  padding-left: 1em;
-  margin: 0px;
+  width: 100%;
 }
 
 pre {
@@ -65,12 +69,37 @@ pre {
   border-bottom-color: lightgrey;
 }
 
-#body p { 
+p { 
   text-indent: 1em;
 }
 
 #titlebox h1 {
   padding: 0px;
+}
+
+div.note p { 
+  text-indent: 0em;
+}
+
+div.note p:last-child { 
+  margin-bottom: 0;
+}
+
+div.note p:first-child { 
+  margin-top: 0;
+}
+
+div.note { 
+  width: 20%;
+  font-size: 0.8em;
+  float: right;
+  text-align: left;
+  border-style: solid;
+  border-width: thin;
+  background-color: lightyellow;
+
+  padding: 0.5em;
+  margin: 0 0 0 1em;
 }
 
 div.comment p { 

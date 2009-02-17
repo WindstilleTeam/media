@@ -1,0 +1,29 @@
+<<note>>
+Lots of stuff in here is out of date.
+<</note>>
+
+== Rocketlauncher
+
+Rocketlauncher can hold missiles:
+
+* Missile
+* Homing Missile
+
+
+== Lasergun
+== Flamegun
+
+{{ http://windstille.berlios.de/images/flamegun.png }}
+
+== Smart Bomb - Shockwave
+
+Turrican 2 style, but maybe circular, which basically means that the bomb will not erase anything on the screen, but only these enemies which are reachable from the heros position.
+
+{{ http://windstille.berlios.de/images/shockwave.jpg }}
+
+== Items
+
+* Power Up
+* Machinegun ammunition
+* Plasmagun ammunition
+* Laser energie
