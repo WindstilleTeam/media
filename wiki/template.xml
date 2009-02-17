@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
           "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
@@ -11,8 +11,7 @@
   <body>
     <div id="title">
       <div id="titlebox">
-        <h1>Windstille</h1>
-        <small>A 2D Action Adventure</small>
+        <h1><img src="images/windstille-logo.png" alt="Windstille" /></h1>
       </div>
       <br clear="all" />
     </div>
@@ -25,7 +24,8 @@
       ${body}
     </div>
     <div id="navbar">
-
+      <a href="News.html">News</a> |
+      <a href="Windstille.html">Index</a><br/>
     </div>
   </body>
 </html>

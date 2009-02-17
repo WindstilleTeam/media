@@ -1,3 +1,5 @@
+<<thumbnail src="actions.png">>
+
 The game has basically 3 different control modes, one is with the powersuit, one is for player without the powersuit and a seperate mode is there for the player with his weapon equiped without the powersuit.
 
 == Moving around without a gun / Adventure Mode
@@ -19,7 +21,7 @@ Below follows some older information which was previously at the webpage, might 
 === Jumps
 === Sit
 
-http://windstille.berlios.de/images/sit.jpg
+{{ http://windstille.berlios.de/images/sit.jpg }}
 
 === Run/Walk
 
@@ -27,13 +29,13 @@ We might have seperate walk and run actions (basically like in Super Mario), don
 
 === Hang
 
-http://windstille.berlios.de/images/posing4.jpg
+{{ http://windstille.berlios.de/images/posing4.jpg }} 
 
 === Climb
 
 The Hero should be able to climb both wall and roof ladders.
 
-http://windstille.berlios.de/images/posing2.jpg
+{{ http://windstille.berlios.de/images/posing2.jpg }}
 
 === Swim/Underwater
 
@@ -46,7 +48,7 @@ Will we need different weapon stages like Turrican or static ones? (Weaponstage 
 
 The game will have a jetpack, I am currently not sure if we have it as a item which you can use all the time or just in some special events/levels.
 
-http://windstille.berlios.de/images/jetpack.png
+{{ http://windstille.berlios.de/images/jetpack.png }}
 
 === Actions Diagram
 
@@ -61,26 +63,26 @@ Should the hero be able to shoot in different directions or should be stick to a
 
 Basically a turrican style surround shooting. Not sure how the thing will shoot (ice-freeze, flamethrower, normal). I kind of like it to behavice like a flamethrower to remove slime or other poison liquids on the ceiling or ground, which are immune against and unreachable with other weapons.
 
-http://windstille.berlios.de/images/surround.jpg
+{{ http://windstille.berlios.de/images/surround.jpg }}
 
 
 === Light/Torch
 
-http://windstille.berlios.de/images/flashlight.png
-http://windstille.berlios.de/images/flashlight2.png
+{{ http://windstille.berlios.de/images/flashlight.png }}
+{{ http://windstille.berlios.de/images/flashlight2.png }}
 
 === Machinegun
 
-http://windstille.berlios.de/images/machinegun.png
+{{ http://windstille.berlios.de/images/machinegun.png }}
 
 === Plasmagun
 
-http://windstille.berlios.de/images/plasmagun.png
+{{ http://windstille.berlios.de/images/plasmagun.png }}
 
 === Lasergun
 === Flamegun
 
-http://windstille.berlios.de/images/flamegun.png
+{{ http://windstille.berlios.de/images/flamegun.png }}
 
 === Rocketlauncher
 
@@ -93,7 +95,7 @@ Rocketlauncher can hold missiles:
 
 Turrican 2 style, but maybe circular, which basically means that the bomb will not erase anything on the screen, but only these enemies which are reachable from the heros position.
 
-http://windstille.berlios.de/images/shockwave.jpg
+{{ http://windstille.berlios.de/images/shockwave.jpg }}
 
 == Items
 

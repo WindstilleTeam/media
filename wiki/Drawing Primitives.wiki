@@ -1,5 +1,3 @@
-= Drawing Primitives
-
 == Sprite
 
 Simple rectangular sprite that is rotabable and scaleable.

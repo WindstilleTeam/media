@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+import codecs
+import re
 from genshi.template import MarkupTemplate
 import genshi.builder as bldr
 import creoleparser
@@ -8,22 +10,54 @@ import sys
 # Creoleparser chokes on long documents
 sys.setrecursionlimit(2000)
 
+token_pat = re.compile('\s*([A-Za-z_]+) *= *"([^"]+)"\s*')
+
+def parse_arg_string(str):
+    dict = {}  
+    while str:
+        m = token_pat.match(str)
+        if not m:
+            raise Exception("Couldn't match '%s'" % str)
+        dict[m.group(1)] = m.group(2)
+        str = str[m.end():]
+    return dict
+
 def file2string(filename):
-    f = open(filename)
+    f = codecs.open(filename, encoding='utf-8')
     s = f.read()
     f.close()
     return s
 
 class Wiki2HTML:
-    def macro_func(self, name, arg_string, body):
-        if body == None:
-            return ""
-
+    def macro_func(self, name, arg_string, body, block_type):
         if name == "comment":
             body = self.creole_parser.generate(body)
-            return bldr.tag.div(bldr.tag(bldr.tag.div(arg_string[1:], class_='user'),
-                                         bldr.tag.div(body, class_= "body")), # FIXME: Recursive comments don't really work 
-                                class_='comment')
+            return bldr.tag.div(body, class_= 'comment')
+
+        elif name == "thumbnail":
+            dict = parse_arg_string(arg_string)
+            if not dict.has_key('src'):
+                raise Exception("Source argument missing from <<img>>")
+
+            if dict.has_key('alt'):
+                alt = dict['alt']
+            else:
+                alt = dict['src']
+
+            if dict.has_key('title'):
+                title = dict['title']            
+            else:
+                title = None
+
+            return bldr.tag.a(bldr.tag.img(None, src="thumbnails/" + dict['src'], alt=alt, title=title, class_="thumbnail"),
+                              href="images/" + dict['src'])
+        elif name == "img":
+            dict = parse_arg_string(arg_string)
+            if not dict.has_key('src'):
+                raise Exception("Source argument missing from <<img>>")
+
+            return bldr.tag.img(None, src="images/" + dict['src'], alt=dict['src'], title=dict['title'], class_= 'comment')
+
         elif name == "ind":
             body = self.creole_parser.generate(body)
             return bldr.tag.div(body, class_='indent' + arg_string[1:])
@@ -47,11 +81,11 @@ class Wiki2HTML:
                     interwiki_links_funcs={'Talk' : self.talk_links_funcs }
                     ))
 
-
             for filename in args:
                 tmpl = MarkupTemplate(file2string("template.xml"))
                 print tmpl.generate(body = self.creole_parser.generate(file2string(filename)),
-                                    title = filename.replace(".wiki", ""))
+                                    title = filename.replace(".wiki", "")).render(method='xhtml', 
+                                                                                  strip_whitespace=True)
 
             
 if __name__ == "__main__":

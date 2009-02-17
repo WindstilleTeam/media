@@ -1,6 +1,6 @@
 = Drawing Model =
 
-[[Windstille Drawing Model]]
+[[Drawing Model]]
 
 = Layers =
 

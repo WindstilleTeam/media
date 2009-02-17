@@ -1,81 +1,60 @@
-= Drawing Operations =
+= Drawing Operations
+
 To bring images on screen you have to execute drawing operations. There are several different types of drawing operations. Each of them depend on a number of parameters.
 
-== Common Parameters ==
+== Common Parameters
 These parameters are used for all drawing operations
+
 * Position, Rotation, Scale -- These 3 values together are called a modelview transform and are encoded as a 4x4 Matrix
 * Color -- the color is multiplied with each pixel that is drawn
 * blend_sfactor, blend_dfactor -- factors that are used for blending pixels with alpha values on screen (see glBlendFunc for details)
 
-== Text ==
+== Text
+
 Writes text on the screen. Parameters:
+
 * Font -- The font that is used to write the characters (the font has additional attributes like color of the text)
 
-== Surface ==
+== Surface
+
 Draws a 2d bitmap (called Surface) on screen. Parameters:
 * Surface -- a pointer to a surface (a surface contains the opengl texture handle and uv coordinates)
 
-== Sprite3D ==
+== Sprite3D
+
 Draws a 3d model on screen. See Sprite3D class for more details. Parameters:
 * Sprite3D -- the 3d sprite that should be drawn
 
-== VertexArray ==
+== VertexArray
+
 Executes a drawing command for opengl primiteves. (Typically used for GL_QUAD and GL_TRIANGLE)
+
 * texture -- texture handle of the opengl texture
 * type -- opengl primitive type
 * vertex list
 * normal list (optional, specified per vertex)
 * color list (optional, specified per vertex)
 
-= State Model and Transform Stack =
-When looking at typical code that does drawing operations, one observes that the
-common parameters are often the same for several drawing operations. It is convenient to 
-not have to specify all parameters again and again for each
-drawing operation. So we created a state machine that maintains a "current" value
-for each of the common parameters.
+= State Model and Transform Stack
 
-You can also observe that most of the time the things you want to draw are
-given in a local coordinate system only. Typically you apply a "camera"
-transform to them or have even deeper parent/child relations where the
-coordinate system is relative to the parent. These cases can nicely be handled
-by a stack for the Position, Rotate and Scale attributes. Positions, Rotations
-and Scales are now specified relative to the topmost stack element. You can now simply push
-the transformation from child coordinate system to parent coordinate system on the stack
-and draw all childs in their own coordinate system.
+When looking at typical code that does drawing operations, one observes that the common parameters are often the same for several drawing operations. It is convenient to not have to specify all parameters again and again for each drawing operation. So we created a state machine that maintains a "current" value for each of the common parameters.
 
-= Foreground/Background and Z-Positions =
-We're presenting a (pseudo) 3d dimensional world on a 2d dimensional screen.
-Handling Foreground and Background requires us to sort the Drawing Operations
-so that stuff in the foreground is drawn after stuff in the background and
-obscures the background.
+You can also observe that most of the time the things you want to draw are given in a local coordinate system only. Typically you apply a "camera" transform to them or have even deeper parent/child relations where the coordinate system is relative to the parent. These cases can nicely be handled by a stack for the Position, Rotate and Scale attributes. Positions, Rotations and Scales are now specified relative to the topmost stack element. You can now simply push the transformation from child coordinate system to parent coordinate system on the stack and draw all childs in their own coordinate system.
 
-It's very difficult to enforce a certain drawing order in the code, so we're
-introducing the concept of a z-position. DrawingOperations with higher
-z-positions will be executed after drawing operations with lower z-positions.
-This means that we can't execute the drawing operations imediately anymore, but
-we have to store the information needed to execute them. We call this info a
-Drawing Request. We fill a list with all Drawing Requests and sort them
-according to their z-positions and finally execute them in the correct order.
+= Foreground/Background and Z-Positions
 
-= Implementation =
-The basic block of the implementation is the DrawingRequest class. It stores all
-information needed to execute a drawing operation. You can create custom subclasses from this class and override
-the draw() function to execute your custom drawing operations. You can expect
-that all common parameters that are maintained by the DrawingContext are already
-setup when the draw() function is called.
+We're presenting a (pseudo) 3d dimensional world on a 2d dimensional screen. Handling Foreground and Background requires us to sort the Drawing Operations so that stuff in the foreground is drawn after stuff in the background and obscures the background.
 
-The DrawingContext class is responsible for the state management and maintains
-the modelview transform stack.
+It's very difficult to enforce a certain drawing order in the code, so we're introducing the concept of a z-position. DrawingOperations with higher z-positions will be executed after drawing operations with lower z-positions. This means that we can't execute the drawing operations imediately anymore, but we have to store the information needed to execute them. We call this info a Drawing Request. We fill a list with all Drawing Requests and sort them according to their z-positions and finally execute them in the correct order.
 
-= Optimisations =
-To correctly implement the drawing operations we have to create snaphots of the
-current drawing state and append it to all DrawingRequests. You can observe that
-for most drawing operations in a typical scene these snapshots contain identical
-values except for the position.
+= Implementation
 
-So we factor out the modelview and color+blendfunctions used in DrawingRequests
-to point to a shared block that is used by multiple Drawing Requests. This not
-only reduces memory consumption but also allows for more efficient restoring of
-the drawing state in opengl. As we can now compare the pointers of the
-ModelView and color+blenfunc objects and only reset these values if the
-pointers are different.
+The basic block of the implementation is the DrawingRequest class. It stores all information needed to execute a drawing operation. You can create custom subclasses from this class and override the draw() function to execute your custom drawing operations. You can expect that all common parameters that are maintained by the DrawingContext are already setup when the draw() function is called.
+
+The DrawingContext class is responsible for the state management and maintains the modelview transform stack.
+
+= Optimisations
+
+To correctly implement the drawing operations we have to create snaphots of the current drawing state and append it to all DrawingRequests. You can observe that for most drawing operations in a typical scene these snapshots contain identical values except for the position.
+
+So we factor out the modelview and color+blendfunctions used in DrawingRequests to point to a shared block that is used by multiple Drawing Requests. This not only reduces memory consumption but also allows for more efficient restoring of the drawing state in opengl. As we can now compare the pointers of the ModelView and color+blenfunc objects and only reset these values if the pointers are different.

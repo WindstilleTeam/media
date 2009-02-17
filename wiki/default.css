@@ -10,7 +10,21 @@ body {
 /*  margin-right: 1em; */
 }
 
+h1, h2, h3, h4, h5 {
+  clear: both;
+}
+
+#body img { 
+  float: right;
+  padding-left: 1em;
+}
+
+img.thumbnail { 
+  border-style: none;
+}
+
 #navbar { 
+  clear: both;
   text-align: center;
   background: lightgrey;
 }
@@ -59,20 +73,13 @@ pre {
   padding: 0px;
 }
 
-div.comment div.user { 
-  background: lightgrey;
-  border-bottom-style: dotted;
-  border-bottom-width: thin;
- }
-
-div.comment div.body { 
-  padding-left:  1em;
-  padding-right: 1em;
+div.comment p { 
 }
 
 div.comment { 
   border-style: solid;
   border-width: thin;
+  background-color: lightgrey;
 }
 
 div.indent0 { border-style: solid; border-width: thin; padding: 0.5em 1em 0.5em 1em; margin-left: 0em; margin-bottom: 0.5em; }

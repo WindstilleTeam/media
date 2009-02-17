@@ -1,0 +1,18 @@
+== Shuttle
+
+A small transporter that is used to bring Jane to her missions.
+
+== Trains
+
+Public transportation that is used to move from one location in the city to the next.
+
+== Heavy Lifter
+
+<<thumbnail src="heavylifter.jpg">>
+
+A large oil tanker-like cargo space ship, used to transport cargo between the planets.
+
+== Tubes
+
+A large scale (1m³) version of pneumatic tubes, used to transport small cargo around the city. Used for some inviltration missions.
+

@@ -1,43 +1,45 @@
 No names have yet been selected for the different characters, so fell free to suggest some.
 
-= Player (Jane) =
+= Player (Jane)
 
-http://windstille.berlios.de/images/artwork13_small.jpg
+{{ http://windstille.berlios.de/images/artwork13_small.jpg }}
 
 Relativly new in the mercenary business, started to hire at Northern Star when she turned 18, wanted to get away from home as quickly as possible, wanted to see the stars, visit other worlds and the like. Worked as miner for some years now, visited a bunch of colonies, however quickly become sick of the mining business. She is now out of the mining business and tries to start a new living here on this colonie.
 
-= AI =
+= AI
 
 The controller programm of the Virtual Reality, has some intelligence and personality on his own.
 
-= Pilot =
+= Pilot
 
 The person who controls the shuttle and brings Jane to wherever she needs to go. Might actually be Yagor himself, not yet decided.
 
-=Boss (Yagor)=
-http://pingus.seul.org/~grumbel/tmp/windstille-yagor-small.png
+= Boss (Yagor)
+
+{{ http://pingus.seul.org/~grumbel/tmp/windstille-yagor-small.png }}
 
 The person for which Jane works. Has been in the merc business for a while and has worked for a short period of time together with Sophie, before she went solo. Somewhat of a father person to Jane.
 
-= Veteran (Sophie) =
+= Veteran (Sophie)
 
-http://windstille.berlios.de/images/artwork11_small.jpg
+{{ http://windstille.berlios.de/images/artwork11_small.jpg }}
 
 Veteran in the mercenary work, has worked on a bunch of different colonies and has been on this one for quite some years. She knows how stuff works here and how to get what is needed. Has lots of connections to different people around on this colonie. For most part see prefers to work alone. Tough women overall.
 
 = Jeff =
-http://pingus.seul.org/~grumbel/tmp/windstille-jeff.png
+
+{{ http://pingus.seul.org/~grumbel/tmp/windstille-jeff.png }}
 
 A sunnyboy, always sees the bright side of life. He works in the same business as Jane and every once in a while they clash together. While Jane might not like him much, Jeff sees their relationship a little differently.
 
 = Barkeeper (Bob) =
 
-http://windstille.berlios.de/images/barkeeper_small.jpg
+{{ http://windstille.berlios.de/images/barkeeper_small.jpg }}
 
 A valuable informant in this city. He knows most people around and he knows where the good jobs are to find. If something is happening his bar is the place where people exchange information. He might not be the most friendly looking guy, but once you know him for a while one shouldn't have to much throuble to get along with him. He tries his best to keep his bar a save place.
 
 = Mineral Worker =
 
-http://windstille.berlios.de/images/worker_small.jpg
+{{ http://windstille.berlios.de/images/worker_small.jpg }}
 
 One of the many contract workers which work for the Northern Star Mining cooroperation. The NSM often hires people and send them out to the different colonies to dig for resources. Their income is connected to the amount of resources which they collect, so if stuff doesn't work that right, they might quickly lose interesting, since only resources bring them income. Most of the time they are send out to a colonie for a few weeks or month, then send to another one, once the given resource region is harvested. Overall they can be hard workers, but only if the resources can motivate them.

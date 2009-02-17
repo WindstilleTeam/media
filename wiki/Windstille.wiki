@@ -2,7 +2,6 @@
 
 * [[Backstory]]
 * [[Characters]]
-* [[Weapons]]
 * [[Vehicles]]
 * [[Locations]]
 
@@ -11,12 +10,17 @@
 * [[Particles]]
 * [[Navigation Mesh]]
 * [[Scripting]]
+* [[Graphics]]
 * [[Drawing Model]]
+* [[Drawing Primitives]]
 * [[Editor]]
 
-== Misc
+== Game Mechanics
 
+* [[Actions]]
 * [[PDA]]
+* [[Weapons]]
+* [[Fighting]]
 
 == File Formats
 
