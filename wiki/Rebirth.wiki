@@ -27,3 +27,19 @@ To much time was wasted on discussion about backstory and stuff and to little wi
 == Editor
 
 Flexlay, while usable and working, is based on an old version of ClanLIb. This isn't all that good in the long run, since it limits the GUI quite a bit. Current plan is to make a sandbox editor based on Gtkmm, that will allow to edit the levels in engine itself.
+
+= Prototypes
+
+To get some gameplay details sorted out bevor the big implementation can begin a series of prototypes will be constructed.
+
+== Navigation Mesh ==
+
+The Navigation Mesh Prototype should demonstrate the concept of the
+navigation mesh level layout and demonstrate actions like jumping,
+ledge grabbing, etc. performated on the mesh.
+
+== Shooting ==
+
+The shooting test shall demonstrate the shooting, the aiming with
+laser pointer, as well as flamethrower action.
+
