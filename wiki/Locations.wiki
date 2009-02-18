@@ -1,41 +1,43 @@
-Realistically, milestone 1 is only going to be able to have a very limited number of locations. This is an attempt to keep track of what locations we actually intend to create  - which requires art, level design, coding the required game objects, populating the location with characters and bad guys, and including the location in the plot.
+Windstille will have basically two kinds of areas, one is the city, in which one can move around by train or other means, and the other are the outdoor areas which will be reachable mainly by shuttle. 
+
+The outdoor areas will mostly feature powersuit gameplay and revolve around mines, cave and other installations that will allow some room for vertical exploration.
 
 == VR Training ==
 
-* Used for the opening tutorial for the game.
+* used for the optional opening tutorial
 
 * provides a number of sub rooms to allow the player to train all kinds of stuff
 
 == City ==
 
-* Jane's apartment
+=== Jane's apartment
 
-This is where the game opens. Perhaps it could be reused for other things, too?
+=== Street / roof tops
 
-* Street / roof tops
-
+<<note>>
 Maybe we will have a sector that just represents walking about the city? I don't know.
+<</note>>
 
-* Bar
+=== Bar
 
 Used for meeting some of the characters, perhaps you may go here for jobs, or whatever.
 
-* Train station
+=== Train station
 
-Maybe this isn't needed, but we have a train model and train stations are a good location for meeting characters and travelling, and they also add to the feel that you are in a living city.
+<<thumbnail src="location_trainstation.jpg">>
 
-* Shuttle port
+The Train station will be one of the main ways to move around in the city or between different cities.
+
+=== Shuttle port
 
 Where you get on shuttles to take you away from the city
 
 == Forest ==
 
-This is where the Milestone 1 powersuit mission takes place.
-
-* Above ground
+=== Above ground
 
 Will contain trees, and maybe some swamp or something too. The idea seems to be that on the forest surface your enemies are the local wildlife, not humans or aliens or whatever. The final boss is a huge spider (though they could be put below ground, see below)
 
-* Underground
+=== Underground
 
-Both man made mines and natural labyrinth. Quite possibly it will contain some robots of various sorts for bad guys, perhaps also spiders.
+Both man made mines and natural caves. Quite possibly it will contain some robots of various sorts for bad guys, perhaps also spiders.

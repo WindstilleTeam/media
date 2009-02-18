@@ -4,6 +4,7 @@ import os.path
 import codecs
 import re
 from genshi.template import MarkupTemplate
+from genshi import XML
 import genshi.builder as bldr
 import creoleparser
 import sys
@@ -91,12 +92,39 @@ class Wiki2HTML:
                 alt = dict['src']
 
             if dict.has_key('title'):
-                title = dict['title']            
+                title = dict['title']
             else:
                 title = None
 
             return bldr.tag.a(bldr.tag.img(None, src="thumbnails/" + dict['src'], alt=alt, title=title, class_="thumbnail"),
                               href="images/" + dict['src'])
+
+        elif name == "raw":
+            return XML(body)
+        
+        elif name == "youtube":
+            dict = parse_arg_string(arg_string)            
+            
+            # autoplay=1 - starts video automatically
+            # rel=0      - removes the related video menu at the end
+            # ap=%2526fmt%3D18 - highquality 
+            return bldr.tag.center(
+                bldr.tag.object(
+                    bldr.tag.param(None, 
+                                   name="movie",
+                                   value="http://www.youtube.com/v/%s&hl=en&fs=1&rel=0&loop=1&ap=%%2526fmt%%3D18" % dict['src']) +
+                    bldr.tag.param(None, name="allowFullScreen",   value="true") +
+                    bldr.tag.param(None, name="allowscriptaccess", value="always") +
+                    bldr.tag.embed(None, 
+                                   src="http://www.youtube.com/v/%s&hl=en&fs=1&rel=0&loop=1&ap=%%2526fmt%%3D18" % dict['src'],
+                                   type="application/x-shockwave-flash",
+                                   allowscriptaccess="always",
+                                   allowfullscreen="true",
+                                   width="425",
+                                   height="344"),
+                    width="425", height="344"),
+                class_="youtube")
+
         elif name == "img":
             dict = parse_arg_string(arg_string)
             if not dict.has_key('src'):
@@ -125,20 +153,20 @@ class Wiki2HTML:
                 args = args[2:]
 
                 self.creole_parser = creoleparser.Parser(dialect=creoleparser.Creole10(
-                        wiki_links_base_url   = '',
-                        wiki_links_path_func  = lambda pagename: pagename + ".html",
-                        wiki_links_space_char = ' ',
-                        # no_wiki_monospace   = True,
-                        use_additions         = True,
-                        macro_func            = self.macro_func,
-                        interwiki_links_funcs={'Talk' : self.talk_links_funcs }
-                        ))
+                    wiki_links_base_url   = '',
+                    wiki_links_path_func  = lambda pagename: pagename + ".html",
+                    wiki_links_space_char = ' ',
+                    # no_wiki_monospace   = True,
+                    use_additions         = True,
+                    macro_func            = self.macro_func,
+                    interwiki_links_funcs={'Talk' : self.talk_links_funcs }
+                    ))
 
                 try:
                     for filename in args:
                         tmpl = MarkupTemplate(file2string("template.xml"))
                         text = tmpl.generate(next = find_next_page(os.path.basename(filename)[:-5]),
-                                             prev = find_prev_page(os.path.basename(filename)[:-5]),
+                        prev = find_prev_page(os.path.basename(filename)[:-5]),
                                              thispage = os.path.basename(filename),
                                              body = self.creole_parser.generate(file2string(filename)),
                                              title = filename.replace(".wiki", "")).render(method='xhtml', 

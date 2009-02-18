@@ -1,3 +1,7 @@
+<<note>>
+Needs update, specifically on how script functions get exported, on how scripts related to sectors, levels or dialog and on what scripting is used for.
+<</note>>
+
 Windstille uses [[http://www.squirrel-lang.org/|Squirrel]] for scripting. The full source code of squirrel is included within the "squirrel" subdirectory of Windstille's source, and it is automatically built into the game.
 
 C++ functions are exposed to scripts via the interface in the "scripting" sub directory". Miniswig, found in the "tools/miniswig" subdirectory, is a tool that creates wrapper functions to allow the interface functions to be called from squirrel. If you have bison and flex installed then miniswig will be built automatically, and any changes you make to the scripting interface will automatically be added to the wrapper functions when you execute jam.

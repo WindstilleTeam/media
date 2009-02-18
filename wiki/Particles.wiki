@@ -60,6 +60,10 @@ Particle systems, as currently implemented in Windstille, consists of two main s
 
 ;; EOF ;;
 }}}
+
+And here the example code in action:
+
+<<youtube src="q-9miRwcLwk">>
  
 == Other Particle Engines
 

@@ -1,3 +1,8 @@
+<<note>>
+Needs more focus on highlight, color and light layers. Some other stuff should be split off.
+<</note>>
+
+
 To bring images on screen you have to execute drawing operations. There are several different types of drawing operations. Each of them depend on a number of parameters.
 
 == Common Parameters
@@ -72,3 +77,5 @@ The highlight layer is drawn ontop of the light layer, it is meant for lense-fla
 = GLSL Effects
 
 GLSL, OpenGLs shader language, allows to do some very nice effects (fire, glass, shockwaves, etc.) the [[http://windstille.berlios.de/screenshots.html|Windstille webpage]] has some videos of them. The good news is that they are rather easy to implement, the bad news is that one needs some framework to implement them properly, ie. first of one needs to get them through ClanLib and secondly for most effects one needs a copy of the current framebuffer, which however is rather expensive to read, so its hard to get. They are also rather GPU heavy, so when not handled with care they won't work on low-end graphic cards (GeforceFX5200, ATI9200) and they don't work at all on even older cards, so they would need to be optional.
+
+<<youtube src="xrA4bQik1Lc">>

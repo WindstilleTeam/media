@@ -34,7 +34,7 @@ Flexlay, while usable and working, is based on an old version of ClanLIb. This i
 
 = Prototypes
 
-To get some gameplay details sorted out bevor the big implementation can begin a series of prototypes will be constructed.
+In the past there was some confusion what the final goal actually is, to get this sorted out development shall focus on developing prototypes of key game mechanics and plenty of sketches of location.
 
 == Navigation Mesh ==
 
