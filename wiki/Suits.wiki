@@ -1,0 +1,17 @@
+== Powersuit
+
+<<thumbnail src="powersuit.jpg">>
+
+A powered suit that is used in exploration missions and for fighting.
+
+== Environmental Suit
+
+<<thumbnail src="environmental_suit.jpg">>
+
+A lightweight suit that is used in exploration environments that lack oxygen.
+
+== Deepsea Suit
+
+<<thumbnail src="deepsea_suit.jpg">>
+
+A suit for exploring deep sea environments.

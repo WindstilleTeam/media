@@ -4,6 +4,7 @@
 
 * [[Backstory]]
 * [[Characters]]
+* [[Suits]]
 * [[Vehicles]]
 * [[Locations]]
 
