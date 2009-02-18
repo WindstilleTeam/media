@@ -4,6 +4,8 @@ Need to add some pretty pictures here.
 
 == Shuttle
 
+<<thumbnail src="smallshuttle.png">>
+
 A small transporter that is used to bring Jane to her missions.
 
 == Trains
