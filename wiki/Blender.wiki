@@ -7,7 +7,11 @@ There are plenty of ways to construct Blender models (*.blend) in a way that the
 
 == Armatures
 
-Armatures and character models should stay seperate. How to accomplish that, is not yet clear.
+<<note>>
+How to accomplish that, is not yet clear.
+<</note>>
+
+Armatures and character models should stay seperate. 
 
 == Lighting
 

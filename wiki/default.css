@@ -26,25 +26,37 @@ h1, h2, h3, h4, h5 {
   padding-left: 1em;
 }
 
+#footer { 
+  padding: 0.5em;
+  background-color: rgb(0, 0, 50);
+  color: lightgrey;
+  text-align: center;
+  font-size: small;
+}
+
+#footer a { 
+  color: cyan;
+}
+
 img.thumbnail { 
   border-style: none;
 }
 
 #navbar { 
   clear: both;
-  background: lightgrey;
+  background-color: rgb(0, 0, 50);
   text-align: center;
   padding: 0.2em;
 }
 
 #navbar a {
-  color: black;
+  color: white;
   text-decoration: none;
-  background-color: lightgrey;
+  background-color: rgb(0, 0, 75);
   display: inline-block;
   text-align: center;
   border-style: solid;
-  border-color: darkgrey;
+  border-color: rgb(50, 50, 150);
   border-width: thin;
   margin-left:  1em;
   margin-right: 1em;
@@ -54,6 +66,7 @@ img.thumbnail {
 }
 
 #navbar a:hover {
+  color: black;
   background-color: white;
 }
 
@@ -93,6 +106,14 @@ pre {
 p { 
   text-indent: 1em;
   line-height: 170%;
+}
+
+li { 
+  padding-bottom: 0.7em;
+}
+
+li:last-child { 
+  padding-bottom: 0.0em;
 }
 
 #titlebox h1 {

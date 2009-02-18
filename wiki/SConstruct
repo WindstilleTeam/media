@@ -1,7 +1,9 @@
+# -*- python -*-
+
 import glob
 import os
 
-bld = Builder(action = './wiki2html.py $SOURCE > $TARGET')
+bld = Builder(action = './wiki2html.py -o build $SOURCE')
 env = Environment(BUILDERS = {'Wiki' : bld})
 
 Mkdir("build")

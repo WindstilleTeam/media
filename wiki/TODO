@@ -1,3 +1,5 @@
 http://creoleparser.googlepages.com/CheatSheetPlus.html
 
 Add prev/next and chapter jumps to the .html generator
+
+Add a 'last updated' time to the pages, take it from "svn info"

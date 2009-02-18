@@ -1,3 +1,5 @@
+A Sprite is a simple animated image. A Sprite can have multiple actions.
+
 = C++ Specification:
 
 {{{

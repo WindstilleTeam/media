@@ -115,28 +115,40 @@ class Wiki2HTML:
 
     def main(self, args):
         if args == []:
-            print "Usage: wiki2html.py FILENAME..."
-        else:
-            self.creole_parser = creoleparser.Parser(dialect=creoleparser.Creole10(
-                    wiki_links_base_url   = '',
-                    wiki_links_path_func  = lambda pagename: pagename + ".html",
-                    wiki_links_space_char = ' ',
-                    # no_wiki_monospace   = True,
-                    use_additions         = True,
-                    macro_func            = self.macro_func,
-                    interwiki_links_funcs={'Talk' : self.talk_links_funcs }
-                    ))
+            print "Usage: wiki2html.py -o DIRECTORY FILENAME..."
 
-            try:
-                for filename in args:
-                    tmpl = MarkupTemplate(file2string("template.xml"))
-                    print tmpl.generate(next = find_next_page(os.path.basename(filename)[:-5]),
-                                        prev = find_prev_page(os.path.basename(filename)[:-5]),
-                                        body = self.creole_parser.generate(file2string(filename)),
-                                        title = filename.replace(".wiki", "")).render(method='xhtml', 
-                                                                                      strip_whitespace=True)
-            except Exception, err:
-                sys.stderr.write(str(err) + "\n")
+        else:
+            if len(args) < 3 or args[0] != '-o':
+                raise Exception("Usage: wiki2html.py -o DIRECTORY FILENAME...")
+            else:
+                directory = args[1]
+                args = args[2:]
+
+                self.creole_parser = creoleparser.Parser(dialect=creoleparser.Creole10(
+                        wiki_links_base_url   = '',
+                        wiki_links_path_func  = lambda pagename: pagename + ".html",
+                        wiki_links_space_char = ' ',
+                        # no_wiki_monospace   = True,
+                        use_additions         = True,
+                        macro_func            = self.macro_func,
+                        interwiki_links_funcs={'Talk' : self.talk_links_funcs }
+                        ))
+
+                try:
+                    for filename in args:
+                        tmpl = MarkupTemplate(file2string("template.xml"))
+                        text = tmpl.generate(next = find_next_page(os.path.basename(filename)[:-5]),
+                                             prev = find_prev_page(os.path.basename(filename)[:-5]),
+                                             thispage = os.path.basename(filename),
+                                             body = self.creole_parser.generate(file2string(filename)),
+                                             title = filename.replace(".wiki", "")).render(method='xhtml', 
+                                                                                           strip_whitespace=True)
+                        f = open(directory + '/' + os.path.basename(filename)[:-5] + ".html", 'w')
+                        f.write(text)
+                        f.close()
+
+                except Exception, err:
+                    sys.stderr.write(str(err) + "\n")
 
             
 if __name__ == "__main__":

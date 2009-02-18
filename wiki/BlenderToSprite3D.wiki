@@ -1,3 +1,7 @@
+<<note>>
+This article needs an update.
+<</note>>
+
 {{{
 Notes about blender models:
 
@@ -6,8 +10,8 @@ Notes about blender models:
   
      ln -s contrib/windstille_exporter.py $HOME/.blender/scripts
      
-- 1 blender unit corresponds to 32pixels in game
-  (if you use the default 800x600 game resolution)
+- 1 blender unit corresponds to 1 meter in game
+  (32 pixels if you use the default 800x600 game resolution)
 - When looking at a character turned left from the side, coordinate axes are:
     z -> up
     y -> right

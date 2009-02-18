@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="default.css" />
     <link rel="icon" href="images/favicon.png" type="image/png" />
     <link rel="top" href="Windstille.html" />
+    <link rel="up" href="Windstille.html" />
     <link rel="next" href="${next}.html" />
     <link rel="prev" href="${prev}.html" />
   </head>
@@ -26,14 +27,12 @@
       <h1>${title}</h1>
       ${body}
       <br clear="all" />
+      <div style="text-align: right;">
+        <a href="http://svn.berlios.de/viewvc/windstille/trunk/media/wiki/${thispage}" style="font-size: small;">view source</a>
+      </div>
     </div>
-    <div id="navbar">
-      <a href="News.html">News</a>
-      <a href="${prev}.html">← Prev</a>
-      <a href="Windstille.html">Index</a>
-      <a href="${next}.html">Next →</a>
-      <a href="About.html">About</a>
-      <br clear="all" />
+    <div id="footer">
+      This Wiki uses <a href="http://www.wikicreole.org/">Creole</a>.
     </div>
   </body>
 </html>

@@ -2,6 +2,10 @@
 
 Time to document a few things that went wrong in the past and how I intend to fix them.
 
+== Wiki
+
+While Wikis are nice for some things, they can easily clog up with way to much redundant garbage if they aren't maintained properly. The user editability also leads to plenty of pointles discussion. To cut the noise down, to make it easier to reorganize things, to make it easier backup things and to make things less maintainance intensive, the Wiki got moved into SVN and is now generated offline.
+
 == Tilemaps
 
 While tilemaps are a classic building block of 2D games, they just didn't work out for what I had in mind. There is to much flexibility that is lost due to them and there are quite a few things that are made much harder, like slopes, AI reactions to the environment, etc.
@@ -34,8 +38,7 @@ To get some gameplay details sorted out bevor the big implementation can begin a
 
 == Navigation Mesh ==
 
-The Navigation Mesh Prototype should demonstrate the concept of the
-navigation mesh level layout and demonstrate actions like jumping,
+The [[Navigation Mesh]] Prototype should demonstrate the concept of the navigation mesh level layout and demonstrate actions like jumping,
 ledge grabbing, etc. performated on the mesh.
 
 == Shooting ==
