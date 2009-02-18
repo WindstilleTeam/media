@@ -15,10 +15,11 @@
       <h1><img src="images/windstille-logo.png" alt="Windstille" /></h1>
     </div>
     <div id="navbar">
-      <a href="${prev}.html">← Prev</a>
       <a href="News.html">News</a>
-      <a href="Windstille.html">Index</a>
+      <a href="${prev}.html">← Prev</a>
+      <a href="Windstille.html">↑ Up</a>
       <a href="${next}.html">Next →</a>
+      <a href="About.html">About</a>
       <br clear="all" />
     </div>
     <div id="body">
@@ -27,10 +28,11 @@
       <br clear="all" />
     </div>
     <div id="navbar">
-      <a href="${prev}.html">← Prev</a>
       <a href="News.html">News</a>
+      <a href="${prev}.html">← Prev</a>
       <a href="Windstille.html">Index</a>
       <a href="${next}.html">Next →</a>
+      <a href="About.html">About</a>
       <br clear="all" />
     </div>
   </body>

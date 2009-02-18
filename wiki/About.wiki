@@ -1,0 +1,18 @@
+This Wiki isn't editable by the general public. Its is stored in SVN and only writable by developers, you can check it out via:
+
+* svn co http://svn.berlios.de/svnroot/repos/windstille/trunk/media/wiki
+
+And can browse it at:
+
+* http://svn.berlios.de/viewvc/windstille/trunk/media/wiki/
+
+Feel free to send patches to:
+
+* [[mailto:grumbel@gmx.de | Ingo Ruhnke <grumbel@gmx.de>]].
+
+This Wiki is generated with the help of [[http://code.google.com/p/creoleparser/ |  Creoleparser]] and [[http://genshi.edgewall.org/ | Genshi]].
+
+The Windstille Project page itself is located at:
+
+* http://windstille.berlios.de/
+* https://developer.berlios.de/projects/windstille

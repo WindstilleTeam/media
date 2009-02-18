@@ -49,7 +49,8 @@ all_pages = ['Windstille',
              'Blender',
              'BlenderToSprite3D',
              'Sprite3D',
-             'Sprite']
+             'Sprite',
+             'About']
 
 def find_next_page(str):
     for i in range(len(all_pages)):
