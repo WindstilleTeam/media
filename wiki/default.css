@@ -4,6 +4,8 @@ body {
 
   margin: 0 auto 0 auto;
   background: black;
+
+  line-height: 150%;
 }
 
 #body {
@@ -111,15 +113,6 @@ pre {
 
 p { 
   text-indent: 1em;
-  line-height: 170%;
-}
-
-li { 
-  padding-bottom: 0.7em;
-}
-
-li:last-child { 
-  padding-bottom: 0.0em;
 }
 
 #titlebox h1 {

@@ -2,13 +2,13 @@ Windstille will have basically two kinds of areas, one is the city, in which one
 
 The outdoor areas will mostly feature powersuit gameplay and revolve around mines, cave and other installations that will allow some room for vertical exploration.
 
-== VR Training ==
+== VR Training
 
 * used for the optional opening tutorial
 
 * provides a number of sub rooms to allow the player to train all kinds of stuff
 
-== City ==
+== City
 
 === Jane's apartment
 
@@ -32,7 +32,7 @@ The Train station will be one of the main ways to move around in the city or bet
 
 Where you get on shuttles to take you away from the city
 
-== Forest ==
+== Forest
 
 === Above ground
 
