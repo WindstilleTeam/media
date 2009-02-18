@@ -41,3 +41,36 @@ Will contain trees, and maybe some swamp or something too. The idea seems to be 
 === Underground
 
 Both man made mines and natural caves. Quite possibly it will contain some robots of various sorts for bad guys, perhaps also spiders.
+
+= Artworks
+
+Miscellaneous artworks of possible locations, these are just for
+inspiration, not for exact implementation.
+
+<<raw>>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/8eb0bc520455b1c10179892c99eb76dc-apartment.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/d8ed7efa7ea9d1f01cc31d2f5fbbbff2-apartment_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/2b3ffef849f967393bae8a18152fd838-cave2.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/4113fdcebe5f2638aa898f17f54f530d-cave2_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/5ae72928cbfdf9f1dfb1c510ec6b2730-cave3.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/3ba7bdc05d335ea8ae573d09446f5136-cave3_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/975db136cac0e004baf9128bd5062074-cave.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/1b072c7a90eca15ebc4551399e03991b-cave_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/88543d1f5fe04bdc532078aea9ab6dbb-hangar.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/47c4fe0ad2fde78fb41cf7eb269c5e88-hangar_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/649c09983f1cf88070b976fe5ef4fcbd-haus2.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/ec0eb3e41cb8c7ef6bad97821bbb9dc1-haus2_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/b5eaa9670f89a13e986b21e7b3bf339c-industrial.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/afcdfdf7a5c9f876c5ea6e11750d7760-industrial_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/ae4fed0308a12113335c42ae8eee82e7-saveroom.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/e2f9403d4738ebf93c2ea57b228a5a87-saveroom_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/a13d9ad34bb6033d5924867728b85f86-skybridge.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/a58e24fa043111d608732538269b9502-skybridge_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/9181985a21462402a775782ca0c6dac4-trainstation.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/61246a61b6fb90362a6886bf76ebdad6-trainstation_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/41e2e8a787d8378744fc1a3a79c69e5e-cave4.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/d2d2b175797b473301d79b9ee81a27a4-cave4_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/14d2026deb19bdf355f0c81764d04db5-haus3.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/79c4d410d80acfc3f3252714a870ddb3-haus3_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/0db46a8e56ee891dba65448db0c122db-subway2.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/9cba2fb3e9cb782afc2b0118a071b3f3-subway2_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/60ac9c256ce0d4a1b0b776138e0302d4-cave6.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/930399e32dd63e9471d0557d2d0c8212-cave6_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/bf90c467024aee7baa6b8979aea2e3ba-cellar.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/42d05ee31777d304c780c9d03db9d978-cellar_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/6ff697a01a0d5168b50e92a83355d62f-desert2.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/4d59c3ff7e86c33235483d9e56354d53-desert2_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/41414f5425eb8567958a1baa433e2651-desert.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/b521505f1f74de6268df097826bcac80-desert_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/72552c6bc60110d76e2e2141c3386767-generator.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/ff41b4d4ccc66203e712c30b581650a0-generator_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/adf836da7ea74a5818441ae688acc234-desert3.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/fdf2e3b50c14d7b97294a01c490e672d-desert3_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/e5497682674d6d28322488cbdf4c17d8-elevator2.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/bb49300321ac3f8b87dcdf32fc93b2b7-elevator2_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/78772a53719fb06e13b3485cc6b81a3e-elevator3.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/c2c2d0974c22785ffc20d5cf855260ac-elevator3_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/cd6ff052619f85229a6f62d4efa49ad9-forest.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/4ff868f99eccaf019c8bf85be829a7d8-forest_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/3e8f42f5e8e15e11a56fcb0c6500915b-generator2.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/a917354d443f7e23e7807ce097b5325d-generator2_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/96ee128ba5d017f3ba5a1e46c199b35f-tunnel.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/4b311eca4f0f5da7fde772bdacb93bae-tunnel_thumb.jpg" /></a>
+<a href="http://pingus.seul.org/%7Egrumbel/tmp/md5/d7f32bf6680ee8599c9a15663653e36d-vehicle.jpg"><img src="http://pingus.seul.org/%7Egrumbel/tmp/md5/6ef4cea35f797876d2e48ad367bf47ca-vehicle_thumb.jpg" /></a>
+<</raw>>

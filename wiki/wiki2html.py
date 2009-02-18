@@ -5,6 +5,8 @@ import codecs
 import re
 from genshi.template import MarkupTemplate
 from genshi import XML
+from genshi import HTML
+from genshi import Stream
 import genshi.builder as bldr
 import creoleparser
 import sys
@@ -101,7 +103,7 @@ class Wiki2HTML:
                               href="images/" + dict['src'])
 
         elif name == "raw":
-            return XML(body)
+            return HTML(body) # FIXME: Why can't we use XML()?
         
         elif name == "youtube":
             dict = parse_arg_string(arg_string)            
@@ -131,7 +133,10 @@ class Wiki2HTML:
             if not dict.has_key('src'):
                 raise Exception("Source argument missing from <<img>>")
 
-            return bldr.tag.img(None, src="images/" + dict['src'], alt=dict['src'], title=dict['title'], class_= 'comment')
+            if dict.has_key['title']:
+                title = dict['title']
+
+            return bldr.tag.img(None, src="images/" + dict['src'], alt=dict['src'], title=title, class_= 'comment')
 
         elif name == "ind":
             body = self.creole_parser.generate(body)

@@ -28,6 +28,16 @@ Vertex animation looked like and easy target and it kind of was, we have them im
 
 To much time was wasted on discussion about backstory and stuff and to little with things that could be turned into actual gameplay. A prototype level that demonstrates dialog and overall gameflow is therefore a priority. 
 
+== Dialog
+
+Windstille currently has a JRPG like dialog system, that presents a portrait along with text. It sort of works, but creates a very blocking experience. One of the goals of Windstille is to be as non-blocking as possible, meaning that you shouldn't be forced to click on people and then wait for the talk to finish, instead dialog should be more natural and for example be initiated by NPCs automatically. Dialog should also be focused on allow voice acting later one, which JRPG style systems are terrible at.
+
+Long story short, the new dialog system will be more like the classic LucasArts advetures, presenting color-coded text right on the screen without necesarrily block.
+
+Conversation, aka answering to dialog, is currently done by a system similar to Dreamfall, it presents a general topic choice, along with a little text for thought of the character on the topic. So basically a normal multiple choice system with a little twist. This might mostly stay as is, maybe taking a bit additional inspiration from Fahrenheit and Mass Effect.
+
+Another issue with Dialog is scripting, current dialog is heavily scripting based, for longer dialogs this is impractical, a system similar to Adonthell shall be used, i.e. an aproach based on data (s-expr files), not on script code. Scripting will be done via hooks in the data.
+
 == Editor
 
 Flexlay, while usable and working, is based on an old version of ClanLib. This isn't all that good in the long run, since it limits the GUI quite a bit. Current plan is to rewrite the [[Editor]] and make a sandbox editor based on Gtkmm, that will allow to edit the levels in engine itself.
