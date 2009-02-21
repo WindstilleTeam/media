@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import traceback
 import os.path
 import codecs
 import re
@@ -40,6 +41,7 @@ all_pages = ['Windstille',
              'Suits',
              'Vehicles',
              'Locations',
+             'Missions',
              'Particles',
              'Navigation Mesh',
              'Scripting',
@@ -182,6 +184,7 @@ class Wiki2HTML:
                         f.close()
 
                 except Exception, err:
+                    traceback.print_tb(sys.exc_info()[2], 10, sys.stderr)
                     sys.stderr.write(str(err) + "\n")
 
             

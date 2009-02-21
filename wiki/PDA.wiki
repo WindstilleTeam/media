@@ -2,7 +2,7 @@
 
 The PDA is a tool that can be used in the game to perform various functions, such as:
 
-* automaticall record dialog, so that it can be recalled later on in the game
+* automatically record dialog, so that it can be recalled later on in the game
 * record mission/quest logs
 * detailed auto-map of the environment
 

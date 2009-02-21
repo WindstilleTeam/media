@@ -1,13 +1,84 @@
 <<note>>
-ToDo: Document current particle systems and document possible
-shortcommings and missing features
+TODO: create some more examples such as explosins, water and stuff like that.
 <</note>>
 
-Particle systems, as currently implemented in Windstille, consists of two main sub parts, a drawer object and a distribution object. The drawer gets the particle and draws it, while the distribution is used to spawn the particles. Distributions are geometric shapes like lines, rectangles or circles.
+Particle systems, as currently implemented in Windstille, consists of two main sub parts, a drawer object and a distribution object. The drawer gets the particles position and parameter and draws it, while the distribution is used to spawn the particles. Distributions are geometric shapes like lines, rectangles or circles.
 
 == Drawer
 
+The job of the drawer object is to render the particles, it gets the position, lifetime ond other parameter of the particle and can then decide how to render it with that information. New Drawer objects can be added with relative ease.
+
+=== surface-drawer
+
+Draws a image at the position of each particle.
+
+==== (image //string//)
+
+==== (blendfunc-src //string//)
+
+==== (blendfunc-dst //string//)
+
+=== spark-drawer
+
+Draws a line from the current particle position to the position the particle had a frame earlier.
+
+==== (color //r// //g// //b// //a//)
+
+== Distribution
+
+<<note>>
+In source code Distribution is currently called Randomizer, this needs to be cleaned up.
+<</note>>
+
+The Distribution object decides at which position the next Particle should be spawned. In most cases the distribution object defines a geometric shape in which new Particles get created.
+
+=== rect-distribution
+
+=== line-distribution
+
+=== ciricle-distribution
+
+=== point-distribution
+
 == Variables
+
+==== (drawer //drawer-declaration//)
+
+drawer that draws the particle
+
+==== (distribution //distribution-declaration//)
+
+description of a distribution object from which particles spawn
+
+==== (count //count//)
+
+number of particles that can be on the screen at once
+
+==== (pos //x// //y//)
+
+position of the particle system
+
+==== (z-pos //pos//)
+
+z position, used for drawing order
+
+==== (layer //layer-name//)
+
+layer name to which the particles get drawn, can be:
+
+*  "highlight"
+* "light"
+* "color"
+
+==== (cone //start-angle// //end-angle//)
+
+direction into which particles are emitted
+
+==== (velocity //min// //max//)
+
+speed of the emitted particles
+
+
 
 == Example
 
@@ -60,6 +131,10 @@ Particle systems, as currently implemented in Windstille, consists of two main s
 
 ;; EOF ;;
 }}}
+
+<<note>>
+Video is from an older version, but close enough to the examples.
+<</note>>
 
 And here the example code in action:
 
