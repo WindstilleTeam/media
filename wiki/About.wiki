@@ -1,4 +1,4 @@
-This is the Windstille Development Wiki, it isn't editable by the general public. Its is stored in SVN and only writable by developers, you can check it out via:
+This is the Windstille Development Wiki, it isn't editable by the general public. Its is stored in [[http://subversion.tigris.org/ | SVN]] and only writable by developers, you can check it out via:
 
 * svn co http://svn.berlios.de/svnroot/repos/windstille/trunk/media/wiki
 
