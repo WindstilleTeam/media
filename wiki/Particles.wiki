@@ -132,11 +132,7 @@ speed of the emitted particles
 ;; EOF ;;
 }}}
 
-<<note>>
-Video is from an older version, but close enough to the examples.
-<</note>>
-
-And here the example code in action:
+And here an older version of the example code in action:
 
 <<youtube src="q-9miRwcLwk">>
  

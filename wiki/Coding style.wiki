@@ -48,3 +48,11 @@ Some notes about nameing convention:
 * files are named after the class they contain, but lowercased (i.e. drawing_manager.hpp for DrawingManager)
 * include guards defines are HEADER_WINDSTILLE_//DIRECTORY//_//FILENAME//
 
+== Other things
+
+* external libraries go to {{{external/}}} not into the {{{src/}}} directory
+* could that can be reused by other projects (lisp, tinygettext, ...) shall be moved to {{{external/}}}
+* complex hacks on external libraries are not allowed unless absolutely necessarry and well documented
+* each testable sub-module shall have test cases and  examples
+* all interactive sub-modules shall have a visual demonstration reachable from the normal in-game menu
+* no code unreachable by either test cases, visual demonstration or test level shall enter the repository

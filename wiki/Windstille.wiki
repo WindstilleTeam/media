@@ -22,6 +22,7 @@
 
 == Game Mechanics
 
+* [[Controls]]
 * [[Actions]]
 * [[PDA]]
 * [[Weapons]]

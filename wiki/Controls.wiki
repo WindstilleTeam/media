@@ -1,0 +1,14 @@
+The game will be designed around a current day dual analog gamepad such as can be found on the Playstation 3 or the Xbox360. This means:
+
+* four face buttons (run, jump, use)
+* two trigger buttons
+* two analog trigger trigger (gun)
+* start/select buttons (menu, pda)
+* two analog sticks
+* directional pad
+* rumble support
+
+
+
+
+

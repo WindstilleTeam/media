@@ -1,3 +1,3 @@
 The main city will mostly acts as a hub to aquire new missions or quests, while mines, caves and other locations outside the city will be where the actual missions take place.
 
- 
+There will also some missions that play directly in the city or across multiple places.

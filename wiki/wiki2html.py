@@ -50,6 +50,7 @@ all_pages = ['Windstille',
              'Drawing Model',
              'Drawing Primitives',
              'Editor',
+             'Controls',
              'Actions',
              'PDA',
              'Weapons',
@@ -192,6 +193,7 @@ class Wiki2HTML:
                                              thispage = os.path.basename(filename),
                                              body = self.creole_parser.generate(file2string(filename)),
                                              title = filename.replace(".wiki", "")).render(method='xhtml', 
+                                                                                           encoding='latin-1',
                                                                                            strip_whitespace=True)
                         f = open(directory + '/' + os.path.basename(filename)[:-5] + ".html", 'w')
                         f.write(text)

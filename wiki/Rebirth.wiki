@@ -1,6 +1,8 @@
-<<note>>The following text is written by Grumbel.<</note>>
+<<note>>
+The following text is written by Grumbel.
+<</note>>
 
-Time to document a few things that went wrong in the past and how I intend to fix them.
+Windstille has been in development for a long long time. However not all things went smoothly, so development died down more then a few times. So time to document a few things that went wrong in the past and how I intend to fix them.
 
 == Wiki
 
@@ -57,4 +59,8 @@ ledge grabbing, etc. performated on the mesh.
 
 The shooting test shall demonstrate the shooting, the aiming with
 laser pointer, as well as flamethrower action.
+
+= Moving the goalpost
+
+Windstille as shifted targets quite often, so its time to get things documented properly and tested properly in prototypes, so that the actual game can improve on a more constant basis, instead of randomly jump from one half finished tasks to another half finished one and thus end in an unfinished mess.
 
