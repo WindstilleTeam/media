@@ -140,6 +140,7 @@ class Wiki2HTML:
             if not dict.has_key('src'):
                 raise Exception("Source argument missing from <<img>>")
 
+            title = None
             if dict.has_key('title'):
                 title = dict['title']
 
