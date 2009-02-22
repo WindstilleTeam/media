@@ -1,3 +1,6 @@
+2009-02-22
+* Back in action, the new Wiki went live
+
 2008-05-08
 * Windstille rebirth is in progress
 * Wiki content is moved into SVN and build by custom scripts with help of creoleparser

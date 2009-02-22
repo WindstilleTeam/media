@@ -23,7 +23,7 @@ The few exceptions are:
 
 * return type is on its own line
 * namespaces aren't indented
-* case lables are intended
+* case lables are indented
 * no space between parenthisis an function call (i.e. foobar() not foobar ())
 
 These can be achived with:
@@ -38,7 +38,7 @@ These can be achived with:
                         (inextern-lang . 0)))
 }}}
 
-The whole indention thing can be fixed with a keypress in Emacs, so don't bother to much trying to get it correct manually. If you work on something on your own, use whatever style works for you.
+The whole indention thing can be fixed with a keypress in Emacs, so one shouldn't bother to much with trying to get it correct manually. Instead one should simply use the style that makes one most productive and if needed fix it up later.
 
 Some notes about nameing convention:
 
