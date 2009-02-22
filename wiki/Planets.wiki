@@ -1,11 +1,30 @@
+Windstille takes place in a planetary system some lightyears away from earth. The system contains three habitable planets along with numerous moons and other planets.
+
+== Ensani
+
+<<thumbnail src="planet_ensani.jpg">>
+
+A huge gas giant around which circle numerous smaller moons, one of which Nugani, which is habitable. It also has Saturn like rings around it.
+
+Balloon stations exist in the upper athmosphere of Ensani and provide room for a few thousands collonist.
+
 == Nugani
 
-A moon around a large gas giant, a cold place, but parts are keep warm through tectonic activity.
+A moon around the large gas Ensani, a relativly cold place, kept warm mostly through tidal heating, which in turn is the cause of plenty of earth quakes and other geological activity. It is inhabited by the second wave of collonist that didn't make it to Central.
+
+This is the moon where the game starts and most of the game will take place.
 
 == Central
 
-A central very earth like planet, lots of water, very little land.
+<<thumbnail src="planet_central.jpg">>
+
+A central very earth like planet, lots of water, very little land. Rich on natural resources. 
+
+The first wave of collonist landet here and has since then kept a tight grip on the planet, not allowing anybody of the second wave to settle here.
 
 == Hoti
 
-A desert like planet close to the sun, very warm, only the poles are habitatable.
+<<thumbnail src="planet_hoti.jpg">>
+
+A desert planet close to the sun. It features a very hot climate, which makes the pools the most attractive place to build habitates. A few collonist from the second wave settled down here.
+
