@@ -147,11 +147,11 @@ class Wiki2HTML:
 
             if dict.has_key('href'):
                 return bldr.tag.a(bldr.tag.img(None, 
-                                               src="images/" + dict['src'],
+                                               src=dict['src'],
                                                alt=dict['src'], 
                                                title=title, 
                                                class_= 'image'),
-                                  href="images/" + dict['href'])
+                                  href=dict['href'])
             else:
                 return bldr.tag.img(None, src="images/" + dict['src'], alt=dict['src'], title=title, class_= 'image')
 
