@@ -25,6 +25,7 @@ Domains could be implemented as a simple 'unsigned int' for the CollisionObject
 
 Once a collision occured the engine should give the object usefull feedback for resolving the collision, the engine should *not* resolve collisions on its own. The engine should instead move the object as close to the other object as possible and then call the callback:
 
+{{{
  CollisionObject::collision(CollisionEvent& collision);
 
  struct CollisionEvent
@@ -41,6 +42,7 @@ Once a collision occured the engine should give the object usefull feedback for 
   // the amount of time that has not yet been used up
   float rest_delta;
  };
+}}}
 
 Collision resolution could then either mean to change the direction, to simply halt or to attach oneself to the other object (ie. that is how moving platforms should find the player).
 

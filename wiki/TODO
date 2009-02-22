@@ -1,5 +1,9 @@
-http://creoleparser.googlepages.com/CheatSheetPlus.html
+- http://creoleparser.googlepages.com/CheatSheetPlus.html
 
-Add prev/next and chapter jumps to the .html generator
+- Add a 'last updated' time to the pages, take it from "svn info"
 
-Add a 'last updated' time to the pages, take it from "svn info"
+- W3C clean would be nifty
+
+Notes:
+------
+- mime type for jpegs on berlios in broken, is text/plain instead of image/jpeg, worked around with .htdocs/

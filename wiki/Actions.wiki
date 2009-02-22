@@ -2,12 +2,11 @@
 Needs update
 <</note>>
 
-
-<<thumbnail src="actions.png" title="Source for this file is actions.dia">>
-
 The game has basically 3 different control modes, one is with the powersuit, one is for player without the powersuit and a seperate mode is there for the player with his weapon equiped without the powersuit.
 
 The diagram on the right shows all the actions and how they relate to each other. 
+
+<<image href="actions.png" src="actions-small.png"  title="Source for this file is actions.dia">>
 
 == Moving around without a gun / Adventure Mode
 

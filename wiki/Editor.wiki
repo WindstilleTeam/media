@@ -1,3 +1,3 @@
 The Windstille Editor will follow a sandbox model. The engine shall be
-flexible enough that it can run inside the editor and be manipulated.
+flexible enough that it can run inside the editor and be manipulated. For this to work the engine must first be cleaned up enough so that it can be wrapped up into a GtkWidget.
 

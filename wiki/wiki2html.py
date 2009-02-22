@@ -40,6 +40,7 @@ all_pages = ['Windstille',
              'Characters',
              'Suits',
              'Vehicles',
+             'Planets',
              'Locations',
              'Missions',
              'Particles',
@@ -83,8 +84,11 @@ class Wiki2HTML:
             return bldr.tag.div(body, class_= 'comment')
 
         elif name == "note":
-            body = self.creole_parser.generate(body)
-            return bldr.tag.div(body, class_='note')
+            if body:
+                body = self.creole_parser.generate(body)
+                return bldr.tag.div(body, class_='note')
+            else:
+                return None
 
         elif name == "thumbnail":
             dict = parse_arg_string(arg_string)
@@ -113,32 +117,40 @@ class Wiki2HTML:
             # autoplay=1 - starts video automatically
             # rel=0      - removes the related video menu at the end
             # ap=%2526fmt%3D18 - highquality 
-            return bldr.tag.center(
-                bldr.tag.object(
-                    bldr.tag.param(None, 
-                                   name="movie",
-                                   value="http://www.youtube.com/v/%s&hl=en&fs=1&rel=0&loop=1&ap=%%2526fmt%%3D18" % dict['src']) +
-                    bldr.tag.param(None, name="allowFullScreen",   value="true") +
-                    bldr.tag.param(None, name="allowscriptaccess", value="always") +
-                    bldr.tag.embed(None, 
-                                   src="http://www.youtube.com/v/%s&hl=en&fs=1&rel=0&loop=1&ap=%%2526fmt%%3D18" % dict['src'],
-                                   type="application/x-shockwave-flash",
-                                   allowscriptaccess="always",
-                                   allowfullscreen="true",
-                                   width="425",
-                                   height="344"),
-                    width="425", height="344"),
+            return bldr.tag.object(
+                bldr.tag.param(None, 
+                               name="movie",
+                               value="http://www.youtube.com/v/%s&hl=en&fs=1&rel=0&loop=1&ap=%%2526fmt%%3D18" % dict['src']) +
+                bldr.tag.param(None, name="allowFullScreen",   value="true") +
+                bldr.tag.param(None, name="allowscriptaccess", value="always") +
+                bldr.tag.embed(None, 
+                               src="http://www.youtube.com/v/%s&hl=en&fs=1&rel=0&loop=1&ap=%%2526fmt%%3D18" % dict['src'],
+                               type="application/x-shockwave-flash",
+                               allowscriptaccess="always",
+                               allowfullscreen="true",
+                               width="425",
+                               height="344"),
+                width="425", height="344",
                 class_="youtube")
 
-        elif name == "img":
+        elif name == "image":
             dict = parse_arg_string(arg_string)
+
             if not dict.has_key('src'):
                 raise Exception("Source argument missing from <<img>>")
 
-            if dict.has_key['title']:
+            if dict.has_key('title'):
                 title = dict['title']
 
-            return bldr.tag.img(None, src="images/" + dict['src'], alt=dict['src'], title=title, class_= 'comment')
+            if dict.has_key('href'):
+                return bldr.tag.a(bldr.tag.img(None, 
+                                               src="images/" + dict['src'],
+                                               alt=dict['src'], 
+                                               title=title, 
+                                               class_= 'image'),
+                                  href="images/" + dict['href'])
+            else:
+                return bldr.tag.img(None, src="images/" + dict['src'], alt=dict['src'], title=title, class_= 'image')
 
         elif name == "ind":
             body = self.creole_parser.generate(body)
@@ -161,20 +173,20 @@ class Wiki2HTML:
                 args = args[2:]
 
                 self.creole_parser = creoleparser.Parser(dialect=creoleparser.Creole10(
-                    wiki_links_base_url   = '',
-                    wiki_links_path_func  = lambda pagename: pagename + ".html",
-                    wiki_links_space_char = ' ',
-                    # no_wiki_monospace   = True,
-                    use_additions         = True,
-                    macro_func            = self.macro_func,
-                    interwiki_links_funcs={'Talk' : self.talk_links_funcs }
-                    ))
+                        wiki_links_base_url   = '',
+                        wiki_links_path_func  = lambda pagename: pagename + ".html",
+                        wiki_links_space_char = ' ',
+                        # no_wiki_monospace   = True,
+                        use_additions         = True,
+                        macro_func            = self.macro_func,
+                        interwiki_links_funcs={'Talk' : self.talk_links_funcs }
+                        ))
 
                 try:
                     for filename in args:
                         tmpl = MarkupTemplate(file2string("template.xml"))
                         text = tmpl.generate(next = find_next_page(os.path.basename(filename)[:-5]),
-                        prev = find_prev_page(os.path.basename(filename)[:-5]),
+                                             prev = find_prev_page(os.path.basename(filename)[:-5]),
                                              thispage = os.path.basename(filename),
                                              body = self.creole_parser.generate(file2string(filename)),
                                              title = filename.replace(".wiki", "")).render(method='xhtml', 

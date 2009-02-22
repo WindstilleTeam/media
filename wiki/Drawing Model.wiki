@@ -26,6 +26,10 @@ Draws a 2d bitmap (called Surface) on screen. Parameters:
 
 == VertexArray
 
+<<note>>
+VertexArray is currently one of the main bottlenecks of Windstille, recreating it on every draw is way to expensive, an object that can be reused should be used instead.
+<</note>>
+
 Executes a drawing command for opengl primiteves. (Typically used for GL_QUAD and GL_TRIANGLE)
 
 * texture -- texture handle of the opengl texture

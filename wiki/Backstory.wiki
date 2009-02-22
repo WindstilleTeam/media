@@ -91,17 +91,3 @@ In preparation to touchdown all humans in hibernation have been woken up, after 
 == 2517 - The main game begins
 
 
-= Planets
-
-== Nugani
-
-A moon around a large gas giant, a cold place, but parts are keep warm through tectonic activity.
-
-== Central
-
-A central very earth like planet, lots of water, very little land.
-
-== Hoti
-
-A desert like planet close to the sun, very warm, only the poles are habitatable.
-

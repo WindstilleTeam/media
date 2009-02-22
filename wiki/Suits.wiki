@@ -1,8 +1,10 @@
+Different missions might require different special suits. When walking around the city normal clothes will be worn, when doing mine exploration the **Powersuit** will mainly be used. Deep sea exploration will use a **Deepsea Suit**. The **Environmental Suit** might be used in non hostile situations where there simply is a lack of oxygen in the air.
+
 == Powersuit
 
 <<thumbnail src="powersuit.jpg">>
 
-A powered suit that is used in exploration missions and for fighting.
+A powered suit that is used in exploration missions and for combat. It is armored.
 
 == Environmental Suit
 

@@ -11,6 +11,7 @@ They should not support:
  
 Below is what we currently have, more or less, its far from final.
 
+{{{
  (windstille-tiles
    ;; Tile-Groups group different tiles together, this is used in
    ;; the editor, so that tiles can be selected by topic
@@ -45,3 +46,4 @@ Below is what we currently have, more or less, its far from final.
      (sprite "images/tile13.sprite")
      (colmap 0))
   )
+}}}
