@@ -6,6 +6,8 @@ Time to document a few things that went wrong in the past and how I intend to fi
 
 While Wikis are nice for some things, they can easily clog up with way to much redundant garbage if they aren't maintained properly. The user editability also leads to plenty of pointles discussion. To cut the noise down, to make it easier to reorganize things, to make it easier backup things and to make things less maintainance intensive, the Wiki got moved into SVN and is now generated offline.
 
+If people want to discuss the content of the Wiki they shall use the [[About | mailing list]] or [[About | IRC]].
+
 == Tilemaps
 
 While tilemaps are a classic building block of 2D games, they just didn't work out for what I had in mind. There is to much flexibility that is lost due to them and there are quite a few things that are made much harder, like slopes, AI reactions to the environment, etc.

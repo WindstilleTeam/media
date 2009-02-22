@@ -1,0 +1,50 @@
+Windstille uses mostly standard GNU indention style, which is the default in Emacs:
+
+{{{
+void
+ClassName::function_name (float delta)
+{
+  value -= 10*delta;
+  
+  std::list<Player*>* lst = get_world ()->get_players ();
+
+  for (std::list<Player*>::iterator i = lst->begin (); i != lst->end (); ++i)
+    {
+      if (fabs((pos - (*i)->get_pos ()).norm ()) < 20.0f)
+        {
+          player_catched(*i);
+          remove();
+        }
+    }
+}
+}}}
+
+The few exceptions are:
+
+* return type is on its own line
+* namespaces aren't indented
+* case lables are intended
+* no space between parenthisis an function call (i.e. foobar() not foobar ())
+
+These can be achived with:
+
+{{{
+(setq indent-tabs-mode nil)
+(setq parens-require-spaces nil)
+(setq c-offsets-alist '((innamespace   . 0)
+                        (inline-open   . 0)
+                        (inline-close  . 0)
+                        (case-label    . 2)
+                        (inextern-lang . 0)))
+}}}
+
+The whole indention thing can be fixed with a keypress in Emacs, so don't bother to much trying to get it correct manually. If you work on something on your own, use whatever style works for you.
+
+Some notes about nameing convention:
+
+* classes are CamelCase (i.e. DrawingManager)
+* functions are lowercase (i.e. set_foobar(5))
+* variables are lowercase (i.e. player_position)
+* files are named after the class they contain, but lowercased (i.e. drawing_manager.hpp for DrawingManager)
+* include guards defines are HEADER_WINDSTILLE_//DIRECTORY//_//FILENAME//
+

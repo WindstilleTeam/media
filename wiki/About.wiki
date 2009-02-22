@@ -6,9 +6,14 @@ And can browse it at:
 
 * http://svn.berlios.de/viewvc/windstille/trunk/media/wiki/
 
-Feel free to send patches to:
+Feel free to send patches to either of these:
 
-* [[mailto:grumbel@gmx.de | Ingo Ruhnke <grumbel@gmx.de>]].
+* [[mailto:grumbel@gmx.de | Ingo Ruhnke <grumbel@gmx.de>]]
+* [[https://lists.berlios.de/pipermail/windstille-devel/ | Windstille Developer Mailing List]] (subscribers-only)
+
+A IRC channel is available at:
+
+* irc.freenode.net, #windstille
 
 The Windstille Project page itself is located at:
 
