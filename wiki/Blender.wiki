@@ -1,4 +1,4 @@
-There are plenty of ways to construct Blender models (*.blend) in a way that they don't work properly on other machines, this text shall give a little guideline on things to keep in mind.
+There are plenty of ways to construct Blender models ({{{*.blend}}}) in a way that they don't work properly on other machines, this text shall give a little guideline on things to keep in mind.
 
 == Textures
 
@@ -15,7 +15,7 @@ Armatures and character models should stay seperate.
 
 == Lighting
 
-Since the models are meant to be used in a game, all the lighting is the job of the game engine, not the .blend file. Model files should thus be free of light sources.
+Since the models are meant to be used in a game, all the lighting is the job of the game engine, not the {{{.blend}}} file. Model files should thus be free of light sources.
 
 == Thumbnail Generation
 

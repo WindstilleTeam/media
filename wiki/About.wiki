@@ -1,4 +1,6 @@
-This is the Windstille Development Wiki, it isn't editable by the general public. Its is stored in [[http://subversion.tigris.org/ | SVN]] and only writable by developers, you can check it out via:
+Windstille is a 2D science fiction action adventure game currently under development. 
+
+This page is the Windstille Development Wiki. it isn't editable by the general public. Its is stored in [[http://subversion.tigris.org/ | SVN]] and only writable by developers, you can check it out via:
 
 * svn co http://svn.berlios.de/svnroot/repos/windstille/trunk/media/wiki
 
