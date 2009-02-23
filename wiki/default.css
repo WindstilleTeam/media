@@ -48,6 +48,7 @@ img.image {
 img.thumbnail { 
   border-style: none;
   float: right;
+  clear: right;
 }
 
 a img { 

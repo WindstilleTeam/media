@@ -1,11 +1,12 @@
 Windstille will have basically two kinds of areas, one is the city, in which one can move around by train or other means, and the other are the outdoor areas which will be reachable mainly by shuttle. 
 
-The outdoor areas will mostly feature powersuit gameplay and revolve around mines, cave and other installations that will allow some room for vertical exploration.
+The outdoor areas will mostly feature powersuit gameplay and revolve around mines, cave and other underground locations that will allow some room for vertical exploration.
 
 == VR Training
 
-* used for the optional opening tutorial
+A virtual reality training simulation.
 
+* used for the optional opening tutorial
 * provides a number of sub rooms to allow the player to train all kinds of stuff
 
 == City

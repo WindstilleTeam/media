@@ -1,3 +1,5 @@
 <<thumbnail src="navigation_test.png">>
 
 The Navigation Mesh is a graph structure that is used to represent the walkable area. Currently there exist a simple prototype in Windstille that is available from the main menu under **Navigation Test**.
+
+A Navigation Mesh is a graph and consists of edges and nodes

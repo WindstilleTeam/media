@@ -1,4 +1,4 @@
-A Sprite is a simple animated image. A Sprite can have multiple actions.
+A Sprite is a simple nimated image. A Sprite can have multiple actions.
 
 = C++ Specification:
 
@@ -16,11 +16,21 @@ SpriteData:
 = File Format - *.sprite
 
 {{{
-(sprite
-  (action
-    (name "default")
-    (images "streetlamp-highlight.png")
-    (offset -111 -215)
-  )
-)
+ (sprite 
+   (action
+     (name "default")
+     (speed 4.0)
+     (images "foo/bar/frame1.png" "foo/bar/frame2.png")
+     (offset 100 10))
+ 
+   (action
+     (name "run")
+     (speed 15.0)
+     (image-grid
+       (file "human_turn.png")
+       (x-size 98)
+       (y-size 125))))
 }}}
+
+Other stuff from sprite which might not yet be implemented: 'Origin', alpha, color, pingpong, blendfunc, scale, vflip.
+

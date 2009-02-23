@@ -2,45 +2,45 @@
 The names are not final, chances are possible and likely.
 <</note>>
 
-= Player (Jane)
+== Player (Jane)
 
 <<thumbnail src="jane_portrait.png">>
 
 Relativly new in the mercenary business, started to hire at Northern Star when she turned 18, wanted to get away from home as quickly as possible, wanted to see the stars, visit other worlds and the like. Worked as miner for some years now, visited a bunch of colonies, however quickly become sick of the mining business. She is now out of the mining business and tries to start a new living here on this colonie.
 
-= AI
+== AI
 
 The controller programm of the Virtual Reality, has some intelligence and personality on his own.
 
-= Pilot
+== Pilot
 
 The person who controls the shuttle and brings Jane to wherever she needs to go.
 
-= Boss (Yagor)
+== Boss (Yagor)
 
 <<thumbnail src="yagor_head.png">>
 
 The person for which Jane works. Has been in the merc business for a while and has worked for a short period of time together with Sophie, before she went solo. Somewhat of a father person to Jane.
 
-= Veteran (Sophie)
+== Veteran (Sophie)
 
 <<thumbnail src="sophie_head.jpg">>
 
 Veteran in the mercenary work, has worked on a bunch of different colonies and has been on this one for quite some years. She knows how stuff works here and how to get what is needed. Has lots of connections to different people around on this colonie. For most part see prefers to work alone. Tough women overall.
 
-= Jeff
+== Jeff
 
 <<thumbnail src="jeff.png">>
 
 A sunnyboy, always sees the bright side of life. He works in the same business as Jane and every once in a while they clash together. While Jane might not like him much, Jeff sees their relationship a little differently.
 
-= Barkeeper (Bob)
+== Barkeeper (Bob)
 
 <<thumbnail src="barkeeper.jpg">>
 
 A valuable informant in this city. He knows most people around and he knows where the good jobs are to find. If something is happening his bar is the place where people exchange information. He might not be the most friendly looking guy, but once you know him for a while one shouldn't have to much throuble to get along with him. He tries his best to keep his bar a save place.
 
-= Mineral Worker
+== Mine Worker
 
 <<thumbnail src="worker.jpg">>
 <<thumbnail src="worker2.png">>
