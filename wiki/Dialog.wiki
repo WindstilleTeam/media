@@ -1,0 +1,34 @@
+<<thumbnail src="dialog_old1.jpg" title="Old Dialog System">>
+<<thumbnail src="dialog_old2.jpg" title="Old Dialog System - Answer">>
+
+The old dialog system was basically a JRPG like system, meaning you got a portrait and next to it some text. Answering to dialog was done by presenting a big wheel which contained the answers along with character thought at the bottom, this is basically the same thing as used by Dreamfall.
+
+<<thumbnail src="dialog_new.jpg" title="New Dialog System">>
+
+The new dialog system will change a few things, the big blocking dialog window will be replaced with a slick LucasArts adventure style speech 'bubbles' right over the character. This will allow more flexibility, such as overlapping dialog or dialog that is spoken by NPCs in the background. It should also make it easier to add voice acting later on, if that ever happens.
+
+The choice wheel will basically stay, but become more Mass Effect like, meaning it will get much small and shown in a screens corner, instead of screen filling. It will also appear even before the last line of dialog is fully spoken, so the player can make his choices faster and keep the dialog running without interruption.
+
+Another thing to consider is that dialog thus basically turns into a branching cutscene, instead of a series of text boxes, thus it would be nice to formalize these cutscenes and turn them into sexpr data instead of squirrel script. Not sure if that is a good idea.
+
+== Scripting Syntax
+
+<<note>>
+Random syntax scribble, not to be taken serious at this point.
+<</note>>
+
+{{{
+(windstille-dialog
+ (answers 
+  (id 0)
+  (answer (id 0)
+          (text "I don't think that is a good idea"))
+  (answer (id 1)
+          (text "I don't think so")
+          (trigger "script-trigger2.nut"))
+  (answer (id 2)  
+          (text "Fuck you")
+          (trigger "script-trigger.nut")))
+
+ )
+}}}

@@ -24,6 +24,7 @@
       <a href="About.html">About</a>
       <div style="clear: both;" />
     </div>
+
     <div id="body">
       <h1>${title}</h1>
       ${body}

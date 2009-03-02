@@ -38,7 +38,7 @@ Windstille currently has a JRPG like dialog system, that presents a portrait alo
 
 Long story short, the new dialog system will be more like the classic LucasArts advetures, presenting color-coded text right on the screen without necesarrily block.
 
-Conversation, aka answering to dialog, is currently done by a system similar to Dreamfall, it presents a general topic choice, along with a little text for thought of the character on the topic. So basically a normal multiple choice system with a little twist. This might mostly stay as is, maybe taking a bit additional inspiration from Fahrenheit and Mass Effect.
+Conversation, aka answering to dialog, is currently done by a system similar to Dreamfall, it presents a general topic choice, along with a little text for thought of the character on the topic. So basically a normal multiple choice system with a little twist. This might mostly stay as is, maybe taking a bit additional inspiration from Fahrenheit and Mass Effect (i.e. displaying the choices while the dialog is still running, thus more fluent and less need to wait on choices).
 
 Another issue with Dialog is scripting, current dialog is heavily scripting based, for longer dialogs this is impractical, a system similar to Adonthell shall be used, i.e. an aproach based on data (s-expr files), not on script code. Scripting will be done via hooks in the data.
 

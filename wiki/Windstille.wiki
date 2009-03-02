@@ -15,6 +15,7 @@
 * [[Coding style]]
 * [[Particles]]
 * [[Navigation Mesh]]
+* [[Dialog]]
 * [[Scripting]]
 * [[Drawing Model]]
 * [[Drawing Primitives]]

@@ -1,4 +1,4 @@
-A Sprite is a simple nimated image. A Sprite can have multiple actions.
+A Sprite is a simple nimated image. A Sprite can have multiple actions. Both PNG and JPG formatse for images are supported.
 
 = C++ Specification:
 
