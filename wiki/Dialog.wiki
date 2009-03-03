@@ -1,13 +1,15 @@
 <<thumbnail src="dialog_old1.jpg" title="Old Dialog System">>
 <<thumbnail src="dialog_old2.jpg" title="Old Dialog System - Answer">>
 
-The old dialog system was basically a JRPG like system, meaning you got a portrait and next to it some text. Answering to dialog was done by presenting a big wheel which contained the answers along with character thought at the bottom, this is basically the same thing as used by Dreamfall.
+The old dialog system (see <<class>>DialogManager<</class>> and <<class>>Conversation<</class>>) was basically a JRPG like system, meaning you got a portrait and next to it some text. Answering to dialog was done by presenting a big wheel which contained the answers along with character thought at the bottom, this is basically the same thing as used by Dreamfall.
 
-<<thumbnail src="dialog_new.jpg" title="New Dialog System">>
+<<thumbnail src="dialog_new.jpg" title="New Dialog System (mockup)">>
 
-The new dialog system will change a few things, the big blocking dialog window will be replaced with a slick LucasArts adventure style speech 'bubbles' right over the character. This will allow more flexibility, such as overlapping dialog or dialog that is spoken by NPCs in the background. It should also make it easier to add voice acting later on, if that ever happens.
+The new dialog system (see <<class>>SpeechManager<</class>>) will change a few things, the big blocking dialog window will be replaced with a slick LucasArts adventure style speech 'bubbles' right over the character. This will allow more flexibility, such as overlapping dialog or dialog that is spoken by NPCs in the background. It should also make it easier to add voice acting later on, if that ever happens.
 
-The choice wheel will basically stay, but become more Mass Effect like, meaning it will get much small and shown in a screens corner, instead of screen filling. It will also appear even before the last line of dialog is fully spoken, so the player can make his choices faster and keep the dialog running without interruption.
+The choice wheel (see <<class>>Conversation<</class>>) will basically stay, but become more Mass Effect like, meaning it will get much small and shown in a screens corner, instead of screen filling. It might also appear even before the last line of dialog is fully spoken, so the player can make his choices faster and keep the dialog running without interruption (might not make that much sense without voice acting). If the Dreamfall-like display of inner-monologue/thoughts stays in addition to the answer has yet to be decided, as it heavily depends on the nature and quality of dialog.
+
+In terms of story the dialog will follow more along the lines of adventure games instead of RPGs, i.e. no KOTOR-like good/neutral/evil answers, instead just harmless chat.
 
 Another thing to consider is that dialog thus basically turns into a branching cutscene, instead of a series of text boxes, thus it would be nice to formalize these cutscenes and turn them into sexpr data instead of squirrel script. Not sure if that is a good idea.
 

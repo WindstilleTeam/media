@@ -31,6 +31,7 @@
 
 == File Formats
 
+* [[Sector]]
 * [[Blender]]
 * [[BlenderToSprite3D]]
 * [[Sprite3D]]

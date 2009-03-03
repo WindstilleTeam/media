@@ -56,6 +56,7 @@ all_pages = ['Windstille',
              'PDA',
              'Weapons',
              'Fighting',
+             'Sector',
              'Blender',
              'BlenderToSprite3D',
              'Sprite3D',
@@ -90,6 +91,12 @@ class Wiki2HTML:
             if body:
                 body = self.creole_parser.generate(body)
                 return bldr.tag.div(body, class_='note')
+            else:
+                return None
+
+        elif name == "class":
+            if body:
+                return bldr.tag.a(body, class_='class', href="../docs/class" + body + ".html")
             else:
                 return None
 

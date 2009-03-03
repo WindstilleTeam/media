@@ -106,6 +106,10 @@ object.youtube {
   margin-right: auto;
 }
 
+a.class { 
+  font-family: monospace;
+}
+
 pre {
   padding: 1em;
   border-style: solid;

@@ -1,0 +1,8 @@
+A Sector is a single room or scene.
+
+== File Layout
+
+Sectors are stored in {{{data/sectors/}}}, the main file is the {{{.wst}}} file, which defines the geometry and size of the sector. Scripts that are local shall be put in the same directory.
+
+* {{{data/sectors/{SECTORNAME}/{SECTORNAME}.wst}}}
+* {{{data/sectors/{SECTORNAME}/{SCRIPTNAME}.nut}}}
