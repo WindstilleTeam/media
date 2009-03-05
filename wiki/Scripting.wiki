@@ -2,11 +2,9 @@
 Needs update, specifically on how script functions get exported, on how scripts related to sectors, levels or dialog and on what scripting is used for.
 <</note>>
 
-Windstille uses [[http://www.squirrel-lang.org/|Squirrel]] for scripting. The full source code of squirrel is included within the {{{external/SQUIRREL2/}}} subdirectory of Windstille's source, and it is automatically built into the game.
+Windstille uses [[http://www.squirrel-lang.org/|Squirrel]] for scripting. The full source code of squirrel is included within the {{{external/SQUIRREL2/}}} subdirectory of Windstille's source and it is automatically built into the game. The <<class>>ScriptManager<</class>> is for most part responsible for actually running scripts.
 
-C++ functions are exposed to scripts via the interface in the {{{scripting/}}} sub directory". Miniswig, found in the "tools/miniswig" subdirectory, is a tool that creates wrapper functions to allow the interface functions to be called from squirrel. If you have bison and flex installed then miniswig will be built automatically, and any changes you make to the scripting interface will automatically be added to the wrapper functions when you execute jam.
-
-Each sector/level is stored in an sexpr based .wst file. This contains tilemap layout, trigger locations (doors etc), spawn locations of bad guys, NPCs and the player character, as well as various other things. At some point thse will be editable using the [[http://flexlay.berlios.de/|Flexlay]] tile/level editor, though this doesn't work correctly at the moment.
+C++ functions are exposed to scripts via the interface in the {{{scripting/}}} subdirectory. Miniswig, found in the {{{tools/miniswig}}} subdirectory, is a tool that creates wrapper functions to allow the interface functions to be called from squirrel. If you have bison and flex installed then miniswig will be built automatically, and any changes you make to the scripting interface will automatically be added to the wrapper functions when you execute scons.
 
 The plan is that scripts can then be associated with these .wst sectors, or indeed with individual bad guys or objects within these sectors. Multiple scripts can be run simultanously. Some examples of things scripts might be used for:
 
@@ -15,3 +13,65 @@ The plan is that scripts can then be associated with these .wst sectors, or inde
 * to control the AI behaviour of bad guys or NPCs
 * to control dialog with NPCs
 * to control when and where new information is provided to the player
+
+== Background AI Scripts
+
+<<note>>
+Just an unfinished idea, not sure if and how exactly it can be implemented.
+<</note>>
+
+The idea of a background AI script is that it runs in the background and lets characters do things. For example a script for the barkeeper that lets him walk from guest to guest and do a little cleanup at the bar might look like this: 
+
+{{{
+// Barkeeper background script
+while (true)
+  {
+     barkeeper.walkto(guest1);
+     barkeeper.say("Your beer");
+
+     barkeeper.walkto(guest2);
+     barkeeper.say("Your whiskey");
+
+     barkeeper.walkto(guest3);
+     barkeeper.say("Your milk");
+
+     barkeeper.walkto(bar);
+     barkeeper.play("cleanup-animation");
+  }
+}}}
+
+So far so good, with the current scripting engine that should already work fine. However where the thing becomes troublesome is with player interaction. If the player talks to the barkeeper, the dialog script is triggered, again already doable with the current engine. However the barkeeper character is now controlled by two scripts, which obviously isn't going to work. Therefore we need a way to solve this. A quick idea how this might work in a Dialog script is this:
+
+{{{
+
+// Stop other scripts from using the barkeeper,
+// those scripts that do already use him shall be
+// suspended for moment till unlock() is called.
+barkeeper.lock()
+
+barkeeper.say("Hello, what can I do for you?")
+jane.say("Nothing, thank you")
+
+// Release the barkeeper and let the background
+// script continue where it was
+barkeeper.unlock()
+}}}
+
+This might work for such a simple script, but it not quite clear if and how this would work in more complex situations, say when multiple characters are involved in a background script and how exactly the background script can be resumed at the exact right spot. Its also not clear if lock() and unlock() should be explicit calls or if certain functions should have automatic priority over other things.
+
+== VM Serialization
+
+Serialization of the VM is needed so that a savegame can continue at exactly the same point where it left. This however doesn't seem to be nativly supported by Squirrel. See this [[http://squirrel-lang.org/forums/thread/691.aspx | forum discussion]] or this [[http://squirrel-lang.org/forums/thread/1213.aspx | forum discussion]].
+
+Possible solutions:
+
+* ignore the problem for know and make sure that the Scripting API is clean (most likely for now)
+* implement serialization in Squirrel
+* don't implemented exact saves and work with predefined savepoints that just restart scripts
+* roll our own scripting language
+* switch to something else: 
+** [[http://www.lua.org | Lua]] in combination with [[http://lua-users.org/wiki/PlutoLibrary | Pluto]] (should support serialization)
+** [[http://www.stackless.com/ | Stackless Python]]  (should support serialization)
+** [[http://plib.sourceforge.net/psl/index.html | PSL: PLIB's Scripting Language]] (unknown)
+** [[http://www.somedude.net/gamemonkey/ | GameMonkey]] (unknown)
+** [[http://www.angelcode.com/angelscript/ | AngleScript]] (unknown)

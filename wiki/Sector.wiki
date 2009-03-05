@@ -6,3 +6,15 @@ Sectors are stored in {{{data/sectors/}}}, the main file is the {{{.wst}}} file,
 
 * {{{data/sectors/{SECTORNAME}/{SECTORNAME}.wst}}}
 * {{{data/sectors/{SECTORNAME}/{SCRIPTNAME}.nut}}}
+
+== Script Patch Syntax
+
+{{{
+(script "barrobot.nut") ;; Script relative to the location of the .wst file
+
+(script "/scripts/barrobot.nut") ;; Script relative to the data directory
+
+or 
+
+(script "global:scripts/barrobot.nut") ;; Script relative to the data directory
+}}}
