@@ -17,4 +17,7 @@ for i in glob.glob('*.wiki'):
             ["./wiki2html.py", 
              "template.xml"])
 
+sys_env = Environment(ENV = os.environ)
+sys_env.AlwaysBuild(sys_env.Alias('upload', [], "rsync -vrPcLC  build/ grumbel@shell.berlios.de:/home/groups/windstille/htdocs/wiki"))
+
 # EOF #
