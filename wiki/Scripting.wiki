@@ -2,9 +2,9 @@
 Needs update, specifically on how script functions get exported, on how scripts related to sectors, levels or dialog and on what scripting is used for.
 <</note>>
 
-Windstille uses [[http://www.squirrel-lang.org/|Squirrel]] for scripting. The full source code of squirrel is included within the {{{external/SQUIRREL2/}}} subdirectory of Windstille's source and it is automatically built into the game. The <<class>>ScriptManager<</class>> is for most part responsible for actually running scripts.
+Windstille uses [[http://www.squirrel-lang.org/|Squirrel]] for scripting. The full source code of it is included within the {{{external/SQUIRREL2/}}} subdirectory of Windstille's source and it is automatically built into the game. The <<class>>ScriptManager<</class>> is for most part responsible for actually running scripts.
 
-C++ functions are exposed to scripts via the interface in the {{{scripting/}}} subdirectory. Miniswig, found in the {{{tools/miniswig}}} subdirectory, is a tool that creates wrapper functions to allow the interface functions to be called from squirrel. If you have bison and flex installed then miniswig will be built automatically, and any changes you make to the scripting interface will automatically be added to the wrapper functions when you execute scons.
+C++ functions are exposed to scripts via the interface in the {{{scripting/}}} subdirectory. Miniswig, found in the {{{tools/miniswig}}} subdirectory, is a tool that creates wrapper functions to allow the interface functions to be called from squirrel. If you have bison and flex installed then miniswig will be built automatically and any changes you make to the scripting interface will automatically be added to the wrapper functions when you execute scons.
 
 The plan is that scripts can then be associated with these .wst sectors, or indeed with individual bad guys or objects within these sectors. Multiple scripts can be run simultanously. Some examples of things scripts might be used for:
 
@@ -13,6 +13,62 @@ The plan is that scripts can then be associated with these .wst sectors, or inde
 * to control the AI behaviour of bad guys or NPCs
 * to control dialog with NPCs
 * to control when and where new information is provided to the player
+
+== Environments
+
+There are currently two environments in which scripts can be evaluated. These different environments ensure that scripts do not polute the global namespace and that they are cleanly seperated.
+
+=== Global Environment
+
+The global environment contains all the native Squirrel functions, exported C++ functions as well as things defined in global scripts. It is currently used only for {{{data/scripts/windstille.nut}}}. It also contains the {{{objects}}} table which contains all the objects in the current sector.
+
+=== Child Environment
+
+Each script that is started from a {{{.wst}}} file is a child to the global environment, meaning all functions not defined in the child environment will be looked up in the global environment. Newly defined functions and variables will stay local to the single script.
+
+== Basic Script
+
+A basic script should contains currently two functions, {{{init()}}} and {{{run()}}}, new functions might be added later. The functions need not to be defined, so leaving them out when they are not needed is ok. However no code should be placed outside of these function, since it will screw things up when the script is run multiple times.
+
+Global scripts are directly evaluted in the global environment and thus don't need either of those.
+
+{{{
+function init()
+{
+  // The init() section is run exactly once when the script is loaded
+}
+
+function run()
+{
+  // The run() section is called on each run of the script
+}
+}}}
+
+== Script Suspend/Wakeup
+
+Scripts can be suspended an resumed at a later point, a very simple use case would be:
+
+{{{
+jane.walkto("bar");
+jane.say("Jane, nice bar");
+jane.walkto("door");
+}}}
+
+The {{{walkto()}}} instructions gives the character object the task to reach the given location, installs a wake-up signal and then suspends the script. When the character reaches its target it fires a wake-up signal which in turn then wakes up the script and continues with the {{{say()}}} instruction.
+
+== Types of Scripting
+
+* interaction/event scripts: scripts that are triggered when the user looks/uses/talks to an object or character
+* background scripts: scripts that control background animation or events in the scene
+* character/ai scripts: scripts that define the AI of computer controled characters and also there reaction to events (ducking when a grenade explodes near by)
+
+Trouble: scripts are not limited to a single entity, thus multiple scripts might want to access the same entity at the same time.
+
+== Export Objects to Squirrel
+
+Currently objects get exported into the table {{{objects}}} in Squirrel, so if a object has the name {{{(name "Painting1")}}} it is accessible as {{{objects.Painting1}}}. Its not quite clear if that is the right way to do it or if it shouldn't be handled via handles/accessors instead, i.e. {{{painting = get_object("Painting1")}}}. One reason is that it would limit the export objects to only those that are actually needed and another is that it would make the exporting more clear in the code. For normal usage one would likely do it 'accessor-style' anyway, i.e. {{{bob = objects.bob}}} to not have write the whole {{{objects...}}} things.
+
+One disadvantage is that objects would no longer be equal, if one does {{{get_object("bob")}}} twice the resulting Squirrel object is different, while the C++ one is the name. Not sure if that is important enough to matter.
 
 == Background AI Scripts
 
@@ -58,6 +114,47 @@ barkeeper.unlock()
 }}}
 
 This might work for such a simple script, but it not quite clear if and how this would work in more complex situations, say when multiple characters are involved in a background script and how exactly the background script can be resumed at the exact right spot. Its also not clear if lock() and unlock() should be explicit calls or if certain functions should have automatic priority over other things.
+
+== Syncronisation
+
+<<note>>
+Random idea, not sure how to implement or if at all
+<</note>>
+
+Current scripting handles sequential events just fine, but how to handle multiple parallel ones?
+
+{{{
+// Have two characters walk to a target, wait for both of them to arrive
+bob.walkto(door, DO_NOT_WAIT)
+jane.walkto(door, DO_NOT_WAIT)
+
+wait_for([bob, jane])
+}}}
+
+{{{
+// Have two characters walk to a target, wait for both of them to arrive
+execute_in_parallel {
+  bob.walkto(door);
+  jane.walkto(door);
+}
+}}}
+
+{{{
+// Create use Squirrels newthread() to 
+function bob_script() {
+  // ...
+}
+
+function jane_script() {
+  // ...
+}
+
+threads = [newthread(bob_script), newthread(jane_script)]
+while(1) {
+   bob_script.wakeup();
+   jane_script.wakeup();
+}
+}}}
 
 == VM Serialization
 

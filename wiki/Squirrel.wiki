@@ -1,0 +1,86 @@
+This text gives a quick introduction to Squirrel, its not meant to be complete, just a quick reference of common use cases, for a more complete guide refer to the official documentation:
+
+* [[http://squirrel-lang.org/doc/squirrel2.html | Squirrel Reference Manual ]]
+* [[http://squirrel-lang.org/doc/sqstdlib2.html | Squirrel Standard Library ]]
+
+== Declaration
+
+{{{
+// Creates a new entry in the roottable
+a <- 5;
+
+{
+  // Local to the current block
+  local a = 5;
+
+  // do stuff
+}
+}}}
+
+== Functions
+
+{{{
+function foobar() {
+  // do stuff
+}
+}}}
+
+== Classes
+
+{{{
+class Foobar {
+  static static_variable = 5;
+  local_variable = 10;
+
+  constructor() {
+    print(static_variable)
+    print("\n")
+
+    print(local_variable)
+    print("\n")
+  }
+
+  function bar() {
+    // do stuff
+  }
+}
+
+obj <- Foobar()
+}}}
+
+== Looping
+
+{{{
+tbl <- {
+   key1 = "value1",
+   key2 = "value2",  
+   key3 = "value3" 
+}
+
+foreach(i,val in tbl) {
+   print(i);
+   print(" -> ");
+   print(val);
+   print("\n");
+}
+}}}
+
+{{{
+for(local i = 0; i < 10; ++i) {
+   print(i);
+   print("\n");
+}
+}}}
+
+== Namespaces
+
+Squirrel doesn't support real namespaces, but they can be easily faked with tables.
+
+{{{
+your_namespace <- {}
+
+function your_namespace::func() {
+  // do something
+}
+}}}
+

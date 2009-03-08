@@ -17,6 +17,7 @@
 * [[Navigation Mesh]]
 * [[Dialog]]
 * [[Scripting]]
+* [[Squirrel]]
 * [[Drawing Model]]
 * [[Drawing Primitives]]
 * [[Editor]]

@@ -11,13 +11,17 @@ Mkdir("build")
 env.Command("build/default.css", "default.css",
             Copy("$TARGET", "$SOURCE"))
 
+output_files = []
 for i in glob.glob('*.wiki'):
     (filename, ext) = os.path.splitext(i)
-    Depends(env.Wiki("build/" + filename + ".html", i), 
+    output_files.append("build/" + filename + ".html")
+    Depends(env.Wiki(output_files[-1], i), 
             ["./wiki2html.py", 
              "template.xml"])
 
 sys_env = Environment(ENV = os.environ)
-sys_env.AlwaysBuild(sys_env.Alias('upload', [], "rsync -vrPcLC  build/ grumbel@shell.berlios.de:/home/groups/windstille/htdocs/wiki"))
+sys_env.AlwaysBuild(Depends(sys_env.Alias('upload', [], 
+                                          "rsync -vrPcLC  build/ grumbel@shell.berlios.de:/home/groups/windstille/htdocs/wiki"),
+                            output_files))
 
 # EOF #
