@@ -56,6 +56,10 @@ jane.walkto("door");
 
 The {{{walkto()}}} instructions gives the character object the task to reach the given location, installs a wake-up signal and then suspends the script. When the character reaches its target it fires a wake-up signal which in turn then wakes up the script and continues with the {{{say()}}} instruction.
 
+== Trigger Functions
+
+Some game objects such as <<class>>Trigger<</class>> allow users to define callbacks. The callback is the name of a function that is defined in the sectors {{{init-script}}} and it will be evaluated in the VM created by {{{init-script}}}. Note that trigger scripts must always return and never suspend the VM. Functionality for spawing new background scripts might be added later.
+
 == Types of Scripting
 
 * interaction/event scripts: scripts that are triggered when the user looks/uses/talks to an object or character
