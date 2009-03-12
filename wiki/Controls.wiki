@@ -8,7 +8,25 @@ The game will be designed around a current day dual analog gamepad such as can b
 * directional pad
 * rumble support
 
+== Analogsticks
 
+* Left Analogstick: Navigate, run, climb, etc.
+* Right Analogstick: Aim the weapon or look around
 
+== Analog Trigger
 
+* Left Trigger: draw gun(?)
+* Right Trigger: shoot (variable pressure for flamethrower)
 
+== Face Button
+
+{{{
+                          ___ [ interact ]
+                    ,--. /
+                   |    |
+  [ run ] ___ ,--.  '--'  ,--.
+             |    |      |    | ___ [ crawl/duck / cancel ]
+              '--'  ,--.  '--'
+                   |    |
+                    '--' \__ [ jump / ok ]
+}}}

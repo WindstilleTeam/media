@@ -20,7 +20,9 @@
 * [[Squirrel]]
 * [[Drawing Model]]
 * [[Drawing Primitives]]
+* [[Animation]]
 * [[Editor]]
+* [[Input]]
 
 == Game Mechanics
 

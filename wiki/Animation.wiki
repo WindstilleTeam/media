@@ -1,0 +1,10 @@
+<<note>>
+Could/should we do this in Blender with 3D meshes? Might be simpler then writing yet another animation system.
+<</note>>
+
+Windstille currently has frame based animations, these Sprites well enough for organic things. However Windstille will feature plenty of mechanical things, doors, trains, etc. that aren't practical to do with sprite based animation. Therefore we need an animation system that is implemented on top of the frame based animation and allows moving those Sprites around. 
+
+== Example
+
+* a two segmented door slides open
+
