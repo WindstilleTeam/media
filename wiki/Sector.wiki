@@ -7,14 +7,72 @@ Sectors are stored in {{{data/sectors/}}}, the main file is the {{{.wst}}} file,
 * {{{data/sectors/{SECTORNAME}/{SECTORNAME}.wst}}}
 * {{{data/sectors/{SECTORNAME}/{SCRIPTNAME}.nut}}}
 
-== Script Patch Syntax
+== Script Path
+
+Script paths are relative to the file that they are written in, i.e. a file {{{data/sector/apartment/apartment.wst}}} containing the entry {{{(initscript "init.nut")}}} will resolve to {{{data/sector/apartment/init.nut}}}.
+
+Absolute syntax is currently not supported, syntax should likely follow HTML like convention, i.e. {{{/scripts/init.nut}}} would refer to {{{data/scripts/init.nut}}}
+
+== Units
+
+<<note>>
+The pixel image value is subject to change, will likely end up as\\ 128 pixel == 1 meter.
+<</note>>
+
+* Blender Export Script: 1 meter == 2 blender units
+* Pixel Images: 1 meter == 64 pixel
+
+== Objects
+
+scriptable-object: complex 2D sprite object
+surface: simple 2D sprite object
+
+== Syntax
 
 {{{
-(script "barrobot.nut") ;; Script relative to the location of the .wst file
+(windstille-sector
+  (version 1)
+  (name   "")
+  (music  "music/techdemo.ogg")
 
-(script "/scripts/barrobot.nut") ;; Script relative to the data directory
+  (ambient-color .4 .4 .4)
+  (init-script "newformat2.nut")
 
-or 
+  (spawnpoint
+    (name "default")
+    (pos 300 650))
 
-(script "global:scripts/barrobot.nut") ;; Script relative to the data directory
+  (navigation
+    (nodes
+      (node (id   1) (pos 100 200))
+      (node (id   2) (pos 300 400))
+      (node (id   3) (pos 444.861 410.437))
+      (node (id   4) (pos 534.858 436.132))
+      ...)
+
+    (edges
+      (edge (node1   1) (node2   2) (properties 0))
+      (edge (node1   2) (node2   3) (properties 0))
+      (edge (node1   3) (node2   4) (properties 0))
+      ...)
+
+  (objects
+    (liquid
+      (pos 128 768)
+      (width 20))
+
+    (liquid
+      (pos 832 832)
+      (width 4))
+
+    (scriptable-object
+      (name "Block0Sign")
+      (pos 550 370)
+      (sprite "images/arrow.sprite")
+      (active #f))
+    
+    ...) ;; objects
+) ;; windstille-sector
+
+;; EOF ;;
 }}}

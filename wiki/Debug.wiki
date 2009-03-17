@@ -1,0 +1,23 @@
+== (debug-button ...)
+
+Debug button is can be configured in {{{data/controller/}}}, when pressed down the second analogstick can be used to move the view around, pressing the second analogstick centers the view again.
+
+== Debug Menu
+
+The pause menu has a **Debug** entry that can be used to change ambient light.
+
+== Console
+
+Console is available on F1 and allows full access to all scripting functions. Useful bits:
+
+{{{
+  // Create a shockwave object
+  spawn_object("shockwave", {pos=[0,0]})
+
+  // let run game twice as fast
+  set_gamespeed(2.0)
+}}}
+
+== Layer Toggle
+
+You can switch on/off layers by pressing 1, 2, 3, 4, ...

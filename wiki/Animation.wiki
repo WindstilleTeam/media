@@ -2,9 +2,68 @@
 Could/should we do this in Blender with 3D meshes? Might be simpler then writing yet another animation system.
 <</note>>
 
-Windstille currently has frame based animations, these Sprites well enough for organic things. However Windstille will feature plenty of mechanical things, doors, trains, etc. that aren't practical to do with sprite based animation. Therefore we need an animation system that is implemented on top of the frame based animation and allows moving those Sprites around. 
+Windstille currently has frame based animations, these Sprites work well enough for organic things. However Windstille will feature plenty of mechanical things, doors, trains, etc. that aren't practical to do with sprite based animation. Therefore we need an animation system that is implemented on top of the frame based animation and allows moving those Sprites around.
 
-== Example
+== Animation Objects
 
-* a two segmented door slides open
+<<note>>
+Just a proposed solution, not actually implemented at all.
+<</note>>
 
+The idea is to basically do something similar to [[http://wiki.blender.org/index.php/Doc:Manual/Animation/Basic/Tools/Ipo_Curves_and_Keyframes | Blenders Ipo Curves]], which means that each objects parameter can be animated via a curve. In addition to that it might be benefitial to have more simplistic animation that just rotates a or moves a sprite.
+
+{{{
+  (animate-simple-relative-rotate
+     (name "train-animation")
+     (object "train")
+     (angle 50) ;; rotate 50 degree forward
+     (speed 100) ;; meter-per-second? 
+      ...)
+
+  (animate-simple-rotate
+     (name "train-animation")
+     (object "train")
+     (target-angle 50)
+     (speed 100) ;; meter-per-second? 
+      ...)
+
+  (animate-simple-move
+     (name "train-animation")
+     (object "train")
+     (target-pos x y)
+     (speed 100) ;; meter-per-second? 
+      ...)
+
+  ;; simple move/stretch/rotate commands
+  (animate-move
+     (name "train-animation")
+     (object "train")
+     (curve (vertex (pos x y) 
+                    (time msec))
+             ...))
+
+  (animate-stretch
+     (name "mesh-animation")
+     (object "mesh")
+     (curve (vertex (scale w h)
+                    (time msec))
+             ...))
+
+  (animate-rotate
+     (name "psys-animation")
+     (object "particle-system")
+     (curve (vertex (rotate rot)
+                    (time msec))
+             ...))
+
+  ;; general parameter animation
+  (animate-parameter
+     (object "particlesystem")
+     (curve
+       (parameter "color")
+       (extend-mode cyclic/extrapolate/constant)
+       (interpolation linear/none/bspline)
+       (values (value (color 0.0 0.0 1.0)
+                      (time  msec))
+                ...)))
+}}}

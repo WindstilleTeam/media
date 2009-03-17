@@ -1,9 +1,20 @@
-- http://creoleparser.googlepages.com/CheatSheetPlus.html
+* maybe a tag to directly include a file could be useful:
 
-- Add a 'last updated' time to the pages, take it from "svn info"
+  {{{
+  <<include file="data/file.txt">>
+  }}}
 
-- W3C clean would be nifty
+  So that long text files can be kept in SVN
 
-Notes:
-------
-- mime type for jpegs on berlios in broken, is text/plain instead of image/jpeg, worked around with .htdocs/
+* http://creoleparser.googlepages.com/CheatSheetPlus.html
+
+* Add a 'last updated' time to the pages, take it from "svn info"
+
+* W3C clean would be nifty
+
+Notes
+=====
+
+* mime type for jpegs on berlios in broken, is text/plain instead of image/jpeg, worked around with .htdocs/
+
+# EOF #

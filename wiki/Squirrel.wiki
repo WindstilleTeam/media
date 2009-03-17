@@ -20,8 +20,72 @@ a <- 5;
 == Functions
 
 {{{
+// Anonymous functions
+function() {
+}
+
+// Named function
 function foobar() {
   // do stuff
+}
+}}}
+
+== Array
+
+{{{
+arr = [1,2,3,4];
+arr[2];    // -> 3
+arr.len(); // -> 4
+arr.push(val);
+arr.extend(other_arr); // Append other_arr to arr
+arr.pop(); // removes and returns last element
+arr.insert(idx, val);
+arr.remove(idx);
+arr.resize(20, fill);
+arr.sort(compare_func);
+arr.reverse();
+arr.slice(start, [end]);
+arr.clear();
+
+arr2 = array(20, fill); // length 20, filled with 'fill' objects
+
+foreach(val in arr) {
+  print(val);
+}
+
+foreach(idx,val in arr) {
+  print(idx);
+  print(val);
+}
+}}}
+
+== Tables
+
+<<note>>
+What about key names that contain a space?
+<</note>>
+
+{{{
+tbl <- {
+   key1 = "value1",
+   key2 = "value2",  
+   key3 = "value3" 
+}
+
+if ("key1" in tbl) {
+   print(tbl["key1"]); // access "key1"
+   print(tbl.key1);    // access "key1"
+}
+
+print(tbl.len()); // length
+tbl.clear();      // removes all elements
+delete tbl.key1;  // removes key1 element from tbl
+
+foreach(i,val in tbl) {
+   print(i);
+   print(" -> ");
+   print(val);
+   print("\n");
 }
 }}}
 
@@ -51,24 +115,13 @@ obj <- Foobar()
 == Looping
 
 {{{
-tbl <- {
-   key1 = "value1",
-   key2 = "value2",  
-   key3 = "value3" 
-}
-
-foreach(i,val in tbl) {
-   print(i);
-   print(" -> ");
-   print(val);
-   print("\n");
-}
-}}}
-
-{{{
 for(local i = 0; i < 10; ++i) {
    print(i);
    print("\n");
+}
+
+while(true) {
+  // ...
 }
 }}}
 

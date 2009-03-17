@@ -1,3 +1,5 @@
+Windstille has the goal to create a 2D action adventure.
+
 * [[Rebirth]]
 
 == Plot/Story
@@ -13,6 +15,7 @@
 == Engine
 
 * [[Coding style]]
+* [[Debug]]
 * [[Particles]]
 * [[Navigation Mesh]]
 * [[Dialog]]
