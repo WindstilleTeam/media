@@ -1,3 +1,28 @@
-The Windstille Editor will follow a sandbox model. The engine shall be
-flexible enough that it can run inside the editor and be manipulated. For this to work the engine must first be cleaned up enough so that it can be wrapped up into a GtkWidget.
+The Windstille Editor will follow a sandbox model. The engine shall be flexible enough that it can run inside the editor and be manipulated. For this to work the engine must first be cleaned up enough so that it can be wrapped up into a GtkWidget. The goal of going sandbox is to reduce code duplication and allow direct jumps into and out of the game.
 
+== Interface
+
+<<thumbnail src="editor.png">>
+
+The basic interface will be similar to that of other game editor such as SuperTux or Pingus. One notable exception is how the objects are organized, instead of a flat list, each object will have a parent object. Which allows both the grouping of objects as well as easier reuse of previous build objects (e.g. a train could be used in multiple sectors).
+
+== Property Editor
+
+The property editor will allow the manipulation of all of the objects properties:
+
+* position
+* color
+* animation speed
+* ...
+
+== Navigation Graph
+
+While the navigation graph is seen as a single thing from the game code, in the editor it should likely be build out of smaller segments, thus allowing to parent it to moving objects and such.
+
+== Toolkit
+
+The editor will likely be based on Gtkmm.
+
+== Flexlay
+
+Flexlay is the old Windstille editor and so far still somewhat functional.
