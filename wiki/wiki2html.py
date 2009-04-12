@@ -100,7 +100,7 @@ class Wiki2HTML:
 
         elif name == "class":
             if body:
-                return bldr.tag.a(body, class_='class', href="../docs/class" + body + ".html")
+                return bldr.tag.a(body, class_='class', href="http://pingus.seul.org/~grumbel/windstille/docs/class" + body + ".html")
             else:
                 return None
 
