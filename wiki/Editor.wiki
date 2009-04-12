@@ -1,3 +1,7 @@
+<<note>>
+Full sandbox seemed to troublesome to actually implement, so it was skipped for the moment. The editor however shares all drawing code with the game and some data structures such as the navigation graph are reused as well.
+<</note>>
+
 The Windstille Editor will follow a sandbox model. The engine shall be flexible enough that it can run inside the editor and be manipulated. For this to work the engine must first be cleaned up enough so that it can be wrapped up into a GtkWidget. The goal of going sandbox is to reduce code duplication and allow direct jumps into and out of the game.
 
 == Interface
@@ -5,6 +9,31 @@ The Windstille Editor will follow a sandbox model. The engine shall be flexible 
 <<thumbnail src="editor.png">>
 
 The basic interface will be similar to that of other game editor such as SuperTux or Pingus. One notable exception is how the objects are organized, instead of a flat list, each object will have a parent object. Which allows both the grouping of objects as well as easier reuse of previous build objects (e.g. a train could be used in multiple sectors).
+
+== Object Grouping / TreeView
+
+<<note>>
+A Blender-like tree based Outliner proved to hard to use, due to the high object count, so the editor did fell back to a simple layered model, which seems good enough. Object parenting is provided as well.
+<</note>>
+
+<<thumbnail src="editor2.png">>
+
+The way objects connect to each other is represented in a simple tree, comparable to [[http://www.blender.org/development/release-logs/blender-235a/outliner/ | Blenders Outliner]]. At the root of the tree is the sector itself, while normal objects attach to it. Objects whose position shall be relative to another object, attach to the respective object (e.g. a door might attach to a train).
+
+In addition to just the structure, the TreeView will also provide ways to manipulate the object sorting, parenting as well as simply properties, like visibilty.
+
+=== Example
+
+Type | Name |  Visible 
+* (sector) | Sector | [X]
+** (sprite) | Train [X]
+*** (psys) | Smoke [X]
+*** (sprite) | LeftDoor [X]
+*** (sprite) | RightDoor [X]
+** (empty) | Track
+*** (sprite) | Rail [ ]
+*** (rail) | Column [ ]
+*** (gradient) | Background [ ]
 
 == Property Editor
 
@@ -25,4 +54,8 @@ The editor will likely be based on Gtkmm.
 
 == Flexlay
 
-Flexlay is the old Windstille editor and so far still somewhat functional.
+[[http://flexlay.berlios.de/|Flexlay]] is the old Windstille editor and so far still somewhat functional for the current tile based maps. 
+
+== Animation
+
+For animation there needs to be a widget that can edit the abstract curves, as well as handling of animation paths directly in the Sector itself.
