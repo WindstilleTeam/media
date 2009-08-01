@@ -14,6 +14,16 @@ A moon around the large gas Ensani, a relativly cold place, kept warm mostly thr
 
 This is the moon where the game starts and most of the game will take place.
 
+Nugani isn't an ideal place for colonialization, but terraforming technology has allowed humans to settle on the moon. Breathable athmosphere isn't present on the whole planet as the terraforming is far from done, but around cities it is present, as air recycling and ventilation systems keep it fresh. These recycling systems causes a distinct constant flow of air inside the cities. 
+
+Near the cities there is a special kind of genetically engineered forest that is supposed to generate the oxygen, but so far it hasn't worked as hoped and thus supplies only a small part of the breathable air. Humans can survive there, but it isn't a pleasant place to be. In the city things are more critical, as without the air ventilation systems not enough breathable atmosphere makes it into the city. Still air situations are therefore feared in the city. 
+
+Low Altitude Geostationary Satellites (LAGS), balloon ships that hover stationary over the city and are controlled by electric motors powered by solor cells, provide communication and monitoring inside the city and its surrounding area. The LAGS are movable and can be deployed to other areas, but they are slow and thus can't be used in emergency situations.
+
+Cargo gets moved around by a underground tunnel system. From city to city normal sized trains are used, while for inner city small 1m^2 cargo trains are used.
+
+Small drones are used for close up surveillance.
+
 == Central
 
 <<thumbnail src="planet_central.jpg">>

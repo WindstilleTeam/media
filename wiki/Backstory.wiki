@@ -2,11 +2,7 @@
 This is just a rough draft of a possible backstory, its not final and can be changed and adopted if necessary.
 <</note>>
 
-Some general things about the overall setting: 
-
-* the overall tone of the game shall be close to 1980's Sci-Fi movies (Alien, Bladerunner, etc.)
-* the game shall stick to realism whenever possible
-* no crazy post-singularity techology, things shall stay simple and understandable
+Windstille takes places a few hundred years in the future, but while the technology will be advanced, it will still be of the pre-singularity age. Human enhancement devices will be present, but not common place. AI will be present as well, but mainly act as an intuitive speech driven interface, not as robots with personalities. 
 
 == 2025 - Landing on the Moon, again
 
