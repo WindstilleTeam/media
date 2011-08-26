@@ -32,9 +32,15 @@ A central very earth like planet, lots of water, very little land. Rich on natur
 
 The first wave of collonist landet here and has since then kept a tight grip on the planet, not allowing anybody of the second wave to settle here.
 
+As the amount of habitatable land is rather small, cities are huge and crowded.
+
 == Hoti
 
 <<thumbnail src="planet_hoti.jpg">>
 
-A desert planet close to the sun. It features a very hot climate, which makes the pools the most attractive place to build habitates. A few collonist from the second wave settled down here.
+A desert planet close to the sun. It features a very hot climate along with very long days (taking earth years, maybe decades or centuries) due to the planets slow rotation, which makes the pols the most attractive place to for habitates. A few collonist from the second wave settled down here. Solar power is available in abundance.
+
+Due to the long day/night cycle the nightside gets extremely cold.
+
+Some habitates might be constructed in such a way that they can be moved and thus stay in a permanent climate zone. Such relocations would need to happen every Hoti day, which might mean every few decodes of earth time. Other habitates might simple be abondoned when they move from day to night side or visa verse.
 

@@ -1,3 +1,7 @@
+<<note>>
+The sector format has changed a bit so this document is out of date, see {{{data/sectors/trainstation/trainstation.wst}}}.
+<</note>>
+
 A Sector is a single room or scene.
 
 == File Layout

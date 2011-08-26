@@ -166,7 +166,7 @@ Serialization of the VM is needed so that a savegame can continue at exactly the
 
 Possible solutions:
 
-* ignore the problem for know and make sure that the Scripting API is clean (most likely for now)
+* ignore the problem for now and make sure that the Scripting API is clean (most likely for now)
 * implement serialization in Squirrel
 * don't implemented exact saves and work with predefined savepoints that just restart scripts
 * roll our own scripting language

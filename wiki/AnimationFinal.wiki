@@ -1,0 +1,14 @@
+== Animation
+
+{{{
+(animation
+  (object   "train")
+  (property "pos")
+  (keyframes
+    (keyframe (pos 100 100) (time 5.5))
+    (tween)
+    (keyframe (pos 300 100) (time 5.5))
+    (tween (ease-function ease-in-out))
+    (keyframe (pos 500 100) (time 5.5))
+}}}
+

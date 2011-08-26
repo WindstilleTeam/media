@@ -3,8 +3,16 @@
 import glob
 import os
 
-bld = Builder(action = './wiki2html.py -o build $SOURCE')
-env = Environment(BUILDERS = {'Wiki' : bld})
+def wiki_add_depends(target, source, env):
+    env.Depends(target,
+                ["./wiki2html.py", 
+                 "template.xml"])
+    return (target, source)
+
+wiki_bld = Builder(action = './wiki2html.py -o build $SOURCE',
+                   emitter = wiki_add_depends)
+
+env = Environment(BUILDERS = {'Wiki' : wiki_bld})
 
 Mkdir("build")
 
@@ -12,16 +20,18 @@ env.Command("build/default.css", "default.css",
             Copy("$TARGET", "$SOURCE"))
 
 output_files = []
-for i in glob.glob('*.wiki'):
-    (filename, ext) = os.path.splitext(i)
-    output_files.append("build/" + filename + ".html")
-    Depends(env.Wiki(output_files[-1], i), 
-            ["./wiki2html.py", 
-             "template.xml"])
+for in_filename in glob.glob('*.wiki'):
+    (filename, ext) = os.path.splitext(in_filename)
+    out_filename = "build/" + filename + ".html"
+    output_files.append(out_filename)
+    
+    env.Wiki(out_filename, in_filename)
 
 sys_env = Environment(ENV = os.environ)
-sys_env.AlwaysBuild(Depends(sys_env.Alias('upload', [], 
-                                          "rsync -vrPcLC  build/ grumbel@shell.berlios.de:/home/groups/windstille/htdocs/wiki"),
-                            output_files))
+upload_cmd = sys_env.Alias('upload', [], 
+                           "rsync -vrPcLC  build/ grumbel@shell.berlios.de:/home/groups/windstille/htdocs/wiki")
+
+sys_env.AlwaysBuild(upload_cmd)
+Depends(upload_cmd, output_files)
 
 # EOF #

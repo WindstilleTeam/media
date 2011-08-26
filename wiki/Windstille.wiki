@@ -24,7 +24,6 @@ Windstille has the goal to create a 2D action adventure.
 * [[Drawing Model]]
 * [[Drawing Primitives]]
 * [[Animation]]
-* [[Editor]]
 * [[Input]]
 
 == Game Mechanics
@@ -34,6 +33,10 @@ Windstille has the goal to create a 2D action adventure.
 * [[PDA]]
 * [[Weapons]]
 * [[Fighting]]
+
+== Editor
+
+* [[Editor]]
 
 == File Formats
 
