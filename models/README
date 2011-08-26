@@ -23,7 +23,7 @@ misc/
 Each model directory follows the following structure:
 
 */old/
- - obsolete files that aern't tracked by SVN
+ - obsolete files that aren't tracked by SVN
 
 */render/
  - temporary renders and stuff that doesn't need to be tracked by SVN
